@@ -1,0 +1,247 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="435c5b021c9ab7e"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Fahad Shah"
+		rxversion="8.0.0.0"
+		host="HUAWEI LUA-U22 (Unknown)
+WLAN - 192.168.3.11"
+		osversion="-"
+		runtimeversion="-"
+		procarch="-"
+		oslanguage="-"
+		dtnlanguage="-"
+		screenresolution="-"
+		timestamp="2/27/2018 1:00:52 PM"
+		timestampiso="2018-02-27T08:00:52"
+		endtime="2/27/2018 1:01:26 PM"
+		timeoutfactor="1"
+		module="ViewPlanogram">
+		<detail>
+			ViewPlanogram
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.311"
+			timeRelativeToTestModuleStartTime="00:04.311"
+			timeWallClock="13:00:56"
+			time="00:04.311"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'ASMTraining.Content.ViewPlanogram' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.training.asm']/form[@title='MainScreen']/container[@rid='content']//button[@rid='view_planogram']"
+				itempath=".//button[@rid='view_planogram']"
+				fullname="ASMTrainingRepository.ASMTraining.Content.ViewPlanogram"
+				id="270f430b1e36403abf54b8f6a8075b95"
+				timeout="90000"
+				codefile="c:\Users\Fahad Shah\Documents\Ranorex\RanorexStudio Projects\ASMTraining\ASMTraining\TestCases\ViewPlanogram.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.844"
+			timeRelativeToTestModuleStartTime="00:07.844"
+			timeWallClock="13:01:00"
+			time="00:07.844"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (Text='View Planogram') on item 'ASMTraining.Validate_ViewPlanogramScreen'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.training.asm']/form[@title='PlanogramViewScreen']/container[@rid='content']//text[@rid='asm_name1']"
+				itempath="form[@title='PlanogramViewScreen']/container[@rid='content']//text[@rid='asm_name1']"
+				fullname="ASMTrainingRepository.ASMTraining.Validate_ViewPlanogramScreen"
+				id="1058f0e0338c449c8d1cd44bb858e7a5"
+				timeout="60000"
+				codefile="c:\Users\Fahad Shah\Documents\Ranorex\RanorexStudio Projects\ASMTraining\ASMTraining\TestCases\ViewPlanogram.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.985"
+			timeRelativeToTestModuleStartTime="00:09.985"
+			timeWallClock="13:01:02"
+			time="00:09.985"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Text' of element for item 'ASMTrainingRepository.ASMTraining.Validate_ViewPlanogramScreen' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.training.asm']/form[@title='PlanogramViewScreen']/container[@rid='content']//text[@rid='asm_name1']"
+				itempath="form[@title='PlanogramViewScreen']/container[@rid='content']//text[@rid='asm_name1']"
+				fullname="ASMTrainingRepository.ASMTraining.Validate_ViewPlanogramScreen"
+				id="1058f0e0338c449c8d1cd44bb858e7a5"
+				timeout="60000"
+				codefile="c:\Users\Fahad Shah\Documents\Ranorex\RanorexStudio Projects\ASMTraining\ASMTraining\TestCases\ViewPlanogram.cs"
+				codeline="87"
+				loglvl="Success"
+				itemindex="1">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.001"
+			timeRelativeToTestModuleStartTime="00:10.001"
+			timeWallClock="13:01:02"
+			time="00:10.001"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'ASMTraining.PlanogramImage' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.training.asm']/form[@title='PlanogramViewScreen']/container[@rid='content']/androidelement/container[@containertype='Linear']/container[3]"
+				itempath="form[@title='PlanogramViewScreen']/container[@rid='content']/androidelement/container[@containertype='Linear']/container[3]"
+				fullname="ASMTrainingRepository.ASMTraining.PlanogramImage"
+				id="ec8745ec63dd4de6bf7fd376b95e13a7"
+				timeout="60000"
+				codefile="c:\Users\Fahad Shah\Documents\Ranorex\RanorexStudio Projects\ASMTraining\ASMTraining\TestCases\ViewPlanogram.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:14.938"
+			timeRelativeToTestModuleStartTime="00:14.938"
+			timeWallClock="13:01:07"
+			time="00:14.938"
+			level="Info"
+			category="Touch gestures">
+			<message>
+				Swipe gesture with direction 'Left (180&#176;)' starting from 'Center' with distance '1.0' with swipe duration'1s' and step count '0' on item 'ASMTraining.PlanogramImageView'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.training.asm']/form[@title='PlanogramActivity']/container[@rid='content']/?/?/androidelement[@rid='viewPager']/container[1]"
+				itempath="form[@title='PlanogramActivity']/container[@rid='content']/?/?/androidelement[@rid='viewPager']/container[1]"
+				fullname="ASMTrainingRepository.ASMTraining.PlanogramImageView"
+				id="ea6eae4ff5714d5c8a4c9d74ae079bce"
+				timeout="60000"
+				codefile="c:\Users\Fahad Shah\Documents\Ranorex\RanorexStudio Projects\ASMTraining\ASMTraining\TestCases\ViewPlanogram.cs"
+				codeline="94"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:22.626"
+			timeRelativeToTestModuleStartTime="00:22.626"
+			timeWallClock="13:01:15"
+			time="00:22.626"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key '{BACK}' press on 'ASMTraining'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.training.asm']"
+				itempath="/mobileapp[@title='com.training.asm']"
+				fullname="ASMTrainingRepository.ASMTraining.Self"
+				id="8a90c606bf2e4f2aa07de9da1202e098"
+				timeout="30000"
+				codefile="c:\Users\Fahad Shah\Documents\Ranorex\RanorexStudio Projects\ASMTraining\ASMTraining\TestCases\ViewPlanogram.cs"
+				codeline="98"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:25.179"
+			timeRelativeToTestModuleStartTime="00:25.179"
+			timeWallClock="13:01:17"
+			time="00:25.179"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'ASMTraining.ViewPlanogram_BackButton' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.training.asm']/form[@title='PlanogramViewScreen']/container[@rid='content']/androidelement/container[@containertype='Linear']/container[2]/picture"
+				itempath="form[@title='PlanogramViewScreen']/container[@rid='content']/androidelement/container[@containertype='Linear']/container[2]/picture"
+				fullname="ASMTrainingRepository.ASMTraining.ViewPlanogram_BackButton"
+				id="6a9a055a64da4444b1dea3ebffdded25"
+				timeout="60000"
+				codefile="c:\Users\Fahad Shah\Documents\Ranorex\RanorexStudio Projects\ASMTraining\ASMTraining\TestCases\ViewPlanogram.cs"
+				codeline="102"
+				itemindex="5"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:31.765"
+			timeRelativeToTestModuleStartTime="00:31.765"
+			timeWallClock="13:01:24"
+			time="00:31.765"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating ContainsImage (Screenshot: 'Screenshot1' with region {X=0,Y=0,Width=373,Height=310}) on item 'ASMTraining.ASMTraining_Logo'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.training.asm']/form[@title='MainScreen']/container[@rid='content']//picture[@rid='imageButton']"
+				itempath="form[@title='MainScreen']/container[@rid='content']//picture[@rid='imageButton']"
+				fullname="ASMTrainingRepository.ASMTraining.ASMTraining_Logo"
+				id="15ca4559814f476c8e7c0d78c3428937"
+				timeout="60000"
+				codefile="c:\Users\Fahad Shah\Documents\Ranorex\RanorexStudio Projects\ASMTraining\ASMTraining\TestCases\ViewPlanogram.cs"
+				codeline="106"
+				itemindex="6"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:33.469"
+			timeRelativeToTestModuleStartTime="00:33.469"
+			timeWallClock="13:01:26"
+			time="00:33.469"
+			level="Success"
+			category="Validation">
+			<message>
+				Screenshot of item 'ASMTrainingRepository.ASMTraining.ASMTraining_Logo' does contain the specified image.
+			</message>
+			<metainfo
+				codefile="c:\Users\Fahad Shah\Documents\Ranorex\RanorexStudio Projects\ASMTraining\ASMTraining\TestCases\ViewPlanogram.cs"
+				codeline="107"
+				loglvl="Success"
+				id="15ca4559814f476c8e7c0d78c3428937"
+				path="/mobileapp[@title='com.training.asm']/form[@title='MainScreen']/container[@rid='content']//picture[@rid='imageButton']"
+				fullname="ASMTrainingRepository.ASMTraining.ASMTraining_Logo"
+				itemindex="6">
+			</metainfo>
+		</item>
+	</activity>
+</report>

@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="b13cd23c-9e1a-4f3a-9dd4-c685a5f8402f"
+mode="Global"
+rxversion="8.0">
+	<name>
+		VisitZonalRanking
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="VisitZonalRanking"
+	namespace="ASMTraining.TestCases.CCSD_E_Book">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<validationitem
+		action="AttributeEqual"
+		codegenpropertyname="ZonalRanking_TopHeaderLogo_Screenshot1"
+		enabled="True"
+		imagerect="0,0,389,74"
+		optional="False"
+		screenshotguid="9f57f116-d08a-4609-9144-d19887677c1e"
+		screenshotname="Screenshot1"
+		searchpropertyid="39f7fe02-0ef5-4605-a615-595b5e40423a">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="b8f052d4-429b-4aef-8671-80ac842cd3cc"
+			sourcename="ItemRecorderEditor">
+				<path>
+					/mobileapp[@title='com.training.asm']/form[@title='ZonalScoreActivity']/container[@rid='content']//text[@rid='asm_name1']
+				</path>
+			</info>
+			<matchname>
+				Text
+			</matchname>
+			<matchvalue>
+				Zonal RANKING
+			</matchvalue>
+		</validationitem>
+		<userrecorditem
+		classname="UserCode"
+		enabled="True"
+		isexternaltestmethod="True"
+		methodname="visit_ZonalRanking"
+		namespace="ASMTraining.UserCodeCollection"
+		optional="False"
+		varname="">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<arguments
+			id="36b9566b-79bf-4de8-8197-4e5109f1187b">
+			</arguments>
+		</userrecorditem>
+	</recorditems>
+	<repository
+	id="b9dcecd9-fa4c-49bd-819f-b4d818ad9617"
+	name="ASMTrainingRepository"
+	relativepath="..\..\ASMTrainingRepository.rxrep"
+	rxversion="8.0">
+		<codegen
+		classname="ASMTrainingRepository"
+		namespace="ASMTraining">
+		</codegen>
+		<rootfolder
+		id="b7152f09-1137-4ea9-b37d-2d9bb2af9e93"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		VisitZonalRanking.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

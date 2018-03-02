@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="d80095e193067d2"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Fahad Shah"
+		rxversion="8.0.0.0"
+		host="HUAWEI LUA-U22 (Unknown)
+WLAN - 192.168.3.11"
+		osversion="-"
+		runtimeversion="-"
+		procarch="-"
+		oslanguage="-"
+		dtnlanguage="-"
+		screenresolution="-"
+		timestamp="2/24/2018 3:14:54 PM"
+		timestampiso="2018-02-24T10:14:54"
+		endtime="2/24/2018 3:15:00 PM"
+		timeoutfactor="1"
+		module="CCSD_EBook">
+		<detail>
+			CCSD_EBook
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.440"
+			timeRelativeToTestModuleStartTime="00:04.455"
+			timeWallClock="15:14:59"
+			time="00:04.440"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating ContainsImage (Screenshot: 'Screenshot1' with region {X=0,Y=0,Width=389,Height=74}) on item 'pictureInfo'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.training.asm']/form[@title='ZonalScoreActivity']/container[@rid='content']//picture[@rid='top_header_logo']"
+				itempath="form[@title='ZonalScoreActivity']/container[@rid='content']//picture[@rid='top_header_logo']"
+				fullname="ASMTrainingRepository.ASMTraining.ZonalRanking_TopHeaderLogo"
+				id="13143268db4d4bcb8d85bbeb550f2c87"
+				timeout="60000"
+				codefile="c:\Users\Fahad Shah\Documents\Ranorex\RanorexStudio Projects\ASMTraining\ASMTraining\TestCases\CCSD_EBook.UserCode.cs"
+				codeline="38"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.909"
+			timeRelativeToTestModuleStartTime="00:05.924"
+			timeWallClock="15:15:00"
+			time="00:05.909"
+			level="Success"
+			category="Validation">
+			<message>
+				Screenshot of item 'ASMTrainingRepository.ASMTraining.ZonalRanking_TopHeaderLogo' does contain the specified image.
+			</message>
+			<metainfo
+				codefile="c:\Users\Fahad Shah\Documents\Ranorex\RanorexStudio Projects\ASMTraining\ASMTraining\TestCases\CCSD_EBook.UserCode.cs"
+				codeline="39"
+				loglvl="Success">
+			</metainfo>
+		</item>
+	</activity>
+</report>

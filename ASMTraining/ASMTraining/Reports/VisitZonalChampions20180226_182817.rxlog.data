@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="13f1f7061db095f"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Fahad Shah"
+		rxversion="8.0.0.0"
+		host="HUAWEI LUA-U22 (Unknown)
+WLAN - 192.168.3.11"
+		osversion="-"
+		runtimeversion="-"
+		procarch="-"
+		oslanguage="-"
+		dtnlanguage="-"
+		screenresolution="-"
+		timestamp="2/26/2018 6:28:32 PM"
+		timestampiso="2018-02-26T13:28:32"
+		endtime="2/26/2018 6:28:37 PM"
+		timeoutfactor="1"
+		module="VisitZonalChampions">
+		<detail>
+			VisitZonalChampions
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.140"
+			timeRelativeToTestModuleStartTime="00:04.156"
+			timeWallClock="18:28:36"
+			time="00:04.140"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating ContainsImage (Screenshot: 'Screenshot1' with region {X=0,Y=0,Width=373,Height=310}) on item 'ASMTraining.ZonalChamp_HeaderLogo'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.training.asm']/form[@title='AsmTseSelectionActivity']/container[@rid='content']//picture[@rid='imageButton']"
+				itempath="form[@title='AsmTseSelectionActivity']/container[@rid='content']//picture[@rid='imageButton']"
+				fullname="ASMTrainingRepository.ASMTraining.ZonalChamp_HeaderLogo"
+				id="92755b7396394056b8ddcad8a26b358b"
+				timeout="60000"
+				codefile="c:\Users\Fahad Shah\Documents\Ranorex\RanorexStudio Projects\ASMTraining\ASMTraining\TestCases\VisitZonalChampions.cs"
+				codeline="82"
+				itemindex="8"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.578"
+			timeRelativeToTestModuleStartTime="00:05.594"
+			timeWallClock="18:28:37"
+			time="00:05.578"
+			level="Success"
+			category="Validation">
+			<message>
+				Screenshot of item 'ASMTrainingRepository.ASMTraining.ZonalChamp_HeaderLogo' does contain the specified image.
+			</message>
+			<metainfo
+				codefile="c:\Users\Fahad Shah\Documents\Ranorex\RanorexStudio Projects\ASMTraining\ASMTraining\TestCases\VisitZonalChampions.cs"
+				codeline="83"
+				loglvl="Success"
+				id="92755b7396394056b8ddcad8a26b358b"
+				path="/mobileapp[@title='com.training.asm']/form[@title='AsmTseSelectionActivity']/container[@rid='content']//picture[@rid='imageButton']"
+				fullname="ASMTrainingRepository.ASMTraining.ZonalChamp_HeaderLogo"
+				itemindex="8">
+			</metainfo>
+		</item>
+	</activity>
+</report>

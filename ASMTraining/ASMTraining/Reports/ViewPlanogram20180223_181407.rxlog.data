@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="c872e84981c950"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Fahad Shah"
+		rxversion="8.0.0.0"
+		host="HUAWEI LUA-U22 (Unknown)
+WLAN - 192.168.3.11"
+		osversion="-"
+		runtimeversion="-"
+		procarch="-"
+		oslanguage="-"
+		dtnlanguage="-"
+		screenresolution="-"
+		timestamp="2/23/2018 6:14:28 PM"
+		timestampiso="2018-02-23T13:14:28"
+		endtime="2/23/2018 6:14:39 PM"
+		timeoutfactor="1"
+		module="ViewPlanogram">
+		<detail>
+			ViewPlanogram
+		</detail>
+		<errormessage>
+			Swipe is not supported by the application element. Instead it has to be performed on a UI element contained in the app.
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.213"
+			timeRelativeToTestModuleStartTime="00:04.217"
+			timeWallClock="18:14:32"
+			time="00:04.213"
+			level="Info"
+			category="Touch gestures"
+			errimg=".\ViewPlan_e659e336_e2f642e3_trace.jpg"
+			errthumb=".\ViewPlan_e659e336_e2f642e3_trace_thumb.jpg">
+			<message>
+				Swipe gesture with direction 'Left (180&#176;)' starting from 'Center' with distance '.5' with swipe duration'500ms' and step count '0' on item 'ASMTraining'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.training.asm']"
+				itempath="/mobileapp[@title='com.training.asm']"
+				fullname="ASMTrainingRepository.ASMTraining.Self"
+				id="8a90c606bf2e4f2aa07de9da1202e098"
+				timeout="30000"
+				codefile="c:\Users\Fahad Shah\Documents\Ranorex\RanorexStudio Projects\ASMTraining\ASMTraining\TestCases\ViewPlanogram.cs"
+				codeline="82"
+				itemindex="5"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.367"
+			timeRelativeToTestModuleStartTime="00:07.371"
+			timeWallClock="18:14:35"
+			time="00:07.367"
+			level="Error"
+			category="Module"
+			errimg=".\ViewPlan_e659e336_40a17463_trace.jpg"
+			errthumb=".\ViewPlan_e659e336_40a17463_trace_thumb.jpg">
+			<message>
+				Swipe is not supported by the application element. Instead it has to be performed on a UI element contained in the app.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Plugin.Mobile.RxIntegration.Elements.MobileAppFlavorElement.Swipe(SwipeEvent evt)
+   at Ranorex.Touch.Swipe(Element element, Location startLocation, GestureDirection direction, Duration swipeDuration, Distance distance, Int32 steps)
+   at Ranorex.Adapter.Swipe(Location startLocation, GestureDirection direction, Distance distance, Duration swipeDuration, Int32 steps, Boolean showOutOfBoundsWarning)
+   at Ranorex.Adapter.Swipe(Location startLocation, GestureDirection direction, Distance distance, Duration swipeDuration, Int32 steps)
+   at ASMTraining.TestCases.ViewPlanogram.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\Fahad Shah\Documents\Ranorex\RanorexStudio Projects\ASMTraining\ASMTraining\TestCases\ViewPlanogram.cs:line 83
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="c:\Users\Fahad Shah\Documents\Ranorex\RanorexStudio Projects\ASMTraining\ASMTraining\TestCases\ViewPlanogram.cs"
+				codeline="83"
+				loglvl="Error"
+				itemindex="5">
+			</metainfo>
+		</item>
+	</activity>
+</report>

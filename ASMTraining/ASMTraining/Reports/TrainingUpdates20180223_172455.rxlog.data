@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="1accaa2b19d85346"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Fahad Shah"
+		rxversion="8.0.0.0"
+		host="HUAWEI LUA-U22 (Unknown)
+WLAN - 192.168.3.11"
+		osversion="-"
+		runtimeversion="-"
+		procarch="-"
+		oslanguage="-"
+		dtnlanguage="-"
+		screenresolution="-"
+		timestamp="2/23/2018 5:25:10 PM"
+		timestampiso="2018-02-23T12:25:10"
+		endtime="2/23/2018 5:25:16 PM"
+		timeoutfactor="1"
+		module="TrainingUpdates">
+		<detail>
+			TrainingUpdates
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.124"
+			timeRelativeToTestModuleStartTime="00:04.140"
+			timeWallClock="17:25:14"
+			time="00:04.124"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating ContainsImage (Screenshot: 'Screenshot1' with region {X=0,Y=0,Width=373,Height=310}) on item 'ASMTraining.ImageButton'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.training.asm']/form[@title='ChampionActivity']/container[@rid='content']//picture[@rid='imageButton']"
+				itempath="form[@title='ChampionActivity']/container[@rid='content']//picture[@rid='imageButton']"
+				fullname="ASMTrainingRepository.ASMTraining.ImageButton"
+				id="72da400643d5461caf0b6ce1cfffea6d"
+				timeout="60000"
+				codefile="c:\Users\Fahad Shah\Documents\Ranorex\RanorexStudio Projects\ASMTraining\ASMTraining\TestCases\TrainingUpdates.cs"
+				codeline="82"
+				itemindex="6"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.827"
+			timeRelativeToTestModuleStartTime="00:05.843"
+			timeWallClock="17:25:16"
+			time="00:05.827"
+			level="Success"
+			category="Validation">
+			<message>
+				Screenshot of item 'ASMTrainingRepository.ASMTraining.ImageButton' does contain the specified image.
+			</message>
+			<metainfo
+				codefile="c:\Users\Fahad Shah\Documents\Ranorex\RanorexStudio Projects\ASMTraining\ASMTraining\TestCases\TrainingUpdates.cs"
+				codeline="83"
+				loglvl="Success"
+				id="72da400643d5461caf0b6ce1cfffea6d"
+				path="/mobileapp[@title='com.training.asm']/form[@title='ChampionActivity']/container[@rid='content']//picture[@rid='imageButton']"
+				fullname="ASMTrainingRepository.ASMTraining.ImageButton"
+				itemindex="6">
+			</metainfo>
+		</item>
+	</activity>
+</report>

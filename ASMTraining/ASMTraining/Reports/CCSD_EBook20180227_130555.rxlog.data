@@ -1,0 +1,487 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="6aca90fe9ea5022"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Fahad Shah"
+		rxversion="8.0.0.0"
+		host="HUAWEI LUA-U22 (Unknown)
+WLAN - 192.168.3.11"
+		osversion="-"
+		runtimeversion="-"
+		procarch="-"
+		oslanguage="-"
+		dtnlanguage="-"
+		screenresolution="-"
+		timestamp="2/27/2018 1:06:11 PM"
+		timestampiso="2018-02-27T08:06:11"
+		endtime="2/27/2018 1:07:04 PM"
+		timeoutfactor="1"
+		module="CCSD_EBook">
+		<detail>
+			CCSD_EBook
+		</detail>
+		<errormessage>
+			Attribute 'Text' of element for item 'ASMTrainingRepository.ASMTraining.Validate_ZonalRankingScreen' does not match the specified value (actual='Zonal RANKING', expected='Zonal Ranking').
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.423"
+			timeRelativeToTestModuleStartTime="00:04.439"
+			timeWallClock="13:06:16"
+			time="00:04.423"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'ASMTraining.Content.MerchandizerEBook' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.training.asm']/form[@title='MainScreen']/container[@rid='content']//button[@rid='merchandizer_e_book']"
+				itempath=".//button[@rid='merchandizer_e_book']"
+				fullname="ASMTrainingRepository.ASMTraining.Content.MerchandizerEBook"
+				id="027e7032fb2942e0ad5f8791d8c675ff"
+				timeout="90000"
+				codefile="c:\Users\Fahad Shah\Documents\Ranorex\RanorexStudio Projects\ASMTraining\ASMTraining\TestCases\CCSD_EBook.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.079"
+			timeRelativeToTestModuleStartTime="00:08.079"
+			timeWallClock="13:06:19"
+			time="00:08.079"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating ContainsImage (Screenshot: 'Screenshot1' with region {X=0,Y=0,Width=373,Height=310}) on item 'ASMTraining.MerchandiserEBook_HeaderLogo'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.training.asm']/form[@title='EBookDashBoardActivity']/container[@rid='content']//picture[@rid='imageButton']"
+				itempath="form[@title='EBookDashBoardActivity']/container[@rid='content']//picture[@rid='imageButton']"
+				fullname="ASMTrainingRepository.ASMTraining.MerchandiserEBook_HeaderLogo"
+				id="e74ee83d1df343f98214896b2477fcdc"
+				timeout="60000"
+				codefile="c:\Users\Fahad Shah\Documents\Ranorex\RanorexStudio Projects\ASMTraining\ASMTraining\TestCases\CCSD_EBook.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.777"
+			timeRelativeToTestModuleStartTime="00:09.777"
+			timeWallClock="13:06:21"
+			time="00:09.777"
+			level="Success"
+			category="Validation">
+			<message>
+				Screenshot of item 'ASMTrainingRepository.ASMTraining.MerchandiserEBook_HeaderLogo' does contain the specified image.
+			</message>
+			<metainfo
+				codefile="c:\Users\Fahad Shah\Documents\Ranorex\RanorexStudio Projects\ASMTraining\ASMTraining\TestCases\CCSD_EBook.cs"
+				codeline="87"
+				loglvl="Success"
+				id="e74ee83d1df343f98214896b2477fcdc"
+				path="/mobileapp[@title='com.training.asm']/form[@title='EBookDashBoardActivity']/container[@rid='content']//picture[@rid='imageButton']"
+				fullname="ASMTrainingRepository.ASMTraining.MerchandiserEBook_HeaderLogo"
+				itemindex="1">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.793"
+			timeRelativeToTestModuleStartTime="00:09.793"
+			timeWallClock="13:06:21"
+			time="00:09.793"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'ASMTraining.Content2.PosRanking' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.training.asm']/form[@title='EBookDashBoardActivity']/container[@rid='content']//button[@rid='pos_ranking']"
+				itempath=".//button[@rid='pos_ranking']"
+				fullname="ASMTrainingRepository.ASMTraining.Content2.PosRanking"
+				id="04434a3ba58240ac9d362f4c6dbf05a1"
+				timeout="90000"
+				codefile="c:\Users\Fahad Shah\Documents\Ranorex\RanorexStudio Projects\ASMTraining\ASMTraining\TestCases\CCSD_EBook.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.697"
+			timeRelativeToTestModuleStartTime="00:11.697"
+			timeWallClock="13:06:23"
+			time="00:11.697"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (Text='Programs') on item 'ASMTraining.Validate_POSRankingScreen'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.training.asm']/form[@title~'^ProgramSelectionListScree']/container[@rid='content']//text[@rid='asm_name1']"
+				itempath="form[@title~'^ProgramSelectionListScree']/container[@rid='content']//text[@rid='asm_name1']"
+				fullname="ASMTrainingRepository.ASMTraining.Validate_POSRankingScreen"
+				id="17aa51b07e5940c78886a4751f775f64"
+				timeout="60000"
+				codefile="c:\Users\Fahad Shah\Documents\Ranorex\RanorexStudio Projects\ASMTraining\ASMTraining\TestCases\CCSD_EBook.cs"
+				codeline="94"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:12.672"
+			timeRelativeToTestModuleStartTime="00:12.672"
+			timeWallClock="13:06:24"
+			time="00:12.672"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Text' of element for item 'ASMTrainingRepository.ASMTraining.Validate_POSRankingScreen' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.training.asm']/form[@title~'^ProgramSelectionListScree']/container[@rid='content']//text[@rid='asm_name1']"
+				itempath="form[@title~'^ProgramSelectionListScree']/container[@rid='content']//text[@rid='asm_name1']"
+				fullname="ASMTrainingRepository.ASMTraining.Validate_POSRankingScreen"
+				id="17aa51b07e5940c78886a4751f775f64"
+				timeout="60000"
+				codefile="c:\Users\Fahad Shah\Documents\Ranorex\RanorexStudio Projects\ASMTraining\ASMTraining\TestCases\CCSD_EBook.cs"
+				codeline="95"
+				loglvl="Success"
+				itemindex="3">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:24.671"
+			timeRelativeToTestModuleStartTime="00:24.671"
+			timeWallClock="13:06:36"
+			time="00:24.671"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (Text='Zonal RANKING') on item 'ASMTraining.Validate_ZonalRankingScreen'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.training.asm']/form[@title='ZonalScoreActivity']/container[@rid='content']//text[@rid='asm_name1']"
+				itempath="form[@title='ZonalScoreActivity']/container[@rid='content']//text[@rid='asm_name1']"
+				fullname="ASMTrainingRepository.ASMTraining.Validate_ZonalRankingScreen"
+				id="b8f052d4429b4aef867180ac842cd3cc"
+				timeout="60000"
+				codefile="c:\Users\Fahad Shah\Documents\Ranorex\RanorexStudio Projects\ASMTraining\ASMTraining\TestCases\VisitZonalRanking.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:27.108"
+			timeRelativeToTestModuleStartTime="00:27.108"
+			timeWallClock="13:06:38"
+			time="00:27.108"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Text' of element for item 'ASMTrainingRepository.ASMTraining.Validate_ZonalRankingScreen' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.training.asm']/form[@title='ZonalScoreActivity']/container[@rid='content']//text[@rid='asm_name1']"
+				itempath="form[@title='ZonalScoreActivity']/container[@rid='content']//text[@rid='asm_name1']"
+				fullname="ASMTrainingRepository.ASMTraining.Validate_ZonalRankingScreen"
+				id="b8f052d4429b4aef867180ac842cd3cc"
+				timeout="60000"
+				codefile="c:\Users\Fahad Shah\Documents\Ranorex\RanorexStudio Projects\ASMTraining\ASMTraining\TestCases\VisitZonalRanking.cs"
+				codeline="83"
+				loglvl="Success"
+				itemindex="0">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:29.318"
+			timeRelativeToTestModuleStartTime="00:29.318"
+			timeWallClock="13:06:41"
+			time="00:29.318"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (Text='Regional Ranking') on item 'ASMTraining.Validate_RegionalRankingScreen'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.training.asm']/form[@title='RegionalScoreActivity']/container[@rid='content']//text[@rid='asm_name1']"
+				itempath="form[@title='RegionalScoreActivity']/container[@rid='content']//text[@rid='asm_name1']"
+				fullname="ASMTrainingRepository.ASMTraining.Validate_RegionalRankingScreen"
+				id="16866dfa585343108552581b84d6bd6b"
+				timeout="60000"
+				codefile="c:\Users\Fahad Shah\Documents\Ranorex\RanorexStudio Projects\ASMTraining\ASMTraining\TestCases\VisitRegionalRanking.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:30.624"
+			timeRelativeToTestModuleStartTime="00:30.624"
+			timeWallClock="13:06:42"
+			time="00:30.624"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Text' of element for item 'ASMTrainingRepository.ASMTraining.Validate_RegionalRankingScreen' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.training.asm']/form[@title='RegionalScoreActivity']/container[@rid='content']//text[@rid='asm_name1']"
+				itempath="form[@title='RegionalScoreActivity']/container[@rid='content']//text[@rid='asm_name1']"
+				fullname="ASMTrainingRepository.ASMTraining.Validate_RegionalRankingScreen"
+				id="16866dfa585343108552581b84d6bd6b"
+				timeout="60000"
+				codefile="c:\Users\Fahad Shah\Documents\Ranorex\RanorexStudio Projects\ASMTraining\ASMTraining\TestCases\VisitRegionalRanking.cs"
+				codeline="83"
+				loglvl="Success"
+				itemindex="0">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:43.000"
+			timeRelativeToTestModuleStartTime="00:43.000"
+			timeWallClock="13:06:54"
+			time="00:43.000"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (Text='ASM Ranking') on item 'ASMTraining.Validate_AsmRankingScreen'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.training.asm']/form[@title='ASMListActivity']/container[@rid='content']//text[@rid='asm_name1']"
+				itempath="form[@title='ASMListActivity']/container[@rid='content']//text[@rid='asm_name1']"
+				fullname="ASMTrainingRepository.ASMTraining.Validate_AsmRankingScreen"
+				id="97b8253ad1a34e8892b72592bc77d153"
+				timeout="60000"
+				codefile="c:\Users\Fahad Shah\Documents\Ranorex\RanorexStudio Projects\ASMTraining\ASMTraining\TestCases\VisitRegionalRanking.cs"
+				codeline="89"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:44.139"
+			timeRelativeToTestModuleStartTime="00:44.139"
+			timeWallClock="13:06:55"
+			time="00:44.139"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Text' of element for item 'ASMTrainingRepository.ASMTraining.Validate_AsmRankingScreen' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.training.asm']/form[@title='ASMListActivity']/container[@rid='content']//text[@rid='asm_name1']"
+				itempath="form[@title='ASMListActivity']/container[@rid='content']//text[@rid='asm_name1']"
+				fullname="ASMTrainingRepository.ASMTraining.Validate_AsmRankingScreen"
+				id="97b8253ad1a34e8892b72592bc77d153"
+				timeout="60000"
+				codefile="c:\Users\Fahad Shah\Documents\Ranorex\RanorexStudio Projects\ASMTraining\ASMTraining\TestCases\VisitRegionalRanking.cs"
+				codeline="90"
+				loglvl="Success"
+				itemindex="2">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:44.155"
+			timeRelativeToTestModuleStartTime="00:44.155"
+			timeWallClock="13:06:55"
+			time="00:44.155"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'ASMTraining.AsmRanking_BackButton' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.training.asm']/form[@title='ASMListActivity']/container[@rid='content']/androidelement/container[@containertype='Linear']/container[@containertype='Linear']/picture"
+				itempath="form[@title='ASMListActivity']/container[@rid='content']/androidelement/container[@containertype='Linear']/container[@containertype='Linear']/picture"
+				fullname="ASMTrainingRepository.ASMTraining.AsmRanking_BackButton"
+				id="8b1ac228c6af4bcbb31d82aeaa85c583"
+				timeout="60000"
+				codefile="c:\Users\Fahad Shah\Documents\Ranorex\RanorexStudio Projects\ASMTraining\ASMTraining\TestCases\VisitRegionalRanking.cs"
+				codeline="93"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:47.672"
+			timeRelativeToTestModuleStartTime="00:47.672"
+			timeWallClock="13:06:59"
+			time="00:47.672"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (Text='Regional Ranking') on item 'ASMTraining.Validate_RegionalRankingScreen'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.training.asm']/form[@title='RegionalScoreActivity']/container[@rid='content']//text[@rid='asm_name1']"
+				itempath="form[@title='RegionalScoreActivity']/container[@rid='content']//text[@rid='asm_name1']"
+				fullname="ASMTrainingRepository.ASMTraining.Validate_RegionalRankingScreen"
+				id="16866dfa585343108552581b84d6bd6b"
+				timeout="60000"
+				codefile="c:\Users\Fahad Shah\Documents\Ranorex\RanorexStudio Projects\ASMTraining\ASMTraining\TestCases\VisitRegionalRanking.cs"
+				codeline="97"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:48.916"
+			timeRelativeToTestModuleStartTime="00:48.916"
+			timeWallClock="13:07:00"
+			time="00:48.916"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Text' of element for item 'ASMTrainingRepository.ASMTraining.Validate_RegionalRankingScreen' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.training.asm']/form[@title='RegionalScoreActivity']/container[@rid='content']//text[@rid='asm_name1']"
+				itempath="form[@title='RegionalScoreActivity']/container[@rid='content']//text[@rid='asm_name1']"
+				fullname="ASMTrainingRepository.ASMTraining.Validate_RegionalRankingScreen"
+				id="16866dfa585343108552581b84d6bd6b"
+				timeout="60000"
+				codefile="c:\Users\Fahad Shah\Documents\Ranorex\RanorexStudio Projects\ASMTraining\ASMTraining\TestCases\VisitRegionalRanking.cs"
+				codeline="98"
+				loglvl="Success"
+				itemindex="4">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:48.925"
+			timeRelativeToTestModuleStartTime="00:48.925"
+			timeWallClock="13:07:00"
+			time="00:48.925"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'ASMTraining.RegionalRanking_BackButton' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.training.asm']/form[@title='RegionalScoreActivity']/container[@rid='content']/androidelement/container[@containertype='Linear']/container[@containertype='Linear']/picture"
+				itempath="form[@title='RegionalScoreActivity']/container[@rid='content']/androidelement/container[@containertype='Linear']/container[@containertype='Linear']/picture"
+				fullname="ASMTrainingRepository.ASMTraining.RegionalRanking_BackButton"
+				id="d23d7aea28bf4fea8c42c33f28e23e16"
+				timeout="60000"
+				codefile="c:\Users\Fahad Shah\Documents\Ranorex\RanorexStudio Projects\ASMTraining\ASMTraining\TestCases\VisitRegionalRanking.cs"
+				codeline="101"
+				itemindex="5"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:50.946"
+			timeRelativeToTestModuleStartTime="00:50.946"
+			timeWallClock="13:07:02"
+			time="00:50.946"
+			level="Info"
+			category="Validation"
+			errimg=".\CCSD_EBo_7cfed822_7cf63462_trace.jpg"
+			errthumb=".\CCSD_EBo_7cfed822_7cf63462_trace_thumb.jpg">
+			<message>
+				Validating AttributeEqual (Text='Zonal Ranking') on item 'ASMTraining.Validate_ZonalRankingScreen'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.training.asm']/form[@title='ZonalScoreActivity']/container[@rid='content']//text[@rid='asm_name1']"
+				itempath="form[@title='ZonalScoreActivity']/container[@rid='content']//text[@rid='asm_name1']"
+				fullname="ASMTrainingRepository.ASMTraining.Validate_ZonalRankingScreen"
+				id="b8f052d4429b4aef867180ac842cd3cc"
+				timeout="60000"
+				codefile="c:\Users\Fahad Shah\Documents\Ranorex\RanorexStudio Projects\ASMTraining\ASMTraining\TestCases\VisitRegionalRanking.cs"
+				codeline="105"
+				itemindex="6"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:52.311"
+			timeRelativeToTestModuleStartTime="00:52.311"
+			timeWallClock="13:07:04"
+			time="00:52.311"
+			level="Failure"
+			category="Validation"
+			errimg=".\CCSD_EBo_7cfed822_cb2e39af_trace.jpg"
+			errthumb=".\CCSD_EBo_7cfed822_cb2e39af_trace_thumb.jpg">
+			<message>
+				Attribute 'Text' of element for item 'ASMTrainingRepository.ASMTraining.Validate_ZonalRankingScreen' does not match the specified value (actual='Zonal RANKING', expected='Zonal Ranking').
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.training.asm']/form[@title='ZonalScoreActivity']/container[@rid='content']//text[@rid='asm_name1']"
+				itempath="form[@title='ZonalScoreActivity']/container[@rid='content']//text[@rid='asm_name1']"
+				fullname="ASMTrainingRepository.ASMTraining.Validate_ZonalRankingScreen"
+				id="b8f052d4429b4aef867180ac842cd3cc"
+				timeout="60000"
+				codefile="c:\Users\Fahad Shah\Documents\Ranorex\RanorexStudio Projects\ASMTraining\ASMTraining\TestCases\VisitRegionalRanking.cs"
+				codeline="106"
+				loglvl="Failure"
+				itemindex="6">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:52.374"
+			timeRelativeToTestModuleStartTime="00:52.374"
+			timeWallClock="13:07:04"
+			time="00:52.374"
+			level="Error"
+			category="Module"
+			errimg=".\CCSD_EBo_7cfed822_cb2e39af_trace.jpg"
+			errthumb=".\CCSD_EBo_7cfed822_cb2e39af_trace_thumb.jpg">
+			<message>
+				Module execution was aborted because a validation step has failed. Attribute 'Text' of element for item 'ASMTrainingRepository.ASMTraining.Validate_ZonalRankingScreen' does not match the specified value (actual='Zonal RANKING', expected='Zonal Ranking').
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Validate.ThrowValidationException(RepoItemInfo itemInfo, ValidationException ex)&#13;&#10;   at Ranorex.Validate.ReportOrThrowIfFailed(String errorReason, String message, String matchName, Object actualValue, Object matchValue, IElement element, RepoItemInfo itemInfo, Options options, RanorexException innerException)&#13;&#10;   at Ranorex.Validate.AttributeCompareImpl(IElement element, String name, Object value, String message, Options options, RepoItemInfo itemInfo, Func`3 comparisonFunc, String reasonPattern)&#13;&#10;   at Ranorex.Validate.&lt;>c__DisplayClass39_0.&lt;Execute>b__0()&#13;&#10;   at Ranorex.Core.Testing.Services.NoMaintenanceModeService.HandleValidateAttribute[T](Func`1 action, IAttributeValidation attributeValidation)&#13;&#10;   at Ranorex.Validate.Execute(IElement element, IMatch match, String message, Options options, RepoItemInfo itemInfo, Func`3 comparisonFunc, String reasonPattern)&#13;&#10;   at Ranorex.Validate.AttributeEqualInternal(IElement element, String name, Object value, String message, Options options, RepoItemInfo itemInfo)&#13;&#10;   at Ranorex.Validate.AttributeEqualInternal(RepoItemInfo itemInfo, String name, Object value, String message, Options options)&#13;&#10;   at Ranorex.Validate.AttributeEqual(RepoItemInfo itemInfo, String name, Object value, String message, Options options)&#13;&#10;   at Ranorex.Validate.AttributeEqual(RepoItemInfo itemInfo, String name, Object value, String message, Boolean exceptionOnFail)&#13;&#10;   at Ranorex.Validate.AttributeEqual(RepoItemInfo itemInfo, String name, Object value)&#13;&#10;   at ASMTraining.TestCases.VisitRegionalRanking.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\Fahad Shah\Documents\Ranorex\RanorexStudio Projects\ASMTraining\ASMTraining\TestCases\VisitRegionalRanking.cs:line 106&#13;&#10;   at Ranorex.Core.Testing.TestModuleRunner.Run()&#13;&#10;   at Ranorex.Core.Testing.TestModuleRunner.Run(ITestModule testModule)&#13;&#10;   at ASMTraining.TestCases.VisitRegionalRanking.Start() in c:\Users\Fahad Shah\Documents\Ranorex\RanorexStudio Projects\ASMTraining\ASMTraining\TestCases\VisitRegionalRanking.cs:line 64&#13;&#10;   at ASMTraining.UserCodeCollection.UserCode.visit_ZonalRanking() in c:\Users\Fahad Shah\Documents\Ranorex\RanorexStudio Projects\ASMTraining\ASMTraining\UserCodeCollection\UserCode.cs:line 93&#13;&#10;   at ASMTraining.TestCases.VisitZonalRanking.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\Fahad Shah\Documents\Ranorex\RanorexStudio Projects\ASMTraining\ASMTraining\TestCases\VisitZonalRanking.cs:line 86&#13;&#10;   at Ranorex.Core.Testing.TestModuleRunner.Run()&#13;&#10;   at Ranorex.Core.Testing.TestModuleRunner.Run(ITestModule testModule)&#13;&#10;   at ASMTraining.TestCases.VisitZonalRanking.Start() in c:\Users\Fahad Shah\Documents\Ranorex\RanorexStudio Projects\ASMTraining\ASMTraining\TestCases\VisitZonalRanking.cs:line 64&#13;&#10;   at ASMTraining.UserCodeCollection.UserCode.VisitProjectPrograms() in c:\Users\Fahad Shah\Documents\Ranorex\RanorexStudio Projects\ASMTraining\ASMTraining\UserCodeCollection\UserCode.cs:line 78&#13;&#10;   at ASMTraining.TestCases.CCSD_EBook.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\Fahad Shah\Documents\Ranorex\RanorexStudio Projects\ASMTraining\ASMTraining\TestCases\CCSD_EBook.cs:line 98&#13;&#10;   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="c:\Users\Fahad Shah\Documents\Ranorex\RanorexStudio Projects\ASMTraining\ASMTraining\TestCases\VisitRegionalRanking.cs"
+				codeline="106"
+				type="repoitem"
+				path="/mobileapp[@title='com.training.asm']/form[@title='ZonalScoreActivity']/container[@rid='content']//text[@rid='asm_name1']"
+				itempath="form[@title='ZonalScoreActivity']/container[@rid='content']//text[@rid='asm_name1']"
+				fullname="ASMTrainingRepository.ASMTraining.Validate_ZonalRankingScreen"
+				id="b8f052d4429b4aef867180ac842cd3cc"
+				timeout="60000"
+				loglvl="Error"
+				itemindex="6">
+			</metainfo>
+		</item>
+	</activity>
+</report>

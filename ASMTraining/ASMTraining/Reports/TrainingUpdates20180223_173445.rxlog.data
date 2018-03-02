@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="ba2abb6a90ed94e"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Fahad Shah"
+		rxversion="8.0.0.0"
+		host="HUAWEI LUA-U22 (Unknown)
+WLAN - 192.168.3.11"
+		osversion="-"
+		runtimeversion="-"
+		procarch="-"
+		oslanguage="-"
+		dtnlanguage="-"
+		screenresolution="-"
+		timestamp="2/23/2018 5:35:05 PM"
+		timestampiso="2018-02-23T12:35:05"
+		endtime="2/23/2018 5:35:17 PM"
+		timeoutfactor="1"
+		module="TrainingUpdates">
+		<detail>
+			TrainingUpdates
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.856"
+			timeRelativeToTestModuleStartTime="00:04.860"
+			timeWallClock="17:35:10"
+			time="00:04.856"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating ContainsImage (Screenshot: 'Screenshot1' with region {X=0,Y=0,Width=389,Height=74}) on item 'ASMTraining.Asm_TopHeaderLogo'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.training.asm']/form[@title='ChampionListActivity']/container[@rid='content']//picture[@rid='top_header_logo']"
+				itempath="form[@title='ChampionListActivity']/container[@rid='content']//picture[@rid='top_header_logo']"
+				fullname="ASMTrainingRepository.ASMTraining.Asm_TopHeaderLogo"
+				id="67e601d2899740c88f121e86c08f58e7"
+				timeout="60000"
+				codefile="c:\Users\Fahad Shah\Documents\Ranorex\RanorexStudio Projects\ASMTraining\ASMTraining\TestCases\TrainingUpdates.cs"
+				codeline="82"
+				itemindex="13"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.864"
+			timeRelativeToTestModuleStartTime="00:06.868"
+			timeWallClock="17:35:12"
+			time="00:06.864"
+			level="Success"
+			category="Validation">
+			<message>
+				Screenshot of item 'ASMTrainingRepository.ASMTraining.Asm_TopHeaderLogo' does contain the specified image.
+			</message>
+			<metainfo
+				codefile="c:\Users\Fahad Shah\Documents\Ranorex\RanorexStudio Projects\ASMTraining\ASMTraining\TestCases\TrainingUpdates.cs"
+				codeline="83"
+				loglvl="Success"
+				id="67e601d2899740c88f121e86c08f58e7"
+				path="/mobileapp[@title='com.training.asm']/form[@title='ChampionListActivity']/container[@rid='content']//picture[@rid='top_header_logo']"
+				fullname="ASMTrainingRepository.ASMTraining.Asm_TopHeaderLogo"
+				itemindex="13">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.876"
+			timeRelativeToTestModuleStartTime="00:06.880"
+			timeWallClock="17:35:12"
+			time="00:06.876"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'ASMTraining.Asm_BackButton' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.training.asm']/form[@title='ChampionListActivity']/container[@rid='content']/androidelement/container[@containertype='Linear']/container[@containertype='Linear']/picture"
+				itempath="form[@title='ChampionListActivity']/container[@rid='content']/androidelement/container[@containertype='Linear']/container[@containertype='Linear']/picture"
+				fullname="ASMTrainingRepository.ASMTraining.Asm_BackButton"
+				id="5aaaf44c22fc47f78f10df23ba5b1209"
+				timeout="60000"
+				codefile="c:\Users\Fahad Shah\Documents\Ranorex\RanorexStudio Projects\ASMTraining\ASMTraining\TestCases\TrainingUpdates.cs"
+				codeline="86"
+				itemindex="14"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.088"
+			timeRelativeToTestModuleStartTime="00:10.092"
+			timeWallClock="17:35:15"
+			time="00:10.088"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key '{BACK}' press on 'ASMTraining'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.training.asm']"
+				itempath="/mobileapp[@title='com.training.asm']"
+				fullname="ASMTrainingRepository.ASMTraining.Self"
+				id="8a90c606bf2e4f2aa07de9da1202e098"
+				timeout="30000"
+				codefile="c:\Users\Fahad Shah\Documents\Ranorex\RanorexStudio Projects\ASMTraining\ASMTraining\TestCases\TrainingUpdates.cs"
+				codeline="90"
+				itemindex="15"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

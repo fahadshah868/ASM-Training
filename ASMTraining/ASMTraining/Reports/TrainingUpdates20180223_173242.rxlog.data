@@ -1,0 +1,521 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="119c0536c5950ea0"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Fahad Shah"
+		rxversion="8.0.0.0"
+		host="HUAWEI LUA-U22 (Unknown)
+WLAN - 192.168.3.11"
+		osversion="-"
+		runtimeversion="-"
+		procarch="-"
+		oslanguage="-"
+		dtnlanguage="-"
+		screenresolution="-"
+		timestamp="2/23/2018 5:33:05 PM"
+		timestampiso="2018-02-23T12:33:05"
+		endtime="2/23/2018 5:34:04 PM"
+		timeoutfactor="1"
+		module="TrainingUpdates">
+		<detail>
+			TrainingUpdates
+		</detail>
+		<errormessage>
+			Attribute 'Text' of element for item 'ASMTrainingRepository.ASMTraining.Asm_TopHeaderLogo' does not match the specified value (actual='(null)', expected='yourtext').
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.265"
+			timeRelativeToTestModuleStartTime="00:04.269"
+			timeWallClock="17:33:09"
+			time="00:04.265"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'ASMTraining.Content.TrainingUpdate' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.training.asm']/form[@title='MainScreen']/container[@rid='content']//button[@rid='training_update']"
+				itempath=".//button[@rid='training_update']"
+				fullname="ASMTrainingRepository.ASMTraining.Content.TrainingUpdate"
+				id="aceef7931b5e4aeebe0aa39835a0cf65"
+				timeout="90000"
+				codefile="c:\Users\Fahad Shah\Documents\Ranorex\RanorexStudio Projects\ASMTraining\ASMTraining\TestCases\TrainingUpdates.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.118"
+			timeRelativeToTestModuleStartTime="00:07.118"
+			timeWallClock="17:33:12"
+			time="00:07.118"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating ContainsImage (Screenshot: 'Screenshot1' with region {X=0,Y=0,Width=373,Height=310}) on item 'ASMTraining.TrainingUpdates_HeaderLogo'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.training.asm']/form[@title='TrainingUpdateActivity']/container[@rid='content']//picture[@rid='imageButton']"
+				itempath="form[@title='TrainingUpdateActivity']/container[@rid='content']//picture[@rid='imageButton']"
+				fullname="ASMTrainingRepository.ASMTraining.TrainingUpdates_HeaderLogo"
+				id="751d47f11fcc4bd7859c43865b9166ad"
+				timeout="60000"
+				codefile="c:\Users\Fahad Shah\Documents\Ranorex\RanorexStudio Projects\ASMTraining\ASMTraining\TestCases\TrainingUpdates.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:13.082"
+			timeRelativeToTestModuleStartTime="00:13.082"
+			timeWallClock="17:33:18"
+			time="00:13.082"
+			level="Success"
+			category="Validation">
+			<message>
+				Screenshot of item 'ASMTrainingRepository.ASMTraining.TrainingUpdates_HeaderLogo' does contain the specified image.
+			</message>
+			<metainfo
+				codefile="c:\Users\Fahad Shah\Documents\Ranorex\RanorexStudio Projects\ASMTraining\ASMTraining\TestCases\TrainingUpdates.cs"
+				codeline="87"
+				loglvl="Success"
+				id="751d47f11fcc4bd7859c43865b9166ad"
+				path="/mobileapp[@title='com.training.asm']/form[@title='TrainingUpdateActivity']/container[@rid='content']//picture[@rid='imageButton']"
+				fullname="ASMTrainingRepository.ASMTraining.TrainingUpdates_HeaderLogo"
+				itemindex="1">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:13.098"
+			timeRelativeToTestModuleStartTime="00:13.098"
+			timeWallClock="17:33:18"
+			time="00:13.098"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'ASMTraining.Content1.DsfTrainingStats' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.training.asm']/form[@title='TrainingUpdateActivity']/container[@rid='content']//button[@rid='dsf_stats']"
+				itempath=".//button[@rid='dsf_stats']"
+				fullname="ASMTrainingRepository.ASMTraining.Content1.DsfTrainingStats"
+				id="04d60f048a654fee8d11d05407965630"
+				timeout="90000"
+				codefile="c:\Users\Fahad Shah\Documents\Ranorex\RanorexStudio Projects\ASMTraining\ASMTraining\TestCases\TrainingUpdates.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:15.066"
+			timeRelativeToTestModuleStartTime="00:15.066"
+			timeWallClock="17:33:20"
+			time="00:15.066"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating ContainsImage (Screenshot: 'Screenshot1' with region {X=0,Y=0,Width=389,Height=74}) on item 'ASMTraining.Dsf_TopHeaderLogo'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.training.asm']/form[@title='DsfStatsListScreen']/container[@rid='content']//picture[@rid='top_header_logo']"
+				itempath="form[@title='DsfStatsListScreen']/container[@rid='content']//picture[@rid='top_header_logo']"
+				fullname="ASMTrainingRepository.ASMTraining.Dsf_TopHeaderLogo"
+				id="1ad9790f9545486b88e206ab7c048825"
+				timeout="60000"
+				codefile="c:\Users\Fahad Shah\Documents\Ranorex\RanorexStudio Projects\ASMTraining\ASMTraining\TestCases\TrainingUpdates.cs"
+				codeline="94"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:16.278"
+			timeRelativeToTestModuleStartTime="00:16.278"
+			timeWallClock="17:33:21"
+			time="00:16.278"
+			level="Success"
+			category="Validation">
+			<message>
+				Screenshot of item 'ASMTrainingRepository.ASMTraining.Dsf_TopHeaderLogo' does contain the specified image.
+			</message>
+			<metainfo
+				codefile="c:\Users\Fahad Shah\Documents\Ranorex\RanorexStudio Projects\ASMTraining\ASMTraining\TestCases\TrainingUpdates.cs"
+				codeline="95"
+				loglvl="Success"
+				id="1ad9790f9545486b88e206ab7c048825"
+				path="/mobileapp[@title='com.training.asm']/form[@title='DsfStatsListScreen']/container[@rid='content']//picture[@rid='top_header_logo']"
+				fullname="ASMTrainingRepository.ASMTraining.Dsf_TopHeaderLogo"
+				itemindex="3">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:16.286"
+			timeRelativeToTestModuleStartTime="00:16.286"
+			timeWallClock="17:33:21"
+			time="00:16.286"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'ASMTraining.DsfTraining_BackButton' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.training.asm']/form[@title='DsfStatsListScreen']/container[@rid='content']/androidelement/container[@containertype='Linear']/container[@containertype='Linear']/picture"
+				itempath="form[@title='DsfStatsListScreen']/container[@rid='content']/androidelement/container[@containertype='Linear']/container[@containertype='Linear']/picture"
+				fullname="ASMTrainingRepository.ASMTraining.DsfTraining_BackButton"
+				id="43bf6a810f9749c88897a656b7cae511"
+				timeout="60000"
+				codefile="c:\Users\Fahad Shah\Documents\Ranorex\RanorexStudio Projects\ASMTraining\ASMTraining\TestCases\TrainingUpdates.cs"
+				codeline="98"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:19.132"
+			timeRelativeToTestModuleStartTime="00:19.132"
+			timeWallClock="17:33:24"
+			time="00:19.132"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'ASMTraining.Content1.CapabilityChamp' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.training.asm']/form[@title='TrainingUpdateActivity']/container[@rid='content']//button[@rid='capability_camp']"
+				itempath=".//button[@rid='capability_camp']"
+				fullname="ASMTrainingRepository.ASMTraining.Content1.CapabilityChamp"
+				id="612cd05592d74b1084461525db9fab6c"
+				timeout="90000"
+				codefile="c:\Users\Fahad Shah\Documents\Ranorex\RanorexStudio Projects\ASMTraining\ASMTraining\TestCases\TrainingUpdates.cs"
+				codeline="102"
+				itemindex="5"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:22.227"
+			timeRelativeToTestModuleStartTime="00:22.227"
+			timeWallClock="17:33:27"
+			time="00:22.227"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating ContainsImage (Screenshot: 'Screenshot1' with region {X=0,Y=0,Width=373,Height=310}) on item 'ASMTraining.CapabilityCham_TopHeaderLogo'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.training.asm']/form[@title='ChampionActivity']/container[@rid='content']//picture[@rid='imageButton']"
+				itempath="form[@title='ChampionActivity']/container[@rid='content']//picture[@rid='imageButton']"
+				fullname="ASMTrainingRepository.ASMTraining.CapabilityCham_TopHeaderLogo"
+				id="72da400643d5461caf0b6ce1cfffea6d"
+				timeout="60000"
+				codefile="c:\Users\Fahad Shah\Documents\Ranorex\RanorexStudio Projects\ASMTraining\ASMTraining\TestCases\TrainingUpdates.cs"
+				codeline="106"
+				itemindex="6"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:24.042"
+			timeRelativeToTestModuleStartTime="00:24.042"
+			timeWallClock="17:33:29"
+			time="00:24.042"
+			level="Success"
+			category="Validation">
+			<message>
+				Screenshot of item 'ASMTrainingRepository.ASMTraining.CapabilityCham_TopHeaderLogo' does contain the specified image.
+			</message>
+			<metainfo
+				codefile="c:\Users\Fahad Shah\Documents\Ranorex\RanorexStudio Projects\ASMTraining\ASMTraining\TestCases\TrainingUpdates.cs"
+				codeline="107"
+				loglvl="Success"
+				id="72da400643d5461caf0b6ce1cfffea6d"
+				path="/mobileapp[@title='com.training.asm']/form[@title='ChampionActivity']/container[@rid='content']//picture[@rid='imageButton']"
+				fullname="ASMTrainingRepository.ASMTraining.CapabilityCham_TopHeaderLogo"
+				itemindex="6">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:24.062"
+			timeRelativeToTestModuleStartTime="00:24.062"
+			timeWallClock="17:33:29"
+			time="00:24.062"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'ASMTraining.NationalChampions' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.training.asm']/form[@title='ChampionActivity']/container[@rid='content']//button[@rid='champion_btn']"
+				itempath="form[@title='ChampionActivity']/container[@rid='content']//button[@rid='champion_btn']"
+				fullname="ASMTrainingRepository.ASMTraining.NationalChampions"
+				id="70173c26e4604599a652a0fa3692a8a4"
+				timeout="60000"
+				codefile="c:\Users\Fahad Shah\Documents\Ranorex\RanorexStudio Projects\ASMTraining\ASMTraining\TestCases\TrainingUpdates.cs"
+				codeline="110"
+				itemindex="7"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:27.356"
+			timeRelativeToTestModuleStartTime="00:27.356"
+			timeWallClock="17:33:32"
+			time="00:27.356"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating ContainsImage (Screenshot: 'Screenshot1' with region {X=0,Y=0,Width=373,Height=310}) on item 'ASMTraining.NationalChamp_HeaderLogo'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.training.asm']/form[@title='AsmTseSelectionActivity']/container[@rid='content']//picture[@rid='imageButton']"
+				itempath="form[@title='AsmTseSelectionActivity']/container[@rid='content']//picture[@rid='imageButton']"
+				fullname="ASMTrainingRepository.ASMTraining.NationalChamp_HeaderLogo"
+				id="86182da1b13249eb83d44597bd338b15"
+				timeout="60000"
+				codefile="c:\Users\Fahad Shah\Documents\Ranorex\RanorexStudio Projects\ASMTraining\ASMTraining\TestCases\TrainingUpdates.cs"
+				codeline="114"
+				itemindex="8"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:28.866"
+			timeRelativeToTestModuleStartTime="00:28.866"
+			timeWallClock="17:33:34"
+			time="00:28.866"
+			level="Success"
+			category="Validation">
+			<message>
+				Screenshot of item 'ASMTrainingRepository.ASMTraining.NationalChamp_HeaderLogo' does contain the specified image.
+			</message>
+			<metainfo
+				codefile="c:\Users\Fahad Shah\Documents\Ranorex\RanorexStudio Projects\ASMTraining\ASMTraining\TestCases\TrainingUpdates.cs"
+				codeline="115"
+				loglvl="Success"
+				id="86182da1b13249eb83d44597bd338b15"
+				path="/mobileapp[@title='com.training.asm']/form[@title='AsmTseSelectionActivity']/container[@rid='content']//picture[@rid='imageButton']"
+				fullname="ASMTrainingRepository.ASMTraining.NationalChamp_HeaderLogo"
+				itemindex="8">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:28.878"
+			timeRelativeToTestModuleStartTime="00:28.878"
+			timeWallClock="17:33:34"
+			time="00:28.878"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'ASMTraining.ASM' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.training.asm']/form[@title='AsmTseSelectionActivity']/container[@rid='content']//button[@rid='champion_btn']"
+				itempath="form[@title='AsmTseSelectionActivity']/container[@rid='content']//button[@rid='champion_btn']"
+				fullname="ASMTrainingRepository.ASMTraining.ASM"
+				id="24d5658f6e214fda875ff1b6030e030f"
+				timeout="60000"
+				codefile="c:\Users\Fahad Shah\Documents\Ranorex\RanorexStudio Projects\ASMTraining\ASMTraining\TestCases\TrainingUpdates.cs"
+				codeline="118"
+				itemindex="9"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:31.949"
+			timeRelativeToTestModuleStartTime="00:31.949"
+			timeWallClock="17:33:37"
+			time="00:31.949"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating ContainsImage (Screenshot: 'Screenshot1' with region {X=0,Y=0,Width=389,Height=74}) on item 'ASMTraining.Asm_TopHeaderLogo'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.training.asm']/form[@title='ChampionListActivity']/container[@rid='content']//picture[@rid='top_header_logo']"
+				itempath="form[@title='ChampionListActivity']/container[@rid='content']//picture[@rid='top_header_logo']"
+				fullname="ASMTrainingRepository.ASMTraining.Asm_TopHeaderLogo"
+				id="67e601d2899740c88f121e86c08f58e7"
+				timeout="60000"
+				codefile="c:\Users\Fahad Shah\Documents\Ranorex\RanorexStudio Projects\ASMTraining\ASMTraining\TestCases\TrainingUpdates.cs"
+				codeline="122"
+				itemindex="10"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:44.493"
+			timeRelativeToTestModuleStartTime="00:44.493"
+			timeWallClock="17:33:49"
+			time="00:44.493"
+			level="Success"
+			category="Validation">
+			<message>
+				Screenshot of item 'ASMTrainingRepository.ASMTraining.Asm_TopHeaderLogo' does contain the specified image.
+			</message>
+			<metainfo
+				codefile="c:\Users\Fahad Shah\Documents\Ranorex\RanorexStudio Projects\ASMTraining\ASMTraining\TestCases\TrainingUpdates.cs"
+				codeline="123"
+				loglvl="Success"
+				id="67e601d2899740c88f121e86c08f58e7"
+				path="/mobileapp[@title='com.training.asm']/form[@title='ChampionListActivity']/container[@rid='content']//picture[@rid='top_header_logo']"
+				fullname="ASMTrainingRepository.ASMTraining.Asm_TopHeaderLogo"
+				itemindex="10">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:44.505"
+			timeRelativeToTestModuleStartTime="00:44.505"
+			timeWallClock="17:33:49"
+			time="00:44.505"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'ASMTraining.Asm_BackButton' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.training.asm']/form[@title='ChampionListActivity']/container[@rid='content']/androidelement/container[@containertype='Linear']/container[@containertype='Linear']/picture"
+				itempath="form[@title='ChampionListActivity']/container[@rid='content']/androidelement/container[@containertype='Linear']/container[@containertype='Linear']/picture"
+				fullname="ASMTrainingRepository.ASMTraining.Asm_BackButton"
+				id="5aaaf44c22fc47f78f10df23ba5b1209"
+				timeout="60000"
+				codefile="c:\Users\Fahad Shah\Documents\Ranorex\RanorexStudio Projects\ASMTraining\ASMTraining\TestCases\TrainingUpdates.cs"
+				codeline="126"
+				itemindex="11"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:48.279"
+			timeRelativeToTestModuleStartTime="00:48.279"
+			timeWallClock="17:33:53"
+			time="00:48.279"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'ASMTraining.TSE' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.training.asm']/form[@title='AsmTseSelectionActivity']/container[@rid='content']//button[@rid='capability_trainer']"
+				itempath="form[@title='AsmTseSelectionActivity']/container[@rid='content']//button[@rid='capability_trainer']"
+				fullname="ASMTrainingRepository.ASMTraining.TSE"
+				id="41dfbd5901b3420a9907d4bb59755776"
+				timeout="60000"
+				codefile="c:\Users\Fahad Shah\Documents\Ranorex\RanorexStudio Projects\ASMTraining\ASMTraining\TestCases\TrainingUpdates.cs"
+				codeline="130"
+				itemindex="12"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:51.203"
+			timeRelativeToTestModuleStartTime="00:51.203"
+			timeWallClock="17:33:56"
+			time="00:51.203"
+			level="Info"
+			category="Validation"
+			errimg=".\Training_e887a9c4_46ca9432_trace.jpg"
+			errthumb=".\Training_e887a9c4_46ca9432_trace_thumb.jpg">
+			<message>
+				Validating AttributeEqual (Text='yourtext') on item 'ASMTraining.Asm_TopHeaderLogo'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.training.asm']/form[@title='ChampionListActivity']/container[@rid='content']//picture[@rid='top_header_logo']"
+				itempath="form[@title='ChampionListActivity']/container[@rid='content']//picture[@rid='top_header_logo']"
+				fullname="ASMTrainingRepository.ASMTraining.Asm_TopHeaderLogo"
+				id="67e601d2899740c88f121e86c08f58e7"
+				timeout="60000"
+				codefile="c:\Users\Fahad Shah\Documents\Ranorex\RanorexStudio Projects\ASMTraining\ASMTraining\TestCases\TrainingUpdates.cs"
+				codeline="134"
+				itemindex="13"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:57.520"
+			timeRelativeToTestModuleStartTime="00:57.520"
+			timeWallClock="17:34:02"
+			time="00:57.520"
+			level="Failure"
+			category="Validation"
+			errimg=".\Training_e887a9c4_bf7af9c3_trace.jpg"
+			errthumb=".\Training_e887a9c4_bf7af9c3_trace_thumb.jpg">
+			<message>
+				Attribute 'Text' of element for item 'ASMTrainingRepository.ASMTraining.Asm_TopHeaderLogo' does not match the specified value (actual='(null)', expected='yourtext').
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.training.asm']/form[@title='ChampionListActivity']/container[@rid='content']//picture[@rid='top_header_logo']"
+				itempath="form[@title='ChampionListActivity']/container[@rid='content']//picture[@rid='top_header_logo']"
+				fullname="ASMTrainingRepository.ASMTraining.Asm_TopHeaderLogo"
+				id="67e601d2899740c88f121e86c08f58e7"
+				timeout="60000"
+				codefile="c:\Users\Fahad Shah\Documents\Ranorex\RanorexStudio Projects\ASMTraining\ASMTraining\TestCases\TrainingUpdates.cs"
+				codeline="135"
+				loglvl="Failure"
+				itemindex="13">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:57.568"
+			timeRelativeToTestModuleStartTime="00:57.568"
+			timeWallClock="17:34:03"
+			time="00:57.568"
+			level="Error"
+			category="Module"
+			errimg=".\Training_e887a9c4_bf7af9c3_trace.jpg"
+			errthumb=".\Training_e887a9c4_bf7af9c3_trace_thumb.jpg">
+			<message>
+				Module execution was aborted because a validation step has failed. Attribute 'Text' of element for item 'ASMTrainingRepository.ASMTraining.Asm_TopHeaderLogo' does not match the specified value (actual='(null)', expected='yourtext').
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Validate.ThrowValidationException(RepoItemInfo itemInfo, ValidationException ex)&#13;&#10;   at Ranorex.Validate.ReportOrThrowIfFailed(String errorReason, String message, String matchName, Object actualValue, Object matchValue, IElement element, RepoItemInfo itemInfo, Options options, RanorexException innerException)&#13;&#10;   at Ranorex.Validate.AttributeCompareImpl(IElement element, String name, Object value, String message, Options options, RepoItemInfo itemInfo, Func`3 comparisonFunc, String reasonPattern)&#13;&#10;   at Ranorex.Validate.&lt;>c__DisplayClass39_0.&lt;Execute>b__0()&#13;&#10;   at Ranorex.Core.Testing.Services.NoMaintenanceModeService.HandleValidateAttribute[T](Func`1 action, IAttributeValidation attributeValidation)&#13;&#10;   at Ranorex.Validate.Execute(IElement element, IMatch match, String message, Options options, RepoItemInfo itemInfo, Func`3 comparisonFunc, String reasonPattern)&#13;&#10;   at Ranorex.Validate.AttributeEqualInternal(IElement element, String name, Object value, String message, Options options, RepoItemInfo itemInfo)&#13;&#10;   at Ranorex.Validate.AttributeEqualInternal(RepoItemInfo itemInfo, String name, Object value, String message, Options options)&#13;&#10;   at Ranorex.Validate.AttributeEqual(RepoItemInfo itemInfo, String name, Object value, String message, Options options)&#13;&#10;   at Ranorex.Validate.AttributeEqual(RepoItemInfo itemInfo, String name, Object value, String message, Boolean exceptionOnFail)&#13;&#10;   at Ranorex.Validate.AttributeEqual(RepoItemInfo itemInfo, String name, Object value)&#13;&#10;   at ASMTraining.TestCases.TrainingUpdates.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\Fahad Shah\Documents\Ranorex\RanorexStudio Projects\ASMTraining\ASMTraining\TestCases\TrainingUpdates.cs:line 135&#13;&#10;   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="c:\Users\Fahad Shah\Documents\Ranorex\RanorexStudio Projects\ASMTraining\ASMTraining\TestCases\TrainingUpdates.cs"
+				codeline="135"
+				type="repoitem"
+				path="/mobileapp[@title='com.training.asm']/form[@title='ChampionListActivity']/container[@rid='content']//picture[@rid='top_header_logo']"
+				itempath="form[@title='ChampionListActivity']/container[@rid='content']//picture[@rid='top_header_logo']"
+				fullname="ASMTrainingRepository.ASMTraining.Asm_TopHeaderLogo"
+				id="67e601d2899740c88f121e86c08f58e7"
+				timeout="60000"
+				loglvl="Error"
+				itemindex="13">
+			</metainfo>
+		</item>
+	</activity>
+</report>

@@ -1,0 +1,16 @@
+﻿<Properties>
+  <ActiveConfiguration value="Debug" />
+  <ActivePlatform value="x86" />
+  <SerializedValue name="ModuleBrowserState">
+    <ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <string>{C1CEC0B4-D231-4B92-A7B7-6C14928DA8BD}</string>
+      <string>6e12a760-6636-488c-b3e9-7d256aa61ae5</string>
+      <string>60513a05-eab7-41e7-8c10-e51c735edc2e</string>
+      <string>D:</string>
+      <string>D:Ranorex_PDF_Lib</string>
+      <string>dd6e703e-1829-4981-ba7b-66977de9b147</string>
+    </ArrayOfString>
+  </SerializedValue>
+  <ProjectBrowserState value="[Solution ASMTraining[ASMTraining[TestCases[Competency Training[]]UserCodeCollection[]]]]&#xD;&#xA;Solution ASMTraining\ASMTraining\UserCodeCollection\UserCode.cs&#xD;&#xA;Solution ASMTraining" />
+  <StartupProject value="{C1CEC0B4-D231-4B92-A7B7-6C14928DA8BD}" />
+</Properties>

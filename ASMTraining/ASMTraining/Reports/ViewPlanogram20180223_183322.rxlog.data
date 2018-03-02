@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="8e167ea1bc52900"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Fahad Shah"
+		rxversion="8.0.0.0"
+		host="HUAWEI LUA-U22 (Unknown)
+WLAN - 192.168.3.11"
+		osversion="-"
+		runtimeversion="-"
+		procarch="-"
+		oslanguage="-"
+		dtnlanguage="-"
+		screenresolution="-"
+		timestamp="2/23/2018 6:33:46 PM"
+		timestampiso="2018-02-23T13:33:46"
+		endtime="2/23/2018 6:34:04 PM"
+		timeoutfactor="1"
+		module="ViewPlanogram">
+		<detail>
+			ViewPlanogram
+		</detail>
+		<errormessage>
+			Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.609"
+			timeRelativeToTestModuleStartTime="00:04.625"
+			timeWallClock="18:33:51"
+			time="00:04.609"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'ASMTraining.Content.ViewPlanogram' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.training.asm']/form[@title='MainScreen']/container[@rid='content']//button[@rid='view_planogram']"
+				itempath=".//button[@rid='view_planogram']"
+				fullname="ASMTrainingRepository.ASMTraining.Content.ViewPlanogram"
+				id="270f430b1e36403abf54b8f6a8075b95"
+				timeout="90000"
+				codefile="c:\Users\Fahad Shah\Documents\Ranorex\RanorexStudio Projects\ASMTraining\ASMTraining\TestCases\ViewPlanogram.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.614"
+			timeRelativeToTestModuleStartTime="00:07.630"
+			timeWallClock="18:33:54"
+			time="00:07.614"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating ContainsImage (Screenshot: 'Screenshot1' with region {X=0,Y=0,Width=389,Height=74}) on item 'ASMTraining.Planogram_TopHeaderLogo'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.training.asm']/form[@title='PlanogramViewScreen']/container[@rid='content']//picture[@rid='top_header_logo']"
+				itempath="form[@title='PlanogramViewScreen']/container[@rid='content']//picture[@rid='top_header_logo']"
+				fullname="ASMTrainingRepository.ASMTraining.Planogram_TopHeaderLogo"
+				id="d09763626cd54f188a5b8874a3785766"
+				timeout="60000"
+				codefile="c:\Users\Fahad Shah\Documents\Ranorex\RanorexStudio Projects\ASMTraining\ASMTraining\TestCases\ViewPlanogram.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.320"
+			timeRelativeToTestModuleStartTime="00:10.336"
+			timeWallClock="18:33:57"
+			time="00:10.320"
+			level="Success"
+			category="Validation"
+			errimg=".\ViewPlan_433af9fe_cc39c3b2_trace.jpg"
+			errthumb=".\ViewPlan_433af9fe_cc39c3b2_trace_thumb.jpg">
+			<message>
+				Screenshot of item 'ASMTrainingRepository.ASMTraining.Planogram_TopHeaderLogo' does contain the specified image.
+			</message>
+			<metainfo
+				codefile="c:\Users\Fahad Shah\Documents\Ranorex\RanorexStudio Projects\ASMTraining\ASMTraining\TestCases\ViewPlanogram.cs"
+				codeline="87"
+				loglvl="Success"
+				id="d09763626cd54f188a5b8874a3785766"
+				path="/mobileapp[@title='com.training.asm']/form[@title='PlanogramViewScreen']/container[@rid='content']//picture[@rid='top_header_logo']"
+				fullname="ASMTrainingRepository.ASMTraining.Planogram_TopHeaderLogo"
+				itemindex="1">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.332"
+			timeRelativeToTestModuleStartTime="00:10.348"
+			timeWallClock="18:33:57"
+			time="00:10.332"
+			level="Info"
+			category="Touch"
+			errimg=".\ViewPlan_433af9fe_3813650c_trace.jpg"
+			errthumb=".\ViewPlan_433af9fe_3813650c_trace_thumb.jpg">
+			<message>
+				Touch item 'ASMTraining.Planogram_DropDown' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.training.asm']/form[@title='PlanogramViewScreen']/container[@rid='content']//combobox[@rid='spinner']"
+				itempath="form[@title='PlanogramViewScreen']/container[@rid='content']//combobox[@rid='spinner']"
+				fullname="ASMTrainingRepository.ASMTraining.Planogram_DropDown"
+				id="1b5fceacd9074c58a540ef09b0cf82e8"
+				timeout="60000"
+				codefile="c:\Users\Fahad Shah\Documents\Ranorex\RanorexStudio Projects\ASMTraining\ASMTraining\TestCases\ViewPlanogram.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:15.602"
+			timeRelativeToTestModuleStartTime="00:15.618"
+			timeWallClock="18:34:02"
+			time="00:15.602"
+			level="Error"
+			category="Module"
+			errimg=".\ViewPlan_433af9fe_cc39c3b2_trace.jpg"
+			errthumb=".\ViewPlan_433af9fe_cc39c3b2_trace_thumb.jpg">
+			<message>
+				Index was out of range. Must be non-negative and less than the size of the collection.<br/>Parameter name: index
+			</message>
+			<metainfo
+				stacktrace="   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at ASMTraining.UserCodeCollection.UserCode.selectPlanogram() in c:\Users\Fahad Shah\Documents\Ranorex\RanorexStudio Projects\ASMTraining\ASMTraining\UserCodeCollection\UserCode.cs:line 75
+   at ASMTraining.TestCases.ViewPlanogram.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\Fahad Shah\Documents\Ranorex\RanorexStudio Projects\ASMTraining\ASMTraining\TestCases\ViewPlanogram.cs:line 94
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="c:\Users\Fahad Shah\Documents\Ranorex\RanorexStudio Projects\ASMTraining\ASMTraining\UserCodeCollection\UserCode.cs"
+				codeline="75"
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

@@ -1,0 +1,290 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="1d71a5756cb56dfc"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Fahad Shah"
+		rxversion="8.0.0.0"
+		host="HUAWEI LUA-U22 (Unknown)
+WLAN - 192.168.3.11"
+		osversion="-"
+		runtimeversion="-"
+		procarch="-"
+		oslanguage="-"
+		dtnlanguage="-"
+		screenresolution="-"
+		timestamp="2/27/2018 1:14:53 PM"
+		timestampiso="2018-02-27T08:14:53"
+		endtime="2/27/2018 1:16:18 PM"
+		timeoutfactor="1"
+		module="CCSD_EBook">
+		<detail>
+			CCSD_EBook
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.178"
+			timeRelativeToTestModuleStartTime="00:04.178"
+			timeWallClock="13:14:57"
+			time="00:04.178"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (Text='CYCLE ACTIVITES') on item 'ASMTraining.Validate_CycleActivitiesScreen'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.training.asm']/form[@title='CycleAcitvites']/container[@rid='content']//container[@containertype='Linear']/container[2]/text[@rid='asm_name1']"
+				itempath="form[@title='CycleAcitvites']/container[@rid='content']//container[@containertype='Linear']/container[2]/text[@rid='asm_name1']"
+				fullname="ASMTrainingRepository.ASMTraining.Validate_CycleActivitiesScreen"
+				id="d018c2b2d32e472fa18fa154a625b3e2"
+				timeout="60000"
+				codefile="c:\Users\Fahad Shah\Documents\Ranorex\RanorexStudio Projects\ASMTraining\ASMTraining\TestCases\CCSD_EBook.cs"
+				codeline="82"
+				itemindex="19"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.326"
+			timeRelativeToTestModuleStartTime="00:06.326"
+			timeWallClock="13:14:59"
+			time="00:06.326"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Text' of element for item 'ASMTrainingRepository.ASMTraining.Validate_CycleActivitiesScreen' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.training.asm']/form[@title='CycleAcitvites']/container[@rid='content']//container[@containertype='Linear']/container[2]/text[@rid='asm_name1']"
+				itempath="form[@title='CycleAcitvites']/container[@rid='content']//container[@containertype='Linear']/container[2]/text[@rid='asm_name1']"
+				fullname="ASMTrainingRepository.ASMTraining.Validate_CycleActivitiesScreen"
+				id="d018c2b2d32e472fa18fa154a625b3e2"
+				timeout="60000"
+				codefile="c:\Users\Fahad Shah\Documents\Ranorex\RanorexStudio Projects\ASMTraining\ASMTraining\TestCases\CCSD_EBook.cs"
+				codeline="83"
+				loglvl="Success"
+				itemindex="19">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:58.201"
+			timeRelativeToTestModuleStartTime="00:58.201"
+			timeWallClock="13:15:51"
+			time="00:58.201"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'ASMTraining.CycleActivities_BackButton' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.training.asm']/form[@title='CycleAcitvites']/container[@rid='content']//container[@containertype='Linear']/container[2]/picture"
+				itempath="form[@title='CycleAcitvites']/container[@rid='content']//container[@containertype='Linear']/container[2]/picture"
+				fullname="ASMTrainingRepository.ASMTraining.CycleActivities_BackButton"
+				id="525d7dcf301940fcaa4dbab3baf80407"
+				timeout="60000"
+				codefile="c:\Users\Fahad Shah\Documents\Ranorex\RanorexStudio Projects\ASMTraining\ASMTraining\TestCases\CCSD_EBook.cs"
+				codeline="89"
+				itemindex="21"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:07.670"
+			timeRelativeToTestModuleStartTime="01:07.670"
+			timeWallClock="13:16:00"
+			time="01:07.670"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating ContainsImage (Screenshot: 'Screenshot1' with region {X=0,Y=0,Width=373,Height=310}) on item 'ASMTraining.MerchandiserEBook_HeaderLogo'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.training.asm']/form[@title='EBookDashBoardActivity']/container[@rid='content']//picture[@rid='imageButton']"
+				itempath="form[@title='EBookDashBoardActivity']/container[@rid='content']//picture[@rid='imageButton']"
+				fullname="ASMTrainingRepository.ASMTraining.MerchandiserEBook_HeaderLogo"
+				id="e74ee83d1df343f98214896b2477fcdc"
+				timeout="60000"
+				codefile="c:\Users\Fahad Shah\Documents\Ranorex\RanorexStudio Projects\ASMTraining\ASMTraining\TestCases\CCSD_EBook.cs"
+				codeline="93"
+				itemindex="22"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:09.279"
+			timeRelativeToTestModuleStartTime="01:09.279"
+			timeWallClock="13:16:02"
+			time="01:09.279"
+			level="Success"
+			category="Validation">
+			<message>
+				Screenshot of item 'ASMTrainingRepository.ASMTraining.MerchandiserEBook_HeaderLogo' does contain the specified image.
+			</message>
+			<metainfo
+				codefile="c:\Users\Fahad Shah\Documents\Ranorex\RanorexStudio Projects\ASMTraining\ASMTraining\TestCases\CCSD_EBook.cs"
+				codeline="94"
+				loglvl="Success"
+				id="e74ee83d1df343f98214896b2477fcdc"
+				path="/mobileapp[@title='com.training.asm']/form[@title='EBookDashBoardActivity']/container[@rid='content']//picture[@rid='imageButton']"
+				fullname="ASMTrainingRepository.ASMTraining.MerchandiserEBook_HeaderLogo"
+				itemindex="22">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:09.295"
+			timeRelativeToTestModuleStartTime="01:09.295"
+			timeWallClock="13:16:02"
+			time="01:09.295"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'ASMTraining.Content2.TVC' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.training.asm']/form[@title='EBookDashBoardActivity']/container[@rid='content']//button[@rid='video_message']"
+				itempath=".//button[@rid='video_message']"
+				fullname="ASMTrainingRepository.ASMTraining.Content2.TVC"
+				id="7ef181780b9c43dba24601a73eb2ab6c"
+				timeout="90000"
+				codefile="c:\Users\Fahad Shah\Documents\Ranorex\RanorexStudio Projects\ASMTraining\ASMTraining\TestCases\CCSD_EBook.cs"
+				codeline="97"
+				itemindex="23"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:11.154"
+			timeRelativeToTestModuleStartTime="01:11.154"
+			timeWallClock="13:16:04"
+			time="01:11.154"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating ContainsImage (Screenshot: 'Screenshot1' with region {X=0,Y=0,Width=389,Height=74}) on item 'ASMTraining.TVC_TopHeaderLogo'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.training.asm']/form[@title='TvcListScreen']/container[@rid='content']//picture[@rid='top_header_logo']"
+				itempath="form[@title='TvcListScreen']/container[@rid='content']//picture[@rid='top_header_logo']"
+				fullname="ASMTrainingRepository.ASMTraining.TVC_TopHeaderLogo"
+				id="f8100345ae984856a9aaa13f619412f0"
+				timeout="60000"
+				codefile="c:\Users\Fahad Shah\Documents\Ranorex\RanorexStudio Projects\ASMTraining\ASMTraining\TestCases\CCSD_EBook.cs"
+				codeline="101"
+				itemindex="24"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:12.467"
+			timeRelativeToTestModuleStartTime="01:12.467"
+			timeWallClock="13:16:05"
+			time="01:12.467"
+			level="Success"
+			category="Validation">
+			<message>
+				Screenshot of item 'ASMTrainingRepository.ASMTraining.TVC_TopHeaderLogo' does contain the specified image.
+			</message>
+			<metainfo
+				codefile="c:\Users\Fahad Shah\Documents\Ranorex\RanorexStudio Projects\ASMTraining\ASMTraining\TestCases\CCSD_EBook.cs"
+				codeline="102"
+				loglvl="Success"
+				id="f8100345ae984856a9aaa13f619412f0"
+				path="/mobileapp[@title='com.training.asm']/form[@title='TvcListScreen']/container[@rid='content']//picture[@rid='top_header_logo']"
+				fullname="ASMTrainingRepository.ASMTraining.TVC_TopHeaderLogo"
+				itemindex="24">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:19.638"
+			timeRelativeToTestModuleStartTime="01:19.638"
+			timeWallClock="13:16:12"
+			time="01:19.638"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key '{BACK}' press on 'ASMTraining'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.training.asm']"
+				itempath="/mobileapp[@title='com.training.asm']"
+				fullname="ASMTrainingRepository.ASMTraining.Self"
+				id="8a90c606bf2e4f2aa07de9da1202e098"
+				timeout="30000"
+				codefile="c:\Users\Fahad Shah\Documents\Ranorex\RanorexStudio Projects\ASMTraining\ASMTraining\TestCases\CCSD_EBook.cs"
+				codeline="108"
+				itemindex="26"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:20.702"
+			timeRelativeToTestModuleStartTime="01:20.702"
+			timeWallClock="13:16:13"
+			time="01:20.702"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'ASMTraining.Slider' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.training.asm']/form[@title='TvcListScreen']/container[@rid='content']//picture[@rid='slider']"
+				itempath="form[@title='TvcListScreen']/container[@rid='content']//picture[@rid='slider']"
+				fullname="ASMTrainingRepository.ASMTraining.Slider"
+				id="786accff2bd14d2e89c6c514ef7e128f"
+				timeout="60000"
+				codefile="c:\Users\Fahad Shah\Documents\Ranorex\RanorexStudio Projects\ASMTraining\ASMTraining\TestCases\CCSD_EBook.cs"
+				codeline="112"
+				itemindex="27"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:23.233"
+			timeRelativeToTestModuleStartTime="01:23.233"
+			timeWallClock="13:16:16"
+			time="01:23.233"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'ASMTraining.Logout' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.training.asm']/form[@title='TvcListScreen']/container[@rid='content']/?/?/androidelement[@rid='RecyclerView']/container[9]"
+				itempath="form[@title='TvcListScreen']/container[@rid='content']/?/?/androidelement[@rid='RecyclerView']/container[9]"
+				fullname="ASMTrainingRepository.ASMTraining.Logout"
+				id="5bb1e408cd3b4555aa263565f6947c10"
+				timeout="60000"
+				codefile="c:\Users\Fahad Shah\Documents\Ranorex\RanorexStudio Projects\ASMTraining\ASMTraining\TestCases\CCSD_EBook.cs"
+				codeline="116"
+				itemindex="28"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

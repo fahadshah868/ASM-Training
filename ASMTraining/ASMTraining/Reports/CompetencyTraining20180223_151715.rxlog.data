@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="1a8fd3beccd0404"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Fahad Shah"
+		rxversion="8.0.0.0"
+		host="LIVINGROOM"
+		osversion="Windows 8.1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1366x768"
+		timestamp="2/23/2018 3:17:30 PM"
+		timestampiso="2018-02-23T10:17:30"
+		endtime="2/23/2018 3:17:41 PM"
+		timeoutfactor="1"
+		module="CompetencyTraining">
+		<detail>
+			CompetencyTraining
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.920"
+			timeRelativeToTestModuleStartTime="00:05.924"
+			timeWallClock="15:17:36"
+			time="00:05.920"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'ASMTraining.SaveTrainingButton' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.training.asm']/form[@title~'^SalesShopsOptionListScree']/container[@rid='content']//list[@rid='list']/?/?/button[@rid='imageButton']"
+				itempath="form[@title~'^SalesShopsOptionListScree']/container[@rid='content']//list[@rid='list']/?/?/button[@rid='imageButton']"
+				fullname="ASMTrainingRepository.ASMTraining.SaveTrainingButton"
+				id="841f66d20790413289d5d1c5495f81a5"
+				timeout="60000"
+				codefile="c:\Users\Fahad Shah\Documents\Ranorex\RanorexStudio Projects\ASMTraining\ASMTraining\TestCases\CompetencyTraining.cs"
+				codeline="82"
+				itemindex="17"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="72e21726145cd40"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Fahad Shah"
+		rxversion="8.0.0.0"
+		host="HUAWEI LUA-U22 (Unknown)
+WLAN - 192.168.3.11"
+		osversion="-"
+		runtimeversion="-"
+		procarch="-"
+		oslanguage="-"
+		dtnlanguage="-"
+		screenresolution="-"
+		timestamp="2/27/2018 12:32:34 PM"
+		timestampiso="2018-02-27T07:32:34"
+		endtime="2/27/2018 12:32:40 PM"
+		timeoutfactor="1"
+		module="VisitRegionalRanking">
+		<detail>
+			VisitRegionalRanking
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.343"
+			timeRelativeToTestModuleStartTime="00:04.359"
+			timeWallClock="12:32:38"
+			time="00:04.343"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (Text='ASM Ranking') on item 'ASMTraining.Validate_AsmRanking'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.training.asm']/form[@title='ASMListActivity']/container[@rid='content']//text[@rid='asm_name1']"
+				itempath="form[@title='ASMListActivity']/container[@rid='content']//text[@rid='asm_name1']"
+				fullname="ASMTrainingRepository.ASMTraining.Validate_AsmRanking"
+				id="97b8253ad1a34e8892b72592bc77d153"
+				timeout="60000"
+				codefile="c:\Users\Fahad Shah\Documents\Ranorex\RanorexStudio Projects\ASMTraining\ASMTraining\TestCases\VisitRegionalRanking.cs"
+				codeline="82"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.812"
+			timeRelativeToTestModuleStartTime="00:05.828"
+			timeWallClock="12:32:40"
+			time="00:05.812"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Text' of element for item 'ASMTrainingRepository.ASMTraining.Validate_AsmRanking' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.training.asm']/form[@title='ASMListActivity']/container[@rid='content']//text[@rid='asm_name1']"
+				itempath="form[@title='ASMListActivity']/container[@rid='content']//text[@rid='asm_name1']"
+				fullname="ASMTrainingRepository.ASMTraining.Validate_AsmRanking"
+				id="97b8253ad1a34e8892b72592bc77d153"
+				timeout="60000"
+				codefile="c:\Users\Fahad Shah\Documents\Ranorex\RanorexStudio Projects\ASMTraining\ASMTraining\TestCases\VisitRegionalRanking.cs"
+				codeline="83"
+				loglvl="Success"
+				itemindex="2">
+			</metainfo>
+		</item>
+	</activity>
+</report>

@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="1507028e4a216cc"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Fahad Shah"
+		rxversion="8.0.0.0"
+		host="HUAWEI LUA-U22 (Unknown)
+WLAN - 192.168.3.11"
+		osversion="-"
+		runtimeversion="-"
+		procarch="-"
+		oslanguage="-"
+		dtnlanguage="-"
+		screenresolution="-"
+		timestamp="2/24/2018 12:02:27 PM"
+		timestampiso="2018-02-24T07:02:27"
+		endtime="2/24/2018 12:02:36 PM"
+		timeoutfactor="1"
+		module="CCSD_EBook">
+		<detail>
+			CCSD_EBook
+		</detail>
+		<errormessage>
+			Attribute 'Text' of element for item 'ASMTrainingRepository.ASMTraining.MerchandiserEBook_HeaderLogo' does not match the specified value (actual='(null)', expected='yourtext').
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.953"
+			timeRelativeToTestModuleStartTime="00:03.953"
+			timeWallClock="12:02:31"
+			time="00:03.953"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'ASMTraining.Content.MerchandizerEBook' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.training.asm']/form[@title='MainScreen']/container[@rid='content']//button[@rid='merchandizer_e_book']"
+				itempath=".//button[@rid='merchandizer_e_book']"
+				fullname="ASMTrainingRepository.ASMTraining.Content.MerchandizerEBook"
+				id="027e7032fb2942e0ad5f8791d8c675ff"
+				timeout="90000"
+				codefile="c:\Users\Fahad Shah\Documents\Ranorex\RanorexStudio Projects\ASMTraining\ASMTraining\TestCases\CCSD_EBook.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.750"
+			timeRelativeToTestModuleStartTime="00:06.750"
+			timeWallClock="12:02:34"
+			time="00:06.750"
+			level="Info"
+			category="Validation"
+			errimg=".\CCSD_EBo_eda24cdb_a4985554_trace.jpg"
+			errthumb=".\CCSD_EBo_eda24cdb_a4985554_trace_thumb.jpg">
+			<message>
+				Validating AttributeEqual (Text='yourtext') on item 'ASMTraining.MerchandiserEBook_HeaderLogo'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.training.asm']/form[@title='EBookDashBoardActivity']/container[@rid='content']//picture[@rid='imageButton']"
+				itempath="form[@title='EBookDashBoardActivity']/container[@rid='content']//picture[@rid='imageButton']"
+				fullname="ASMTrainingRepository.ASMTraining.MerchandiserEBook_HeaderLogo"
+				id="e74ee83d1df343f98214896b2477fcdc"
+				timeout="60000"
+				codefile="c:\Users\Fahad Shah\Documents\Ranorex\RanorexStudio Projects\ASMTraining\ASMTraining\TestCases\CCSD_EBook.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.128"
+			timeRelativeToTestModuleStartTime="00:08.128"
+			timeWallClock="12:02:35"
+			time="00:08.128"
+			level="Failure"
+			category="Validation"
+			errimg=".\CCSD_EBo_eda24cdb_49209fe7_trace.jpg"
+			errthumb=".\CCSD_EBo_eda24cdb_49209fe7_trace_thumb.jpg">
+			<message>
+				Attribute 'Text' of element for item 'ASMTrainingRepository.ASMTraining.MerchandiserEBook_HeaderLogo' does not match the specified value (actual='(null)', expected='yourtext').
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.training.asm']/form[@title='EBookDashBoardActivity']/container[@rid='content']//picture[@rid='imageButton']"
+				itempath="form[@title='EBookDashBoardActivity']/container[@rid='content']//picture[@rid='imageButton']"
+				fullname="ASMTrainingRepository.ASMTraining.MerchandiserEBook_HeaderLogo"
+				id="e74ee83d1df343f98214896b2477fcdc"
+				timeout="60000"
+				codefile="c:\Users\Fahad Shah\Documents\Ranorex\RanorexStudio Projects\ASMTraining\ASMTraining\TestCases\CCSD_EBook.cs"
+				codeline="87"
+				loglvl="Failure"
+				itemindex="1">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.175"
+			timeRelativeToTestModuleStartTime="00:08.175"
+			timeWallClock="12:02:35"
+			time="00:08.175"
+			level="Error"
+			category="Module"
+			errimg=".\CCSD_EBo_eda24cdb_49209fe7_trace.jpg"
+			errthumb=".\CCSD_EBo_eda24cdb_49209fe7_trace_thumb.jpg">
+			<message>
+				Module execution was aborted because a validation step has failed. Attribute 'Text' of element for item 'ASMTrainingRepository.ASMTraining.MerchandiserEBook_HeaderLogo' does not match the specified value (actual='(null)', expected='yourtext').
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Validate.ThrowValidationException(RepoItemInfo itemInfo, ValidationException ex)&#13;&#10;   at Ranorex.Validate.ReportOrThrowIfFailed(String errorReason, String message, String matchName, Object actualValue, Object matchValue, IElement element, RepoItemInfo itemInfo, Options options, RanorexException innerException)&#13;&#10;   at Ranorex.Validate.AttributeCompareImpl(IElement element, String name, Object value, String message, Options options, RepoItemInfo itemInfo, Func`3 comparisonFunc, String reasonPattern)&#13;&#10;   at Ranorex.Validate.&lt;>c__DisplayClass39_0.&lt;Execute>b__0()&#13;&#10;   at Ranorex.Core.Testing.Services.NoMaintenanceModeService.HandleValidateAttribute[T](Func`1 action, IAttributeValidation attributeValidation)&#13;&#10;   at Ranorex.Validate.Execute(IElement element, IMatch match, String message, Options options, RepoItemInfo itemInfo, Func`3 comparisonFunc, String reasonPattern)&#13;&#10;   at Ranorex.Validate.AttributeEqualInternal(IElement element, String name, Object value, String message, Options options, RepoItemInfo itemInfo)&#13;&#10;   at Ranorex.Validate.AttributeEqualInternal(RepoItemInfo itemInfo, String name, Object value, String message, Options options)&#13;&#10;   at Ranorex.Validate.AttributeEqual(RepoItemInfo itemInfo, String name, Object value, String message, Options options)&#13;&#10;   at Ranorex.Validate.AttributeEqual(RepoItemInfo itemInfo, String name, Object value, String message, Boolean exceptionOnFail)&#13;&#10;   at Ranorex.Validate.AttributeEqual(RepoItemInfo itemInfo, String name, Object value)&#13;&#10;   at ASMTraining.TestCases.CCSD_EBook.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\Fahad Shah\Documents\Ranorex\RanorexStudio Projects\ASMTraining\ASMTraining\TestCases\CCSD_EBook.cs:line 87&#13;&#10;   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="c:\Users\Fahad Shah\Documents\Ranorex\RanorexStudio Projects\ASMTraining\ASMTraining\TestCases\CCSD_EBook.cs"
+				codeline="87"
+				type="repoitem"
+				path="/mobileapp[@title='com.training.asm']/form[@title='EBookDashBoardActivity']/container[@rid='content']//picture[@rid='imageButton']"
+				itempath="form[@title='EBookDashBoardActivity']/container[@rid='content']//picture[@rid='imageButton']"
+				fullname="ASMTrainingRepository.ASMTraining.MerchandiserEBook_HeaderLogo"
+				id="e74ee83d1df343f98214896b2477fcdc"
+				timeout="60000"
+				loglvl="Error"
+				itemindex="1">
+			</metainfo>
+		</item>
+	</activity>
+</report>

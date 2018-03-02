@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="358bbca2f4dd1c54"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Fahad Shah"
+		rxversion="8.0.0.0"
+		host="HUAWEI LUA-U22 (Unknown)
+WLAN - 192.168.3.11"
+		osversion="-"
+		runtimeversion="-"
+		procarch="-"
+		oslanguage="-"
+		dtnlanguage="-"
+		screenresolution="-"
+		timestamp="2/24/2018 12:45:25 PM"
+		timestampiso="2018-02-24T07:45:25"
+		endtime="2/24/2018 12:45:33 PM"
+		timeoutfactor="1"
+		module="CCSD_EBook">
+		<detail>
+			CCSD_EBook
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.413"
+			timeRelativeToTestModuleStartTime="00:04.416"
+			timeWallClock="12:45:29"
+			time="00:04.413"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'ASMTraining.Slider' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.training.asm']/form/container//picture"
+				itempath="form/container//picture"
+				fullname="ASMTrainingRepository.ASMTraining.Slider"
+				id="e6a4637b42054c68930e6bb3dbda9329"
+				timeout="60000"
+				codefile="c:\Users\Fahad Shah\Documents\Ranorex\RanorexStudio Projects\ASMTraining\ASMTraining\TestCases\CCSD_EBook.cs"
+				codeline="82"
+				itemindex="23"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

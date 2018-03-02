@@ -1,0 +1,247 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="1efb18e082ff5e2a"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Fahad Shah"
+		rxversion="8.0.0.0"
+		host="HUAWEI LUA-U22 (Unknown)
+WLAN - 192.168.3.11"
+		osversion="-"
+		runtimeversion="-"
+		procarch="-"
+		oslanguage="-"
+		dtnlanguage="-"
+		screenresolution="-"
+		timestamp="2/23/2018 4:37:19 PM"
+		timestampiso="2018-02-23T11:37:19"
+		endtime="2/23/2018 4:37:40 PM"
+		timeoutfactor="1"
+		module="CompetencyTraining">
+		<detail>
+			CompetencyTraining
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.984"
+			timeRelativeToTestModuleStartTime="00:04.000"
+			timeWallClock="16:37:23"
+			time="00:03.984"
+			level="Info"
+			category="Touch gestures">
+			<message>
+				Swipe gesture with direction 'Up (270&#176;)' starting from 'Center' with distance '.5' with swipe duration'500ms' and step count '0' on item 'ASMTraining.CompetencyTraining_ListView'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.training.asm']/form/container//list"
+				itempath="form/container//list"
+				fullname="ASMTrainingRepository.ASMTraining.CompetencyTraining_ListView"
+				id="2e33c074906b47c09ea5cf734e8975b4"
+				timeout="60000"
+				codefile="c:\Users\Fahad Shah\Documents\Ranorex\RanorexStudio Projects\ASMTraining\ASMTraining\TestCases\CompetencyTraining.cs"
+				codeline="82"
+				itemindex="69"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.109"
+			timeRelativeToTestModuleStartTime="00:06.125"
+			timeWallClock="16:37:25"
+			time="00:06.109"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'ASMTraining.SaveTrainingButton' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.training.asm']/form[@title~'^SalesShopsOptionListScree']/container[@rid='content']//list[@rid='list']/?/?/button[@rid='imageButton']"
+				itempath="form[@title~'^SalesShopsOptionListScree']/container[@rid='content']//list[@rid='list']/?/?/button[@rid='imageButton']"
+				fullname="ASMTrainingRepository.ASMTraining.SaveTrainingButton"
+				id="841f66d20790413289d5d1c5495f81a5"
+				timeout="60000"
+				codefile="c:\Users\Fahad Shah\Documents\Ranorex\RanorexStudio Projects\ASMTraining\ASMTraining\TestCases\CompetencyTraining.cs"
+				codeline="86"
+				itemindex="70"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.297"
+			timeRelativeToTestModuleStartTime="00:08.312"
+			timeWallClock="16:37:28"
+			time="00:08.297"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating ContainsImage (Screenshot: 'Screenshot1' with region {X=0,Y=0,Width=389,Height=74}) on item 'ASMTraining.AfterSavingTraining_HeaderLogo'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.training.asm']/form[@title='DSFRatingActivity']/container[@rid='content']//picture[@rid='top_header_logo']"
+				itempath="form[@title='DSFRatingActivity']/container[@rid='content']//picture[@rid='top_header_logo']"
+				fullname="ASMTrainingRepository.ASMTraining.AfterSavingTraining_HeaderLogo"
+				id="004054954b3744f09e26c6d446756123"
+				timeout="60000"
+				codefile="c:\Users\Fahad Shah\Documents\Ranorex\RanorexStudio Projects\ASMTraining\ASMTraining\TestCases\CompetencyTraining.cs"
+				codeline="90"
+				itemindex="71"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.922"
+			timeRelativeToTestModuleStartTime="00:09.937"
+			timeWallClock="16:37:29"
+			time="00:09.922"
+			level="Success"
+			category="Validation">
+			<message>
+				Screenshot of item 'ASMTrainingRepository.ASMTraining.AfterSavingTraining_HeaderLogo' does contain the specified image.
+			</message>
+			<metainfo
+				codefile="c:\Users\Fahad Shah\Documents\Ranorex\RanorexStudio Projects\ASMTraining\ASMTraining\TestCases\CompetencyTraining.cs"
+				codeline="91"
+				loglvl="Success"
+				id="004054954b3744f09e26c6d446756123"
+				path="/mobileapp[@title='com.training.asm']/form[@title='DSFRatingActivity']/container[@rid='content']//picture[@rid='top_header_logo']"
+				fullname="ASMTrainingRepository.ASMTraining.AfterSavingTraining_HeaderLogo"
+				itemindex="71">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.922"
+			timeRelativeToTestModuleStartTime="00:09.937"
+			timeWallClock="16:37:29"
+			time="00:09.922"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'ASMTraining.AfterSavingTraining_BackButton' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.training.asm']/form[@title='DSFRatingActivity']/container[@rid='content']/container/container[@containertype='Linear']/container[2]/picture"
+				itempath="form[@title='DSFRatingActivity']/container[@rid='content']/container/container[@containertype='Linear']/container[2]/picture"
+				fullname="ASMTrainingRepository.ASMTraining.AfterSavingTraining_BackButton"
+				id="21f83503201f49c7b06d3d328fce0a99"
+				timeout="60000"
+				codefile="c:\Users\Fahad Shah\Documents\Ranorex\RanorexStudio Projects\ASMTraining\ASMTraining\TestCases\CompetencyTraining.cs"
+				codeline="94"
+				itemindex="72"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.156"
+			timeRelativeToTestModuleStartTime="00:11.172"
+			timeWallClock="16:37:30"
+			time="00:11.156"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'ASMTraining.ShopCategory_BackButton' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.training.asm']/form[@title='SalesDsfDetailListScreen']/container[@rid='content']//picture[@rid='backArrow']"
+				itempath="form[@title='SalesDsfDetailListScreen']/container[@rid='content']//picture[@rid='backArrow']"
+				fullname="ASMTrainingRepository.ASMTraining.ShopCategory_BackButton"
+				id="95454fc5fc2044b7b2d33942cf08a234"
+				timeout="60000"
+				codefile="c:\Users\Fahad Shah\Documents\Ranorex\RanorexStudio Projects\ASMTraining\ASMTraining\TestCases\CompetencyTraining.cs"
+				codeline="98"
+				itemindex="73"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:13.078"
+			timeRelativeToTestModuleStartTime="00:13.094"
+			timeWallClock="16:37:32"
+			time="00:13.078"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'ASMTraining.ShopCategory_BackButton1' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.training.asm']/form[@title~'^ProjectWiseScoreListScree']/container[@rid='content']/androidelement/container[@containertype='Linear']/container[@containertype='Linear']/picture"
+				itempath="form[@title~'^ProjectWiseScoreListScree']/container[@rid='content']/androidelement/container[@containertype='Linear']/container[@containertype='Linear']/picture"
+				fullname="ASMTrainingRepository.ASMTraining.ShopCategory_BackButton1"
+				id="910deda9d6c24ebc848fe0032f4b8c28"
+				timeout="60000"
+				codefile="c:\Users\Fahad Shah\Documents\Ranorex\RanorexStudio Projects\ASMTraining\ASMTraining\TestCases\CompetencyTraining.cs"
+				codeline="102"
+				itemindex="74"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:16.094"
+			timeRelativeToTestModuleStartTime="00:16.110"
+			timeWallClock="16:37:35"
+			time="00:16.094"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'ASMTraining.ShopCategory_BackButton2' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.training.asm']/form[@title='SalesDsfListScreen']/container[@rid='content']//picture[@rid='backArrow']"
+				itempath="form[@title='SalesDsfListScreen']/container[@rid='content']//picture[@rid='backArrow']"
+				fullname="ASMTrainingRepository.ASMTraining.ShopCategory_BackButton2"
+				id="94469ce5081343ff92c5ac429c36944a"
+				timeout="60000"
+				codefile="c:\Users\Fahad Shah\Documents\Ranorex\RanorexStudio Projects\ASMTraining\ASMTraining\TestCases\CompetencyTraining.cs"
+				codeline="106"
+				itemindex="75"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:18.688"
+			timeRelativeToTestModuleStartTime="00:18.704"
+			timeWallClock="16:37:38"
+			time="00:18.688"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'ASMTraining.AfterVisitShop_BackButton' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.training.asm']/form[@title='SalesCategoryListScreen']/container[@rid='content']/androidelement/container[@containertype='Linear']/container[@containertype='Linear']/picture"
+				itempath="form[@title='SalesCategoryListScreen']/container[@rid='content']/androidelement/container[@containertype='Linear']/container[@containertype='Linear']/picture"
+				fullname="ASMTrainingRepository.ASMTraining.AfterVisitShop_BackButton"
+				id="85aeaba67daa4c10b448c7078bd0b665"
+				timeout="60000"
+				codefile="c:\Users\Fahad Shah\Documents\Ranorex\RanorexStudio Projects\ASMTraining\ASMTraining\TestCases\CompetencyTraining.cs"
+				codeline="110"
+				itemindex="76"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

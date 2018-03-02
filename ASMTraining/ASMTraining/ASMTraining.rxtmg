@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modulegroupdoc
+rxversion="8.0">
+  <testsuiteentryhierarchy>
+    <flatlistofchildren>
+      <modulegroups
+      name="ASMTraining"
+      id="f81d1908-ce2c-4b2b-a84e-3fceba56e05d"/>
+    </flatlistofchildren>
+    <childhierarchy>
+      <modulegroups
+      name="ASMTraining"
+      id="f81d1908-ce2c-4b2b-a84e-3fceba56e05d"/>
+    </childhierarchy>
+  </testsuiteentryhierarchy>
+</modulegroupdoc>

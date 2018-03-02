@@ -1,0 +1,227 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="1a0101ad7e8c5a18"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Fahad Shah"
+		rxversion="8.0.0.0"
+		host="HUAWEI LUA-U22 (Unknown)
+WLAN - 192.168.3.11"
+		osversion="-"
+		runtimeversion="-"
+		procarch="-"
+		oslanguage="-"
+		dtnlanguage="-"
+		screenresolution="-"
+		timestamp="2/27/2018 11:13:38 AM"
+		timestampiso="2018-02-27T06:13:38"
+		endtime="2/27/2018 11:14:05 AM"
+		timeoutfactor="1"
+		module="CompetencyTraining">
+		<detail>
+			CompetencyTraining
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.304"
+			timeRelativeToTestModuleStartTime="00:04.304"
+			timeWallClock="11:13:42"
+			time="00:04.304"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'ASMTraining.List.FieldSalesCoaching' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.training.asm']/form[@title~'^SalesShopsOptionListScree']//list[@rid='list']/text[2]"
+				itempath="text[2]"
+				fullname="ASMTrainingRepository.ASMTraining.List.FieldSalesCoaching"
+				id="2d71d18f33834943aae34fdbbb8d5d63"
+				timeout="90000"
+				codefile="c:\Users\Fahad Shah\Documents\Ranorex\RanorexStudio Projects\ASMTraining\ASMTraining\TestCases\CompetencyTraining.cs"
+				codeline="82"
+				itemindex="45"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.003"
+			timeRelativeToTestModuleStartTime="00:07.003"
+			timeWallClock="11:13:45"
+			time="00:07.003"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (Text='Field Sales Coaching') on item 'ASMTraining.Validate_FieldSalesScreen'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.training.asm']/form[@title~'^SalesMarketIntelligenceSc']/container[@rid='content']//text[@rid='heading']"
+				itempath="form[@title~'^SalesMarketIntelligenceSc']/container[@rid='content']//text[@rid='heading']"
+				fullname="ASMTrainingRepository.ASMTraining.Validate_FieldSalesScreen"
+				id="f5df10c1399f4c54afd5b3bbf0989aa1"
+				timeout="60000"
+				codefile="c:\Users\Fahad Shah\Documents\Ranorex\RanorexStudio Projects\ASMTraining\ASMTraining\TestCases\CompetencyTraining.cs"
+				codeline="86"
+				itemindex="46"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.048"
+			timeRelativeToTestModuleStartTime="00:09.048"
+			timeWallClock="11:13:47"
+			time="00:09.048"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Text' of element for item 'ASMTrainingRepository.ASMTraining.Validate_FieldSalesScreen' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.training.asm']/form[@title~'^SalesMarketIntelligenceSc']/container[@rid='content']//text[@rid='heading']"
+				itempath="form[@title~'^SalesMarketIntelligenceSc']/container[@rid='content']//text[@rid='heading']"
+				fullname="ASMTrainingRepository.ASMTraining.Validate_FieldSalesScreen"
+				id="f5df10c1399f4c54afd5b3bbf0989aa1"
+				timeout="60000"
+				codefile="c:\Users\Fahad Shah\Documents\Ranorex\RanorexStudio Projects\ASMTraining\ASMTraining\TestCases\CompetencyTraining.cs"
+				codeline="87"
+				loglvl="Success"
+				itemindex="46">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.048"
+			timeRelativeToTestModuleStartTime="00:09.048"
+			timeWallClock="11:13:47"
+			time="00:09.048"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'ASMTraining.TakePicture' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.training.asm']/form[@title~'^SalesMarketIntelligenceSc']/container[@rid='content']//button[@rid='first_take_picture']"
+				itempath="form[@title~'^SalesMarketIntelligenceSc']/container[@rid='content']//button[@rid='first_take_picture']"
+				fullname="ASMTrainingRepository.ASMTraining.TakePicture"
+				id="8e1e2e0635784e00a217fb5b9e59cf11"
+				timeout="60000"
+				codefile="c:\Users\Fahad Shah\Documents\Ranorex\RanorexStudio Projects\ASMTraining\ASMTraining\TestCases\CompetencyTraining.cs"
+				codeline="90"
+				itemindex="47"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:19.299"
+			timeRelativeToTestModuleStartTime="00:19.299"
+			timeWallClock="11:13:57"
+			time="00:19.299"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'ASMTraining.DonePhotoButton' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.training.asm']/form[@title='CameraActivity']//container[@rid='button_layout']/button[@rid='done_photo_button']"
+				itempath="form[@title='CameraActivity']//container[@rid='button_layout']/button[@rid='done_photo_button']"
+				fullname="ASMTrainingRepository.ASMTraining.DonePhotoButton"
+				id="d006aac9316545dbab904afe85f71a1b"
+				timeout="60000"
+				codefile="c:\Users\Fahad Shah\Documents\Ranorex\RanorexStudio Projects\ASMTraining\ASMTraining\TestCases\CompetencyTraining.cs"
+				codeline="97"
+				itemindex="49"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:20.737"
+			timeRelativeToTestModuleStartTime="00:20.737"
+			timeWallClock="11:13:59"
+			time="00:20.737"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'ASMTraining.FieldScales_BackButton' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.training.asm']/form[@title~'^SalesMarketIntelligenceSc']/container[@rid='content']/androidelement/container[@containertype='Linear']/container[@containertype='Linear']/picture"
+				itempath="form[@title~'^SalesMarketIntelligenceSc']/container[@rid='content']/androidelement/container[@containertype='Linear']/container[@containertype='Linear']/picture"
+				fullname="ASMTrainingRepository.ASMTraining.FieldScales_BackButton"
+				id="d5ad974e7fcb491ba51d119d6848df3a"
+				timeout="60000"
+				codefile="c:\Users\Fahad Shah\Documents\Ranorex\RanorexStudio Projects\ASMTraining\ASMTraining\TestCases\CompetencyTraining.cs"
+				codeline="101"
+				itemindex="50"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:25.458"
+			timeRelativeToTestModuleStartTime="00:25.458"
+			timeWallClock="11:14:04"
+			time="00:25.458"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (Text='Training Steps') on item 'ASMTraining.Validate_TrainingStepsScreen'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.training.asm']/form[@title~'^SalesShopsOptionListScree']/container[@rid='content']//text[@rid='category_name']"
+				itempath="form[@title~'^SalesShopsOptionListScree']/container[@rid='content']//text[@rid='category_name']"
+				fullname="ASMTrainingRepository.ASMTraining.Validate_TrainingStepsScreen"
+				id="f7482a5e22fa41c5849e08d99efe9dc2"
+				timeout="60000"
+				codefile="c:\Users\Fahad Shah\Documents\Ranorex\RanorexStudio Projects\ASMTraining\ASMTraining\TestCases\CompetencyTraining.cs"
+				codeline="105"
+				itemindex="51"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:26.724"
+			timeRelativeToTestModuleStartTime="00:26.724"
+			timeWallClock="11:14:05"
+			time="00:26.724"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Text' of element for item 'ASMTrainingRepository.ASMTraining.Validate_TrainingStepsScreen' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.training.asm']/form[@title~'^SalesShopsOptionListScree']/container[@rid='content']//text[@rid='category_name']"
+				itempath="form[@title~'^SalesShopsOptionListScree']/container[@rid='content']//text[@rid='category_name']"
+				fullname="ASMTrainingRepository.ASMTraining.Validate_TrainingStepsScreen"
+				id="f7482a5e22fa41c5849e08d99efe9dc2"
+				timeout="60000"
+				codefile="c:\Users\Fahad Shah\Documents\Ranorex\RanorexStudio Projects\ASMTraining\ASMTraining\TestCases\CompetencyTraining.cs"
+				codeline="106"
+				loglvl="Success"
+				itemindex="51">
+			</metainfo>
+		</item>
+	</activity>
+</report>

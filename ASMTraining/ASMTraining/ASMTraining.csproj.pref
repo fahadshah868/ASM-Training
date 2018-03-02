@@ -1,0 +1,23 @@
+﻿<Properties>
+  <Array name="active">
+    <Element value="UserCodeCollection\UserCode.cs" />
+  </Array>
+  <Array name="bookmarks" />
+  <Array name="files">
+    <Element value="ASMTraining.rxtst" />
+    <Element value="UserCodeCollection\UserCode.cs" />
+  </Array>
+  <Properties name="projectSavedData">
+    <Properties name="customTool">
+      <runOnBuild value="False" />
+    </Properties>
+    <Array name="recentusercodeselections">
+      <Element value="ASMTraining.UserCodeCollection.UserCode.visit_ZonalRanking()" />
+      <Element value="ASMTraining.UserCodeCollection.UserCode.takePhotoButton()" />
+      <Element value="ASMTraining.UserCodeCollection.UserCode.visitRegion()" />
+      <Element value="ASMTraining.UserCodeCollection.UserCode.visitZonalRanking()" />
+      <Element value="ASMTraining.UserCodeCollection.UserCode.sample()" />
+      <Element value="ASMTraining.UserCodeCollection.UserCode.visitZonalChamps()" />
+    </Array>
+  </Properties>
+</Properties>
