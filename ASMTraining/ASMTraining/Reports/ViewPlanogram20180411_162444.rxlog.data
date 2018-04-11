@@ -1,0 +1,200 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="73061a66ec2e370"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Fahad Shah"
+		rxversion="8.0.0.0"
+		host="SM-J110H (Unknown)
+WLAN - 192.168.3.169"
+		osversion="-"
+		runtimeversion="-"
+		procarch="-"
+		oslanguage="-"
+		dtnlanguage="-"
+		screenresolution="-"
+		timestamp="4/11/2018 4:25:08 PM"
+		timestampiso="2018-04-11T11:25:08"
+		endtime="4/11/2018 4:25:31 PM"
+		timeoutfactor="1"
+		module="ViewPlanogram">
+		<detail>
+			ViewPlanogram
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.627"
+			timeRelativeToTestModuleStartTime="00:04.629"
+			timeWallClock="16:25:13"
+			time="00:04.627"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'ASMTraining.Content.ViewPlanogram' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.training.asm']/form[@title='MainScreen']/container[@rid='content']//button[@rid='view_planogram']"
+				itempath=".//button[@rid='view_planogram']"
+				fullname="ASMTrainingRepository.ASMTraining.Content.ViewPlanogram"
+				id="270f430b1e36403abf54b8f6a8075b95"
+				timeout="90000"
+				codefile="c:\Users\Fahad Shah\Desktop\Git Projects\ASM-Training\ASMTraining\ASMTraining\TestCases\View Planogram\ViewPlanogram.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.218"
+			timeRelativeToTestModuleStartTime="00:07.221"
+			timeWallClock="16:25:15"
+			time="00:07.218"
+			level="Warn"
+			category="Mobile">
+			<message>
+				The fetched mobile component version '2.0.1' from device 'SM-J110H' is higher than the latest stable version '2.0.0' compatible with this Ranorex version. It seems you are using a beta release.<br/>The following website provides more information on this technology limitation:<br/>https://www.ranorex.com/help/v8.0/mobile-testing/mobile-beta-testing<br/>(This message is only shown once per report.)
+			</message>
+			<metainfo
+				limitationName="RanorexDeviceVersionMismatchBetaWarning"
+				showInProgressDialog="False"
+				codefile="c:\Users\Fahad Shah\Desktop\Git Projects\ASM-Training\ASMTraining\ASMTraining\TestCases\View Planogram\ViewPlanogram.cs"
+				codeline="83"
+				loglvl="Warn"
+				itemindex="0">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.358"
+			timeRelativeToTestModuleStartTime="00:11.361"
+			timeWallClock="16:25:20"
+			time="00:11.358"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (Text='View Planogram') on item 'ASMTraining.Validate_ViewPlanogramScreen'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.training.asm']/form[@title='PlanogramViewScreen']/container[@rid='content']//text[@rid='asm_name1']"
+				itempath="form[@title='PlanogramViewScreen']/container[@rid='content']//text[@rid='asm_name1']"
+				fullname="ASMTrainingRepository.ASMTraining.Validate_ViewPlanogramScreen"
+				id="1058f0e0338c449c8d1cd44bb858e7a5"
+				timeout="60000"
+				codefile="c:\Users\Fahad Shah\Desktop\Git Projects\ASM-Training\ASMTraining\ASMTraining\TestCases\View Planogram\ViewPlanogram.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:14.231"
+			timeRelativeToTestModuleStartTime="00:14.234"
+			timeWallClock="16:25:22"
+			time="00:14.231"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Text' of element for item 'ASMTrainingRepository.ASMTraining.Validate_ViewPlanogramScreen' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.training.asm']/form[@title='PlanogramViewScreen']/container[@rid='content']//text[@rid='asm_name1']"
+				itempath="form[@title='PlanogramViewScreen']/container[@rid='content']//text[@rid='asm_name1']"
+				fullname="ASMTrainingRepository.ASMTraining.Validate_ViewPlanogramScreen"
+				id="1058f0e0338c449c8d1cd44bb858e7a5"
+				timeout="60000"
+				codefile="c:\Users\Fahad Shah\Desktop\Git Projects\ASM-Training\ASMTraining\ASMTraining\TestCases\View Planogram\ViewPlanogram.cs"
+				codeline="87"
+				loglvl="Success"
+				itemindex="1">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:14.247"
+			timeRelativeToTestModuleStartTime="00:14.249"
+			timeWallClock="16:25:22"
+			time="00:14.247"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'ASMTraining.ViewPlanogram_BackButton' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.training.asm']/form[@title='PlanogramViewScreen']/container[@rid='content']/androidelement/container[@containertype='Linear']/container[2]/picture"
+				itempath="form[@title='PlanogramViewScreen']/container[@rid='content']/androidelement/container[@containertype='Linear']/container[2]/picture"
+				fullname="ASMTrainingRepository.ASMTraining.ViewPlanogram_BackButton"
+				id="6a9a055a64da4444b1dea3ebffdded25"
+				timeout="60000"
+				codefile="c:\Users\Fahad Shah\Desktop\Git Projects\ASM-Training\ASMTraining\ASMTraining\TestCases\View Planogram\ViewPlanogram.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:20.794"
+			timeRelativeToTestModuleStartTime="00:20.796"
+			timeWallClock="16:25:29"
+			time="00:20.794"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating Exists on item 'ASMTraining.Validate_AsmTrainingMainScreen'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.training.asm']/form[@title='MainScreen']"
+				itempath="form[@title='MainScreen']"
+				fullname="ASMTrainingRepository.ASMTraining.Validate_AsmTrainingMainScreen"
+				id="2fb1d757ef454dabbd843b9100e21f33"
+				timeout="60000"
+				codefile="c:\Users\Fahad Shah\Desktop\Git Projects\ASM-Training\ASMTraining\ASMTraining\TestCases\View Planogram\ViewPlanogram.cs"
+				codeline="94"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:22.979"
+			timeRelativeToTestModuleStartTime="00:22.982"
+			timeWallClock="16:25:31"
+			time="00:22.979"
+			level="Success"
+			category="Validation">
+			<message>
+				Element for item 'Validate_AsmTrainingMainScreen' does exist.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.training.asm']/form[@title='MainScreen']"
+				itempath="form[@title='MainScreen']"
+				fullname="ASMTrainingRepository.ASMTraining.Validate_AsmTrainingMainScreen"
+				id="2fb1d757ef454dabbd843b9100e21f33"
+				timeout="60000"
+				codefile="c:\Users\Fahad Shah\Desktop\Git Projects\ASM-Training\ASMTraining\ASMTraining\TestCases\View Planogram\ViewPlanogram.cs"
+				codeline="95"
+				loglvl="Success"
+				itemindex="3">
+			</metainfo>
+		</item>
+	</activity>
+</report>

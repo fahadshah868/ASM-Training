@@ -38,7 +38,7 @@ namespace ASMTraining.UserCodeCollection
     	{
     		var listitems = repo.ASMTraining.CompetencyTraining_ListView.Children.ToList();
     		listitems[0].Touch();
-    		Delay.Milliseconds(500);
+    		Delay.Milliseconds(1000);
     	}
     	/// <summary>
     	/// This is a placeholder text. Please describe the purpose of the
@@ -61,7 +61,7 @@ namespace ASMTraining.UserCodeCollection
     	{
     		var takepicturelist = repo.ASMTraining.CapturingPicture_TakePicture.Children.ToList();
     		takepicturelist[0].Touch();
-    		Delay.Milliseconds(500);
+    		Delay.Milliseconds(1000);
     	}
     	/// <summary>
     	/// This is a placeholder text. Please describe the purpose of the
@@ -75,7 +75,8 @@ namespace ASMTraining.UserCodeCollection
     		for(int i=0; i<projectprograms.Count; i++){
     			projectprograms[i].Touch();
     			Delay.Seconds(10);
-    			ASMTraining.TestCases.CCSD_E_Book.VisitZonalRanking.Start();
+    			ASMTraining.TestCases.VisitCCSDE_Book.VisitZonalRanking.Start();
+    			projectprograms = repo.ASMTraining.Project_ListView.Children.ToList();
     		}
     	}
    		/// <summary>
@@ -89,10 +90,14 @@ namespace ASMTraining.UserCodeCollection
     		var zonalranking = repo.ASMTraining.ZonalRanking_ListView.Children.ToList();
     		for(int i=0; i<zonalranking.Count; i++){
     			zonalranking[i].Touch();
-   				Delay.Milliseconds(500);
-   				ASMTraining.TestCases.CCSD_E_Book.VisitRegionalRanking.Start();
+   				Delay.Milliseconds(1000);
+   				ASMTraining.TestCases.VisitCCSDE_Book.VisitRegionalRanking.Start();
+   				zonalranking = repo.ASMTraining.ZonalRanking_ListView.Children.ToList();
     		}
-    		ASMTraining.TestCases.CCSD_E_Book.ValidateProjectProgram.Start();
+    		repo.ASMTraining.ZonalRanking_BackButton.Touch();
+            Delay.Milliseconds(1000);
+            Validate.AttributeEqual(repo.ASMTraining.Validate_POSRankingScreenInfo, "Text", "Programs");
+            Delay.Milliseconds(1000);
     	}
    		/// <summary>
    		/// This is a placeholder text. Please describe the purpose of the
@@ -143,9 +148,20 @@ namespace ASMTraining.UserCodeCollection
     		var zonalchamp = repo.ASMTraining.ZonalChamps_ListView.Children.ToList();
     		for(int i=0; i<zonalchamp.Count; i++){
     			zonalchamp[i].Touch();
-    			Delay.Milliseconds(500);
-    			ASMTraining.TestCases.Training_Updates.VisitZonalChampions.Start();
+    			Delay.Milliseconds(1000);
+    			ASMTraining.TestCases.VisitTrainingUpdates.VisitZonalChampions.Start();
     		}
+    	}
+    	/// <summary>
+    	/// This is a placeholder text. Please describe the purpose of the
+    	/// user code method here. The method is published to the user code library
+    	/// within a user code collection.
+    	/// </summary>
+    	[UserCodeMethod]
+    	public static void swipeCompetencyTrainingList()
+    	{
+    		repo.ASMTraining.CompetencyTraining_ListView.Swipe(Location.Center, ValueConverter.ArgumentFromString<Ranorex.Core.Recorder.Touch.GestureDirection>("SwipeDirection", "Up (270°)"), ValueConverter.ArgumentFromString<Ranorex.Core.Distance>("Distance", ".22"), ValueConverter.ArgumentFromString<Ranorex.Duration>("SwipeDuration", "500ms"), 0);
+            Delay.Milliseconds(500);
     	}
     }
 }

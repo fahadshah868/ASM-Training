@@ -3,6 +3,14 @@
 rxversion="8.0">
 	<testsuiteentryhierarchy>
 		<flatlistofchildren>
+			<testcase
+			id="1e2d62b7-492a-4b9c-88ff-5c62ec6d3fa1"
+			name="TrainingUpdates">
+			</testcase>
+			<testcase
+			id="2a0c0cc4-3a77-4f6c-bec8-edb8e7561927"
+			name="CompetencyTraining">
+			</testcase>
 			<testmodule
 			id="3505f1ce-c7fd-4b96-983f-f48dd476818a"
 			name="TrainingUpdates"
@@ -16,13 +24,23 @@ rxversion="8.0">
 			type="Recording">
 			</testmodule>
 			<testcase
+			id="41a8cb5a-237f-41be-b69e-574ea8d94812"
+			name="LaunchingApp">
+			</testcase>
+			<testmodule
+			id="61f404ee-3923-46f0-b01e-f65c1983ac54"
+			name="ReportToPDF"
+			ref="ffa0759d-37d2-4abb-89a7-411f0fcf2dfe"
+			type="UserCode">
+			</testmodule>
+			<teardown
+			id="6c697ab4-7c81-4b1a-8551-e5f11ea5bfd5"
+			name="teardown">
+			</teardown>
+			<testcase
 			id="7867eeba-4bc0-4846-be75-ba7e8d9f4c0d"
 			name="ASMTraining"
 			reportlevel="Info;20">
-			</testcase>
-			<testcase
-			id="8282e31d-61eb-486a-b9fe-4ae0228809b2"
-			name="TestCase">
 			</testcase>
 			<testmodule
 			id="9d96f4a1-89a9-4e0d-a6e1-698354262e7b"
@@ -42,10 +60,24 @@ rxversion="8.0">
 			ref="419d98b5-45cc-4500-ae5d-dc4cf63718af"
 			type="Recording">
 			</testmodule>
+			<testcase
+			id="b66498f4-390d-4c45-bf6f-86d4bf568adc"
+			name="MarketVisit">
+			</testcase>
 			<testmodule
 			id="b8458182-234c-4da4-8e2a-99473579cf1a"
 			name="ViewPlanogram"
 			ref="549c2ba4-a024-4ae3-9c89-0b64d673d272"
+			type="Recording">
+			</testmodule>
+			<testcase
+			id="e1744405-d8ec-43fa-9a7a-747d82241c86"
+			name="CCSD_E-Book">
+			</testcase>
+			<testmodule
+			id="e7d954af-c59f-41df-bd0c-8ad16756e1e8"
+			name="CompetencyTraining"
+			ref="fb8ad756-5193-4251-8c7e-e7f3300ac19b"
 			type="Recording">
 			</testmodule>
 			<testsuite
@@ -62,6 +94,14 @@ rxversion="8.0">
 			reportwriteinterval="30000ms"
 			showinvisiblechars="True">
 			</testsuite>
+			<testcase
+			id="eff6f07c-4533-4798-8a0b-b568d68b657a"
+			name="OverwriteCompetencyTraining">
+			</testcase>
+			<testcase
+			id="f7f378b5-41fc-4ff8-8046-d9e02131ff73"
+			name="ViewPlanogram">
+			</testcase>
 		</flatlistofchildren>
 		<childhierarchy>
 			<testsuite
@@ -71,33 +111,69 @@ rxversion="8.0">
 				id="7867eeba-4bc0-4846-be75-ba7e8d9f4c0d"
 				name="ASMTraining">
 					<testcase
-					id="8282e31d-61eb-486a-b9fe-4ae0228809b2"
-					name="TestCase">
+					id="41a8cb5a-237f-41be-b69e-574ea8d94812"
+					name="LaunchingApp">
 						<testmodule
 						id="ad79c23d-a176-4d0c-8a76-96fae61a1aff"
 						name="LaunchingApp">
 						</testmodule>
+					</testcase>
+					<testcase
+					id="2a0c0cc4-3a77-4f6c-bec8-edb8e7561927"
+					name="CompetencyTraining">
 						<testmodule
 						id="37212e98-7f4f-40a8-bab5-8b377bd2c224"
 						name="CompetencyTraining">
 						</testmodule>
+					</testcase>
+					<testcase
+					id="eff6f07c-4533-4798-8a0b-b568d68b657a"
+					name="OverwriteCompetencyTraining">
+						<testmodule
+						id="e7d954af-c59f-41df-bd0c-8ad16756e1e8"
+						name="CompetencyTraining">
+						</testmodule>
+					</testcase>
+					<testcase
+					id="b66498f4-390d-4c45-bf6f-86d4bf568adc"
+					name="MarketVisit">
 						<testmodule
 						id="9d96f4a1-89a9-4e0d-a6e1-698354262e7b"
 						name="MarketVisit">
 						</testmodule>
+					</testcase>
+					<testcase
+					id="1e2d62b7-492a-4b9c-88ff-5c62ec6d3fa1"
+					name="TrainingUpdates">
 						<testmodule
 						id="3505f1ce-c7fd-4b96-983f-f48dd476818a"
 						name="TrainingUpdates">
 						</testmodule>
+					</testcase>
+					<testcase
+					id="f7f378b5-41fc-4ff8-8046-d9e02131ff73"
+					name="ViewPlanogram">
 						<testmodule
 						id="b8458182-234c-4da4-8e2a-99473579cf1a"
 						name="ViewPlanogram">
 						</testmodule>
+					</testcase>
+					<testcase
+					id="e1744405-d8ec-43fa-9a7a-747d82241c86"
+					name="CCSD_E-Book">
 						<testmodule
 						id="a6163557-9ef8-4369-94d7-00e41e97c9b5"
 						name="CCSD_EBook">
 						</testmodule>
 					</testcase>
+					<teardown
+					id="6c697ab4-7c81-4b1a-8551-e5f11ea5bfd5"
+					name="teardown">
+						<testmodule
+						id="61f404ee-3923-46f0-b01e-f65c1983ac54"
+						name="ReportToPDF">
+						</testmodule>
+					</teardown>
 				</testcase>
 			</testsuite>
 		</childhierarchy>
@@ -109,10 +185,28 @@ rxversion="8.0">
 		<testconfiguration
 		name="TestRun">
 			<testcontainer
+			id="1e2d62b7-492a-4b9c-88ff-5c62ec6d3fa1">
+			</testcontainer>
+			<testcontainer
+			id="2a0c0cc4-3a77-4f6c-bec8-edb8e7561927">
+			</testcontainer>
+			<testcontainer
+			id="41a8cb5a-237f-41be-b69e-574ea8d94812">
+			</testcontainer>
+			<testcontainer
 			id="7867eeba-4bc0-4846-be75-ba7e8d9f4c0d">
 			</testcontainer>
 			<testcontainer
-			id="8282e31d-61eb-486a-b9fe-4ae0228809b2">
+			id="b66498f4-390d-4c45-bf6f-86d4bf568adc">
+			</testcontainer>
+			<testcontainer
+			id="e1744405-d8ec-43fa-9a7a-747d82241c86">
+			</testcontainer>
+			<testcontainer
+			id="eff6f07c-4533-4798-8a0b-b568d68b657a">
+			</testcontainer>
+			<testcontainer
+			id="f7f378b5-41fc-4ff8-8046-d9e02131ff73">
 			</testcontainer>
 		</testconfiguration>
 	</testconfigurations>
@@ -121,7 +215,7 @@ rxversion="8.0">
 			C:\Program Files (x86)\Ranorex 8.0\Bin\Ranorex.Bootstrapper.dll
 		</reference>
 		<reference>
-			D:\Ranorex_PDF_Lib\Ranorex.PDF.dll
+			Ranorex.PDF.dll
 		</reference>
 	</references>
 </testsuitedoc>

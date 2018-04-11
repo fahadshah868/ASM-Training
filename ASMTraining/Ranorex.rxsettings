@@ -392,6 +392,20 @@ rxversion="8.0">
       &quot;DisplayName&quot;: &quot;HUAWEI LUA-U22&quot;,
       &quot;Url&quot;: &quot;192.168.3.11&quot;,
       &quot;Tags&quot;: []
+    },
+    {
+      &quot;Id&quot;: &quot;3342d5ba-7e55-4f2a-a44c-893824e39495&quot;,
+      &quot;ControlFlags&quot;: 0,
+      &quot;CoreData&quot;: {},
+      &quot;PluginData&quot;: {
+        &quot;Platform&quot;: &quot;Android&quot;,
+        &quot;ConnectionType&quot;: &quot;WLAN&quot;
+      },
+      &quot;MetaData&quot;: {},
+      &quot;Description&quot;: &quot;&quot;,
+      &quot;DisplayName&quot;: &quot;SM-J110H&quot;,
+      &quot;Url&quot;: &quot;192.168.3.169&quot;,
+      &quot;Tags&quot;: []
     }
   ]
 }]]&gt;

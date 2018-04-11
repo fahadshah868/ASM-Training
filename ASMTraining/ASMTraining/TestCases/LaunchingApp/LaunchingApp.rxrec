@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="419d98b5-45cc-4500-ae5d-dc4cf63718af"
+mode="Mobile"
+rxversion="8.0">
+	<name>
+		LaunchingApp
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="LaunchingApp"
+	namespace="ASMTraining.TestCases.LaunchingApp">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<runmobileapprecorditem
+		application="com.training.asm"
+		devicename="Current Endpoint (SM-J110H)"
+		duration="3500ms"
+		enabled="True"
+		optional="False"
+		resetInitialState="True">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</runmobileapprecorditem>
+		<validationitem
+		action="Exists"
+		codegenpropertyname="ASMTraining_Logo_Screenshot1"
+		enabled="True"
+		imagerect="0,0,373,310"
+		optional="False"
+		screenshotguid="aa6fd458-406e-4270-97d2-e28965522f5c"
+		screenshotname="Screenshot1"
+		searchpropertyid="b12d1e3a-1eef-4ed5-b0d4-3498411910fa">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="2fb1d757-ef45-4dab-bd84-3b9100e21f33"
+			sourcename="ItemRecorderEditor">
+				<path>
+					/mobileapp[@title='com.training.asm']/form[@title='MainScreen']
+				</path>
+			</info>
+			<matchname>
+				Text
+			</matchname>
+			<matchvalue>
+				yourtext
+			</matchvalue>
+		</validationitem>
+	</recorditems>
+	<repository
+	id="b9dcecd9-fa4c-49bd-819f-b4d818ad9617"
+	name="ASMTrainingRepository"
+	relativepath="..\..\ASMTrainingRepository.rxrep"
+	rxversion="8.0">
+		<codegen
+		classname="ASMTrainingRepository"
+		namespace="ASMTraining">
+		</codegen>
+		<rootfolder
+		id="b7152f09-1137-4ea9-b37d-2d9bb2af9e93"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		LaunchingApp.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

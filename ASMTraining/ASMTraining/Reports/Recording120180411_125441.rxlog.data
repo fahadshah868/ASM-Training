@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="4145099244198f0"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Fahad Shah"
+		rxversion="8.0.0.0"
+		host="SM-J110H (Unknown)
+WLAN - 192.168.3.169"
+		osversion="-"
+		runtimeversion="-"
+		procarch="-"
+		oslanguage="-"
+		dtnlanguage="-"
+		screenresolution="-"
+		timestamp="4/11/2018 12:54:59 PM"
+		timestampiso="2018-04-11T07:54:59"
+		endtime="4/11/2018 12:55:08 PM"
+		timeoutfactor="1"
+		module="Recording1">
+		<detail>
+			Recording1
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.021"
+			timeRelativeToTestModuleStartTime="00:06.021"
+			timeWallClock="12:55:05"
+			time="00:06.021"
+			level="Warn"
+			category="Mobile">
+			<message>
+				The fetched mobile component version '2.0.1' from device 'SM-J110H' is higher than the latest stable version '2.0.0' compatible with this Ranorex version. It seems you are using a beta release.<br/>The following website provides more information on this technology limitation:<br/>https://www.ranorex.com/help/v8.0/mobile-testing/mobile-beta-testing<br/>(This message is only shown once per report.)
+			</message>
+			<metainfo
+				limitationName="RanorexDeviceVersionMismatchBetaWarning"
+				showInProgressDialog="False"
+				codefile="c:\Users\Fahad Shah\Desktop\Git Projects\ASM-Training\ASMTraining\ASMTraining\UserCodeCollection\UserCode.cs"
+				codeline="158"
+				loglvl="Warn">
+			</metainfo>
+		</item>
+	</activity>
+</report>

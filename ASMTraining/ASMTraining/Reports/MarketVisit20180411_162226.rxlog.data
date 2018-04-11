@@ -1,0 +1,200 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="267e965d50467876"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Fahad Shah"
+		rxversion="8.0.0.0"
+		host="SM-J110H (Unknown)
+WLAN - 192.168.3.169"
+		osversion="-"
+		runtimeversion="-"
+		procarch="-"
+		oslanguage="-"
+		dtnlanguage="-"
+		screenresolution="-"
+		timestamp="4/11/2018 4:22:47 PM"
+		timestampiso="2018-04-11T11:22:47"
+		endtime="4/11/2018 4:23:14 PM"
+		timeoutfactor="1"
+		module="MarketVisit">
+		<detail>
+			MarketVisit
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.886"
+			timeRelativeToTestModuleStartTime="00:04.903"
+			timeWallClock="16:22:52"
+			time="00:04.886"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'ASMTraining.Content.MarketVisit' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.training.asm']/form[@title='MainScreen']/container[@rid='content']//button[@rid='market_visit']"
+				itempath=".//button[@rid='market_visit']"
+				fullname="ASMTrainingRepository.ASMTraining.Content.MarketVisit"
+				id="896541c816b4414792632e4aee008b4d"
+				timeout="90000"
+				codefile="c:\Users\Fahad Shah\Desktop\Git Projects\ASM-Training\ASMTraining\ASMTraining\TestCases\Market Visit\MarketVisit.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.201"
+			timeRelativeToTestModuleStartTime="00:07.217"
+			timeWallClock="16:22:55"
+			time="00:07.201"
+			level="Warn"
+			category="Mobile">
+			<message>
+				The fetched mobile component version '2.0.1' from device 'SM-J110H' is higher than the latest stable version '2.0.0' compatible with this Ranorex version. It seems you are using a beta release.<br/>The following website provides more information on this technology limitation:<br/>https://www.ranorex.com/help/v8.0/mobile-testing/mobile-beta-testing<br/>(This message is only shown once per report.)
+			</message>
+			<metainfo
+				limitationName="RanorexDeviceVersionMismatchBetaWarning"
+				showInProgressDialog="False"
+				codefile="c:\Users\Fahad Shah\Desktop\Git Projects\ASM-Training\ASMTraining\ASMTraining\TestCases\Market Visit\MarketVisit.cs"
+				codeline="83"
+				loglvl="Warn"
+				itemindex="0">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:13.342"
+			timeRelativeToTestModuleStartTime="00:13.359"
+			timeWallClock="16:23:01"
+			time="00:13.342"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating Exists on item 'ASMTraining.Validate_MarketVisitScreen'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.training.asm']/form[@title='SalesAsmDetailListScreen']"
+				itempath="form[@title='SalesAsmDetailListScreen']"
+				fullname="ASMTrainingRepository.ASMTraining.Validate_MarketVisitScreen"
+				id="f078aa4361c0423b9b97b081c4078972"
+				timeout="60000"
+				codefile="c:\Users\Fahad Shah\Desktop\Git Projects\ASM-Training\ASMTraining\ASMTraining\TestCases\Market Visit\MarketVisit.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:16.238"
+			timeRelativeToTestModuleStartTime="00:16.254"
+			timeWallClock="16:23:04"
+			time="00:16.238"
+			level="Success"
+			category="Validation">
+			<message>
+				Element for item 'Validate_MarketVisitScreen' does exist.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.training.asm']/form[@title='SalesAsmDetailListScreen']"
+				itempath="form[@title='SalesAsmDetailListScreen']"
+				fullname="ASMTrainingRepository.ASMTraining.Validate_MarketVisitScreen"
+				id="f078aa4361c0423b9b97b081c4078972"
+				timeout="60000"
+				codefile="c:\Users\Fahad Shah\Desktop\Git Projects\ASM-Training\ASMTraining\ASMTraining\TestCases\Market Visit\MarketVisit.cs"
+				codeline="87"
+				loglvl="Success"
+				itemindex="1">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:16.253"
+			timeRelativeToTestModuleStartTime="00:16.270"
+			timeWallClock="16:23:04"
+			time="00:16.253"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'ASMTraining.MarketVisit_BackButton' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.training.asm']/form[@title='SalesAsmDetailListScreen']/container[@rid='content']//picture[@rid='backArrow']"
+				itempath="form[@title='SalesAsmDetailListScreen']/container[@rid='content']//picture[@rid='backArrow']"
+				fullname="ASMTrainingRepository.ASMTraining.MarketVisit_BackButton"
+				id="fd281e921c9949888339ca219f2862bf"
+				timeout="60000"
+				codefile="c:\Users\Fahad Shah\Desktop\Git Projects\ASM-Training\ASMTraining\ASMTraining\TestCases\Market Visit\MarketVisit.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:23.775"
+			timeRelativeToTestModuleStartTime="00:23.791"
+			timeWallClock="16:23:11"
+			time="00:23.775"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating Exists on item 'ASMTraining.Validate_AsmTrainingMainScreen'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.training.asm']/form[@title='MainScreen']"
+				itempath="form[@title='MainScreen']"
+				fullname="ASMTrainingRepository.ASMTraining.Validate_AsmTrainingMainScreen"
+				id="2fb1d757ef454dabbd843b9100e21f33"
+				timeout="60000"
+				codefile="c:\Users\Fahad Shah\Desktop\Git Projects\ASM-Training\ASMTraining\ASMTraining\TestCases\Market Visit\MarketVisit.cs"
+				codeline="94"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:26.217"
+			timeRelativeToTestModuleStartTime="00:26.233"
+			timeWallClock="16:23:14"
+			time="00:26.217"
+			level="Success"
+			category="Validation">
+			<message>
+				Element for item 'Validate_AsmTrainingMainScreen' does exist.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.training.asm']/form[@title='MainScreen']"
+				itempath="form[@title='MainScreen']"
+				fullname="ASMTrainingRepository.ASMTraining.Validate_AsmTrainingMainScreen"
+				id="2fb1d757ef454dabbd843b9100e21f33"
+				timeout="60000"
+				codefile="c:\Users\Fahad Shah\Desktop\Git Projects\ASM-Training\ASMTraining\ASMTraining\TestCases\Market Visit\MarketVisit.cs"
+				codeline="95"
+				loglvl="Success"
+				itemindex="3">
+			</metainfo>
+		</item>
+	</activity>
+</report>

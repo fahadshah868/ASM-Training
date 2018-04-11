@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="2626d1a60da43522"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Fahad Shah"
+		rxversion="8.0.0.0"
+		host="SM-J110H (Unknown)
+WLAN - 192.168.3.169"
+		osversion="-"
+		runtimeversion="-"
+		procarch="-"
+		oslanguage="-"
+		dtnlanguage="-"
+		screenresolution="-"
+		timestamp="4/11/2018 2:58:26 PM"
+		timestampiso="2018-04-11T09:58:26"
+		endtime="4/11/2018 2:58:45 PM"
+		timeoutfactor="1"
+		module="CompetencyTraining">
+		<detail>
+			CompetencyTraining
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.713"
+			timeRelativeToTestModuleStartTime="00:05.717"
+			timeWallClock="14:58:32"
+			time="00:05.713"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'ASMTraining.List1.Merchandising' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.training.asm']/form[@title~'^SalesShopOptionDetailList']/container[@rid='content']//list[@rid='list']/container[4]"
+				itempath="container[4]"
+				fullname="ASMTrainingRepository.ASMTraining.List1.Merchandising"
+				id="d1a28e13a9154c8aa7bc955e1107688d"
+				timeout="90000"
+				codefile="c:\Users\Fahad Shah\Desktop\Git Projects\ASM-Training\ASMTraining\ASMTraining\TestCases\VisitCompetency Training\CompetencyTraining.cs"
+				codeline="82"
+				itemindex="43"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.280"
+			timeRelativeToTestModuleStartTime="00:08.284"
+			timeWallClock="14:58:35"
+			time="00:08.280"
+			level="Warn"
+			category="Mobile">
+			<message>
+				The fetched mobile component version '2.0.1' from device 'SM-J110H' is higher than the latest stable version '2.0.0' compatible with this Ranorex version. It seems you are using a beta release.<br/>The following website provides more information on this technology limitation:<br/>https://www.ranorex.com/help/v8.0/mobile-testing/mobile-beta-testing<br/>(This message is only shown once per report.)
+			</message>
+			<metainfo
+				limitationName="RanorexDeviceVersionMismatchBetaWarning"
+				showInProgressDialog="False"
+				codefile="c:\Users\Fahad Shah\Desktop\Git Projects\ASM-Training\ASMTraining\ASMTraining\TestCases\VisitCompetency Training\CompetencyTraining.cs"
+				codeline="83"
+				loglvl="Warn"
+				itemindex="43">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.246"
+			timeRelativeToTestModuleStartTime="00:11.250"
+			timeWallClock="14:58:38"
+			time="00:11.246"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'ASMTraining.List1.NeedImprovement' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.training.asm']/form[@title~'^SalesShopOptionDetailList']/container[@rid='content']//list[@rid='list']//radiobutton[@rid='need_improvement']"
+				itempath=".//radiobutton[@rid='need_improvement']"
+				fullname="ASMTrainingRepository.ASMTraining.List1.NeedImprovement"
+				id="93c102b1011f48a5a14bb4e90404b843"
+				timeout="90000"
+				codefile="c:\Users\Fahad Shah\Desktop\Git Projects\ASM-Training\ASMTraining\ASMTraining\TestCases\VisitCompetency Training\CompetencyTraining.cs"
+				codeline="86"
+				itemindex="44"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:15.393"
+			timeRelativeToTestModuleStartTime="00:15.397"
+			timeWallClock="14:58:42"
+			time="00:15.393"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'ASMTraining.List1.Merchandising' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.training.asm']/form[@title~'^SalesShopOptionDetailList']/container[@rid='content']//list[@rid='list']/container[4]"
+				itempath="container[4]"
+				fullname="ASMTrainingRepository.ASMTraining.List1.Merchandising"
+				id="d1a28e13a9154c8aa7bc955e1107688d"
+				timeout="90000"
+				codefile="c:\Users\Fahad Shah\Desktop\Git Projects\ASM-Training\ASMTraining\ASMTraining\TestCases\VisitCompetency Training\CompetencyTraining.cs"
+				codeline="90"
+				itemindex="45"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

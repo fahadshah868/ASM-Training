@@ -44,8 +44,7 @@
       <Private>True</Private>
     </Reference>
     <Reference Include="Ranorex.PDF">
-      <HintPath>D:\Ranorex_PDF_Lib\Ranorex.PDF.dll</HintPath>
-      <Private>False</Private>
+      <HintPath>..\..\..\..\Ranorex_PDF_Lib\Ranorex.PDF.dll</HintPath>
     </Reference>
     <Reference Include="Ranorex.Plugin.Cef">
       <Private>False</Private>
@@ -114,6 +113,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="..\..\..\..\Ranorex_PDF_Lib\ReportToPDF_7.X.cs">
+      <Link>ReportToPDF_7.X.cs</Link>
+      <id>1a689cc7-0e23-43d4-a6af-79253f7ff503</id>
+    </Compile>
     <Compile Include="ASMTrainingRepository.cs">
       <BoundTo>ef4f8342-cf19-43b0-ad50-edad3c74be5e</BoundTo>
       <DependentUpon>ASMTrainingRepository.rxrep</DependentUpon>
@@ -123,128 +126,124 @@
     <Compile Include="AssemblyInfo.cs">
       <id>78d04760-f986-474b-a89e-aa871b4bda37</id>
     </Compile>
-    <Compile Include="D:\Ranorex_PDF_Lib\ReportToPDF_7.X.cs">
-      <Link>ReportToPDF_7.X.cs</Link>
-      <id>341bab95-838b-4921-8df7-e877a09455a6</id>
-    </Compile>
     <Compile Include="Program.cs">
       <id>bc5b58b0-3541-4a62-afc9-db4fb58ea731</id>
     </Compile>
-    <Compile Include="TestCases\CCSD E-Book\CCSD_EBook.cs">
+    <Compile Include="TestCases\OverwriteCompetencyTraining\CompetencyTraining.cs">
+      <DependentUpon>CompetencyTraining.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>37b218d2-ac0c-48fd-9c41-88c81b94ed63</id>
+      <BoundTo>4d3d48cf-7b85-47ca-9950-3498409bd21d</BoundTo>
+    </Compile>
+    <Compile Include="TestCases\OverwriteCompetencyTraining\CompetencyTraining.UserCode.cs">
+      <DependentUpon>CompetencyTraining.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>7e3d88ad-0825-4864-9fa9-aa9ed7c9f2f4</id>
+      <BoundTo>4d3d48cf-7b85-47ca-9950-3498409bd21d</BoundTo>
+    </Compile>
+    <Compile Include="TestCases\VisitCCSDE-Book\CCSD_EBook.cs">
       <DependentUpon>CCSD_EBook.rxrec</DependentUpon>
       <RecorderCode>true</RecorderCode>
       <id>c35b8a89-22cc-48ab-8735-b1abbd2ae161</id>
       <BoundTo>306e79aa-b32a-4f99-93e2-8e0c5d050ad0</BoundTo>
     </Compile>
-    <Compile Include="TestCases\CCSD E-Book\CCSD_EBook.UserCode.cs">
+    <Compile Include="TestCases\VisitCCSDE-Book\CCSD_EBook.UserCode.cs">
       <DependentUpon>CCSD_EBook.rxrec</DependentUpon>
       <UserCode>true</UserCode>
       <id>401ea745-d433-46c4-9b76-73e3a48196b9</id>
       <BoundTo>306e79aa-b32a-4f99-93e2-8e0c5d050ad0</BoundTo>
     </Compile>
-    <Compile Include="TestCases\CCSD E-Book\ValidateProjectProgram.cs">
-      <DependentUpon>ValidateProjectProgram.rxrec</DependentUpon>
-      <RecorderCode>true</RecorderCode>
-      <id>5e8fc2a1-cff3-49d5-8b82-4a55707218dc</id>
-      <BoundTo>145c3558-1d4e-426f-b6f7-dd3546bfcf08</BoundTo>
-    </Compile>
-    <Compile Include="TestCases\CCSD E-Book\ValidateProjectProgram.UserCode.cs">
-      <DependentUpon>ValidateProjectProgram.rxrec</DependentUpon>
-      <UserCode>true</UserCode>
-      <id>a5cde20b-85e1-4fd9-95cf-4efa2df8c0b1</id>
-      <BoundTo>145c3558-1d4e-426f-b6f7-dd3546bfcf08</BoundTo>
-    </Compile>
-    <Compile Include="TestCases\CCSD E-Book\VisitRegionalRanking.cs">
+    <Compile Include="TestCases\VisitCCSDE-Book\VisitRegionalRanking.cs">
       <DependentUpon>VisitRegionalRanking.rxrec</DependentUpon>
       <RecorderCode>true</RecorderCode>
       <id>9c9bcfe3-8998-4830-864b-255672c69d83</id>
       <BoundTo>24822b23-8b86-4c33-96df-c2705d8ef89b</BoundTo>
     </Compile>
-    <Compile Include="TestCases\CCSD E-Book\VisitRegionalRanking.UserCode.cs">
+    <Compile Include="TestCases\VisitCCSDE-Book\VisitRegionalRanking.UserCode.cs">
       <DependentUpon>VisitRegionalRanking.rxrec</DependentUpon>
       <UserCode>true</UserCode>
       <id>3f70b6b2-8e93-40cb-b426-b25232911bc4</id>
       <BoundTo>24822b23-8b86-4c33-96df-c2705d8ef89b</BoundTo>
     </Compile>
-    <Compile Include="TestCases\CCSD E-Book\VisitZonalRanking.cs">
+    <Compile Include="TestCases\VisitCCSDE-Book\VisitZonalRanking.cs">
       <DependentUpon>VisitZonalRanking.rxrec</DependentUpon>
       <RecorderCode>true</RecorderCode>
       <id>f306cab3-a482-47db-8201-841b94630c93</id>
       <BoundTo>6107bfc3-d0d7-4314-8d8d-bd5cb931f61b</BoundTo>
     </Compile>
-    <Compile Include="TestCases\CCSD E-Book\VisitZonalRanking.UserCode.cs">
+    <Compile Include="TestCases\VisitCCSDE-Book\VisitZonalRanking.UserCode.cs">
       <DependentUpon>VisitZonalRanking.rxrec</DependentUpon>
       <UserCode>true</UserCode>
       <id>fde62701-5863-43d0-9dad-cf9ff16bff60</id>
       <BoundTo>6107bfc3-d0d7-4314-8d8d-bd5cb931f61b</BoundTo>
     </Compile>
-    <Compile Include="TestCases\Competency Training\CompetencyTraining.cs">
+    <Compile Include="TestCases\VisitCompetencyTraining\CompetencyTraining.cs">
       <DependentUpon>CompetencyTraining.rxrec</DependentUpon>
       <RecorderCode>true</RecorderCode>
       <id>a21b9aaa-d447-4006-8e2a-469c9c6dbec5</id>
       <BoundTo>93b38345-e09a-477a-a6fc-dad56888c407</BoundTo>
     </Compile>
-    <Compile Include="TestCases\Competency Training\CompetencyTraining.UserCode.cs">
+    <Compile Include="TestCases\VisitCompetencyTraining\CompetencyTraining.UserCode.cs">
       <DependentUpon>CompetencyTraining.rxrec</DependentUpon>
       <UserCode>true</UserCode>
       <id>c3023a01-b6fc-4fa3-91c4-c0166f769fcb</id>
       <BoundTo>93b38345-e09a-477a-a6fc-dad56888c407</BoundTo>
     </Compile>
-    <Compile Include="TestCases\Launching App\LaunchingApp.cs">
+    <Compile Include="TestCases\LaunchingApp\LaunchingApp.cs">
       <DependentUpon>LaunchingApp.rxrec</DependentUpon>
       <RecorderCode>true</RecorderCode>
       <id>114a637c-8cc6-4bdf-baaf-8079c2933de4</id>
       <BoundTo>d3c29bd2-ab61-43de-9fc0-c0290044a2a3</BoundTo>
     </Compile>
-    <Compile Include="TestCases\Launching App\LaunchingApp.UserCode.cs">
+    <Compile Include="TestCases\LaunchingApp\LaunchingApp.UserCode.cs">
       <DependentUpon>LaunchingApp.rxrec</DependentUpon>
       <UserCode>true</UserCode>
       <id>38165b38-8969-4d2c-ad96-2fed6cbe242f</id>
       <BoundTo>d3c29bd2-ab61-43de-9fc0-c0290044a2a3</BoundTo>
     </Compile>
-    <Compile Include="TestCases\Market Visit\MarketVisit.cs">
+    <Compile Include="TestCases\MarketVisit\MarketVisit.cs">
       <DependentUpon>MarketVisit.rxrec</DependentUpon>
       <RecorderCode>true</RecorderCode>
       <id>77c4a870-18be-4e85-b9e6-06e3ff870ef6</id>
       <BoundTo>ee2354e7-33fe-4c04-a7f5-b6c50e3bc648</BoundTo>
     </Compile>
-    <Compile Include="TestCases\Market Visit\MarketVisit.UserCode.cs">
+    <Compile Include="TestCases\MarketVisit\MarketVisit.UserCode.cs">
       <DependentUpon>MarketVisit.rxrec</DependentUpon>
       <UserCode>true</UserCode>
       <id>529a1d42-f7c2-4d45-970a-b37cfb22c2a6</id>
       <BoundTo>ee2354e7-33fe-4c04-a7f5-b6c50e3bc648</BoundTo>
     </Compile>
-    <Compile Include="TestCases\Training Updates\TrainingUpdates.cs">
+    <Compile Include="TestCases\VisitTrainingUpdates\TrainingUpdates.cs">
       <DependentUpon>TrainingUpdates.rxrec</DependentUpon>
       <RecorderCode>true</RecorderCode>
       <id>0d95d099-2685-4056-87e5-982b8ab46d95</id>
       <BoundTo>645f1106-08b4-4306-84c4-897c065aa650</BoundTo>
     </Compile>
-    <Compile Include="TestCases\Training Updates\TrainingUpdates.UserCode.cs">
+    <Compile Include="TestCases\VisitTrainingUpdates\TrainingUpdates.UserCode.cs">
       <DependentUpon>TrainingUpdates.rxrec</DependentUpon>
       <UserCode>true</UserCode>
       <id>a9019da3-4783-4be7-80a7-7ad5d76f981b</id>
       <BoundTo>645f1106-08b4-4306-84c4-897c065aa650</BoundTo>
     </Compile>
-    <Compile Include="TestCases\Training Updates\VisitZonalChampions.cs">
+    <Compile Include="TestCases\VisitTrainingUpdates\VisitZonalChampions.cs">
       <DependentUpon>VisitZonalChampions.rxrec</DependentUpon>
       <RecorderCode>true</RecorderCode>
       <id>18e378e8-3ffe-4d3d-8fd9-a03815a7d7a7</id>
       <BoundTo>82953fce-71b5-410d-bb31-d0825afe3fb5</BoundTo>
     </Compile>
-    <Compile Include="TestCases\Training Updates\VisitZonalChampions.UserCode.cs">
+    <Compile Include="TestCases\VisitTrainingUpdates\VisitZonalChampions.UserCode.cs">
       <DependentUpon>VisitZonalChampions.rxrec</DependentUpon>
       <UserCode>true</UserCode>
       <id>f18469be-dc60-4828-b806-1387d00bc90a</id>
       <BoundTo>82953fce-71b5-410d-bb31-d0825afe3fb5</BoundTo>
     </Compile>
-    <Compile Include="TestCases\View Planogram\ViewPlanogram.cs">
+    <Compile Include="TestCases\ViewPlanogram\ViewPlanogram.cs">
       <DependentUpon>ViewPlanogram.rxrec</DependentUpon>
       <RecorderCode>true</RecorderCode>
       <id>e3da1e38-68c1-43f0-b7b7-567131f303e5</id>
       <BoundTo>8c789515-e70b-4038-9b98-e8dee49de5fb</BoundTo>
     </Compile>
-    <Compile Include="TestCases\View Planogram\ViewPlanogram.UserCode.cs">
+    <Compile Include="TestCases\ViewPlanogram\ViewPlanogram.UserCode.cs">
       <DependentUpon>ViewPlanogram.rxrec</DependentUpon>
       <UserCode>true</UserCode>
       <id>cae1f59e-5270-4788-bfe9-254329d07827</id>
@@ -269,52 +268,52 @@
       <repoid>b9dcecd9-fa4c-49bd-819f-b4d818ad9617</repoid>
       <reporootid>b7152f09-1137-4ea9-b37d-2d9bb2af9e93</reporootid>
     </None>
-    <None Include="TestCases\CCSD E-Book\CCSD_EBook.rxrec">
+    <None Include="TestCases\OverwriteCompetencyTraining\CompetencyTraining.rxrec">
+      <BoundTo>ef4f8342-cf19-43b0-ad50-edad3c74be5e</BoundTo>
+      <id>4d3d48cf-7b85-47ca-9950-3498409bd21d</id>
+      <recordtableid>fb8ad756-5193-4251-8c7e-e7f3300ac19b</recordtableid>
+    </None>
+    <None Include="TestCases\VisitCCSDE-Book\CCSD_EBook.rxrec">
       <BoundTo>ef4f8342-cf19-43b0-ad50-edad3c74be5e</BoundTo>
       <id>306e79aa-b32a-4f99-93e2-8e0c5d050ad0</id>
       <recordtableid>8ea7fc4e-1456-414f-992a-000f1c9f09e9</recordtableid>
     </None>
-    <None Include="TestCases\CCSD E-Book\ValidateProjectProgram.rxrec">
-      <BoundTo>ef4f8342-cf19-43b0-ad50-edad3c74be5e</BoundTo>
-      <id>145c3558-1d4e-426f-b6f7-dd3546bfcf08</id>
-      <recordtableid>27b23b88-d2d0-4d16-b4ca-5ee456ded44b</recordtableid>
-    </None>
-    <None Include="TestCases\CCSD E-Book\VisitRegionalRanking.rxrec">
+    <None Include="TestCases\VisitCCSDE-Book\VisitRegionalRanking.rxrec">
       <BoundTo>ef4f8342-cf19-43b0-ad50-edad3c74be5e</BoundTo>
       <id>24822b23-8b86-4c33-96df-c2705d8ef89b</id>
       <recordtableid>ea557f92-158a-442d-9960-6ea67354d529</recordtableid>
     </None>
-    <None Include="TestCases\CCSD E-Book\VisitZonalRanking.rxrec">
+    <None Include="TestCases\VisitCCSDE-Book\VisitZonalRanking.rxrec">
       <BoundTo>ef4f8342-cf19-43b0-ad50-edad3c74be5e</BoundTo>
       <id>6107bfc3-d0d7-4314-8d8d-bd5cb931f61b</id>
       <recordtableid>b13cd23c-9e1a-4f3a-9dd4-c685a5f8402f</recordtableid>
     </None>
-    <None Include="TestCases\Competency Training\CompetencyTraining.rxrec">
+    <None Include="TestCases\VisitCompetencyTraining\CompetencyTraining.rxrec">
       <BoundTo>ef4f8342-cf19-43b0-ad50-edad3c74be5e</BoundTo>
       <id>93b38345-e09a-477a-a6fc-dad56888c407</id>
       <recordtableid>45006ebf-6692-44f1-a6d3-d41891acb766</recordtableid>
     </None>
-    <None Include="TestCases\Launching App\LaunchingApp.rxrec">
+    <None Include="TestCases\LaunchingApp\LaunchingApp.rxrec">
       <BoundTo>ef4f8342-cf19-43b0-ad50-edad3c74be5e</BoundTo>
       <id>d3c29bd2-ab61-43de-9fc0-c0290044a2a3</id>
       <recordtableid>419d98b5-45cc-4500-ae5d-dc4cf63718af</recordtableid>
     </None>
-    <None Include="TestCases\Market Visit\MarketVisit.rxrec">
+    <None Include="TestCases\MarketVisit\MarketVisit.rxrec">
       <BoundTo>ef4f8342-cf19-43b0-ad50-edad3c74be5e</BoundTo>
       <id>ee2354e7-33fe-4c04-a7f5-b6c50e3bc648</id>
       <recordtableid>f2464afd-4450-46af-aac3-e43a0e9e88cc</recordtableid>
     </None>
-    <None Include="TestCases\Training Updates\TrainingUpdates.rxrec">
+    <None Include="TestCases\VisitTrainingUpdates\TrainingUpdates.rxrec">
       <BoundTo>ef4f8342-cf19-43b0-ad50-edad3c74be5e</BoundTo>
       <id>645f1106-08b4-4306-84c4-897c065aa650</id>
       <recordtableid>0a5ceb60-cda0-4257-ad56-88006e2e810e</recordtableid>
     </None>
-    <None Include="TestCases\Training Updates\VisitZonalChampions.rxrec">
+    <None Include="TestCases\VisitTrainingUpdates\VisitZonalChampions.rxrec">
       <BoundTo>ef4f8342-cf19-43b0-ad50-edad3c74be5e</BoundTo>
       <id>82953fce-71b5-410d-bb31-d0825afe3fb5</id>
       <recordtableid>126a36b5-73d1-4c0c-adfc-97adb50845b9</recordtableid>
     </None>
-    <None Include="TestCases\View Planogram\ViewPlanogram.rxrec">
+    <None Include="TestCases\ViewPlanogram\ViewPlanogram.rxrec">
       <BoundTo>ef4f8342-cf19-43b0-ad50-edad3c74be5e</BoundTo>
       <id>8c789515-e70b-4038-9b98-e8dee49de5fb</id>
       <recordtableid>549c2ba4-a024-4ae3-9c89-0b64d673d272</recordtableid>
@@ -331,22 +330,25 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="TestCases\Launching App">
+    <Folder Include="TestCases\LaunchingApp">
       <id>9f41b229-8e40-49fc-8ebe-bef89e331cfd</id>
     </Folder>
-    <Folder Include="TestCases\Competency Training">
+    <Folder Include="TestCases\OverwriteCompetencyTraining">
+      <id>6bc56609-2ac9-44bc-a61c-46acc3762364</id>
+    </Folder>
+    <Folder Include="TestCases\VisitCompetencyTraining">
       <id>68af995b-5446-4f1a-aee4-a10946a2c9d2</id>
     </Folder>
-    <Folder Include="TestCases\Market Visit">
+    <Folder Include="TestCases\MarketVisit">
       <id>586b28ab-ff11-4b75-bf22-66b772fd65aa</id>
     </Folder>
-    <Folder Include="TestCases\CCSD E-Book">
+    <Folder Include="TestCases\VisitCCSDE-Book">
       <id>484f59a0-3f66-4843-83d6-7c7d79878184</id>
     </Folder>
-    <Folder Include="TestCases\View Planogram">
+    <Folder Include="TestCases\ViewPlanogram">
       <id>dfb95853-911d-44a8-8f8b-06681ec897db</id>
     </Folder>
-    <Folder Include="TestCases\Training Updates">
+    <Folder Include="TestCases\VisitTrainingUpdates">
       <id>2a75125f-73d5-48b3-817c-22276f2eb78e</id>
     </Folder>
     <Folder Include="UserCodeCollection">

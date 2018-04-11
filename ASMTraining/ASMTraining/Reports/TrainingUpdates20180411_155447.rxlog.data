@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="42456fafeb818c7"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Fahad Shah"
+		rxversion="8.0.0.0"
+		host="SM-J110H (Unknown)
+WLAN - 192.168.3.169"
+		osversion="-"
+		runtimeversion="-"
+		procarch="-"
+		oslanguage="-"
+		dtnlanguage="-"
+		screenresolution="-"
+		timestamp="4/11/2018 3:55:14 PM"
+		timestampiso="2018-04-11T10:55:14"
+		endtime="4/11/2018 3:55:21 PM"
+		timeoutfactor="1"
+		module="TrainingUpdates">
+		<detail>
+			TrainingUpdates
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.014"
+			timeRelativeToTestModuleStartTime="00:05.014"
+			timeWallClock="15:55:19"
+			time="00:05.014"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating ContainsImage (Screenshot: 'Screenshot1' with region {X=0,Y=0,Width=373,Height=310}) on item 'ASMTraining.ZonalChamp_HeaderLogo'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.training.asm']/form[@title='AsmTseSelectionActivity']/container[@rid='content']//picture[@rid='imageButton']"
+				itempath="form[@title='AsmTseSelectionActivity']/container[@rid='content']//picture[@rid='imageButton']"
+				fullname="ASMTrainingRepository.ASMTraining.ZonalChamp_HeaderLogo"
+				id="92755b7396394056b8ddcad8a26b358b"
+				timeout="60000"
+				codefile="c:\Users\Fahad Shah\Desktop\Git Projects\ASM-Training\ASMTraining\ASMTraining\TestCases\VisitTrainingUpdates\TrainingUpdates.cs"
+				codeline="82"
+				itemindex="9"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.650"
+			timeRelativeToTestModuleStartTime="00:06.650"
+			timeWallClock="15:55:21"
+			time="00:06.650"
+			level="Warn"
+			category="Mobile">
+			<message>
+				The fetched mobile component version '2.0.1' from device 'SM-J110H' is higher than the latest stable version '2.0.0' compatible with this Ranorex version. It seems you are using a beta release.<br/>The following website provides more information on this technology limitation:<br/>https://www.ranorex.com/help/v8.0/mobile-testing/mobile-beta-testing<br/>(This message is only shown once per report.)
+			</message>
+			<metainfo
+				limitationName="RanorexDeviceVersionMismatchBetaWarning"
+				showInProgressDialog="False"
+				codefile="c:\Users\Fahad Shah\Desktop\Git Projects\ASM-Training\ASMTraining\ASMTraining\TestCases\VisitTrainingUpdates\TrainingUpdates.cs"
+				codeline="83"
+				loglvl="Warn"
+				itemindex="9">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.366"
+			timeRelativeToTestModuleStartTime="00:07.366"
+			timeWallClock="15:55:21"
+			time="00:07.366"
+			level="Success"
+			category="Validation">
+			<message>
+				Screenshot of item 'ASMTrainingRepository.ASMTraining.ZonalChamp_HeaderLogo' does contain the specified image.
+			</message>
+			<metainfo
+				codefile="c:\Users\Fahad Shah\Desktop\Git Projects\ASM-Training\ASMTraining\ASMTraining\TestCases\VisitTrainingUpdates\TrainingUpdates.cs"
+				codeline="83"
+				loglvl="Success"
+				id="92755b7396394056b8ddcad8a26b358b"
+				path="/mobileapp[@title='com.training.asm']/form[@title='AsmTseSelectionActivity']/container[@rid='content']//picture[@rid='imageButton']"
+				fullname="ASMTrainingRepository.ASMTraining.ZonalChamp_HeaderLogo"
+				itemindex="9">
+			</metainfo>
+		</item>
+	</activity>
+</report>

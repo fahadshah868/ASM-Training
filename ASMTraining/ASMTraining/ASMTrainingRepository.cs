@@ -91,8 +91,6 @@ namespace ASMTraining
             ASMTrainingRepositoryFolders.Content1Folder _content1;
             ASMTrainingRepositoryFolders.ZoneListScreenFolder _zonelistscreen;
             ASMTrainingRepositoryFolders.Content2Folder _content2;
-            ASMTraining_LogoInfoClass _asmtraining_logoInfo;
-            CompetencyTraining_HeaderLogoInfoClass _competencytraining_headerlogoInfo;
             RepoItemInfo _competencytraining_listviewInfo;
             RepoItemInfo _project_listviewInfo;
             RepoItemInfo _zonalranking_listviewInfo;
@@ -101,7 +99,7 @@ namespace ASMTraining
             RepoItemInfo _regionalranking_listviewInfo;
             RepoItemInfo _scorepanelInfo;
             RepoItemInfo _nextclickbarInfo;
-            RepoItemInfo _validate_okbuttonInfo;
+            RepoItemInfo _okbuttonInfo;
             RepoItemInfo _takeshopfasciaInfo;
             RepoItemInfo _takephotobuttonInfo;
             RepoItemInfo _donephotobuttonInfo;
@@ -120,21 +118,14 @@ namespace ASMTraining
             RepoItemInfo _selectshop_backbuttonInfo;
             RepoItemInfo _selectdsf_backbuttonInfo;
             RepoItemInfo _competencydetailscreen_backbuttonInfo;
-            MarketVisit_TopHeaderLogoInfoClass _marketvisit_topheaderlogoInfo;
             RepoItemInfo _marketvisit_backbuttonInfo;
-            TrainingUpdates_HeaderLogoInfoClass _trainingupdates_headerlogoInfo;
-            MerchandiserEBook_HeaderLogoInfoClass _merchandiserebook_headerlogoInfo;
             RepoItemInfo _dsftraining_backbuttonInfo;
             RepoItemInfo _nationalchampionsInfo;
             RepoItemInfo _zonalchampionsInfo;
-            NationalChamp_HeaderLogoInfoClass _nationalchamp_headerlogoInfo;
-            ZonalChamp_HeaderLogoInfoClass _zonalchamp_headerlogoInfo;
             RepoItemInfo _asm_nationalchampbuttonInfo;
             RepoItemInfo _asm_zonalchampbuttonInfo;
             RepoItemInfo _tse_nationalchampbuttonInfo;
             RepoItemInfo _tse_zonalchampbuttonInfo;
-            Dsf_TopHeaderLogoInfoClass _dsf_topheaderlogoInfo;
-            CapabilityCham_TopHeaderLogoInfoClass _capabilitycham_topheaderlogoInfo;
             RepoItemInfo _asmnationalchamp_backbuttonInfo;
             RepoItemInfo _asmzonalchamp_backbuttonInfo;
             RepoItemInfo _tsenationalchamp_backbuttonInfo;
@@ -157,10 +148,7 @@ namespace ASMTraining
             RepoItemInfo _retailprice_backbuttonInfo;
             RepoItemInfo _cycleactivitieslistInfo;
             RepoItemInfo _cycleactivities_backbuttonInfo;
-            TVC_TopHeaderLogoInfoClass _tvc_topheaderlogoInfo;
             RepoItemInfo _tvc_backbuttonInfo;
-            RepoItemInfo _logoutInfo;
-            RepoItemInfo _sliderInfo;
             RepoItemInfo _validate_regionalrankingscreenInfo;
             RepoItemInfo _validate_asmrankingscreenInfo;
             RepoItemInfo _validate_dsfscreenInfo;
@@ -185,6 +173,19 @@ namespace ASMTraining
             RepoItemInfo _validate_retailpricescreenInfo;
             RepoItemInfo _validate_cycleactivitiesscreenInfo;
             RepoItemInfo _validate_zonalrankingscreenInfo;
+            RepoItemInfo _validate_asmtrainingmainscreenInfo;
+            RepoItemInfo _validate_competencytrainingmainscreenInfo;
+            RepoItemInfo _validation_infopopupInfo;
+            RepoItemInfo _validation_alertpopupInfo;
+            RepoItemInfo _alertpopup_okbuttonInfo;
+            RepoItemInfo _validate_camerascreenInfo;
+            RepoItemInfo _validate_marketvisitscreenInfo;
+            RepoItemInfo _validate_trainingupdatesscreenInfo;
+            RepoItemInfo _validate_dsftrainingstatsscreenInfo;
+            RepoItemInfo _validate_capabilitychampionsscreenInfo;
+            RepoItemInfo _validate_asm_tsescreenInfo;
+            RepoItemInfo _validate_ccsdscreenInfo;
+            RepoItemInfo _validate_tvclistscreenInfo;
 
             /// <summary>
             /// Creates a new ASMTraining  folder.
@@ -198,8 +199,6 @@ namespace ASMTraining
                 _content1 = new ASMTrainingRepositoryFolders.Content1Folder(this);
                 _zonelistscreen = new ASMTrainingRepositoryFolders.ZoneListScreenFolder(this);
                 _content2 = new ASMTrainingRepositoryFolders.Content2Folder(this);
-                _asmtraining_logoInfo = new ASMTraining_LogoInfoClass(this);
-                _competencytraining_headerlogoInfo = new CompetencyTraining_HeaderLogoInfoClass(this);
                 _competencytraining_listviewInfo = new RepoItemInfo(this, "CompetencyTraining_ListView", "form/container//list", 30000, null, "2e33c074-906b-47c0-9ea5-cf734e8975b4");
                 _project_listviewInfo = new RepoItemInfo(this, "Project_ListView", "form/container//list", 30000, null, "b72da095-b007-40a0-a066-21845d7a051e");
                 _zonalranking_listviewInfo = new RepoItemInfo(this, "ZonalRanking_ListView", "form/container//list", 30000, null, "0bb0cb8b-8dab-401f-83e3-597b7f4961df");
@@ -208,7 +207,7 @@ namespace ASMTraining
                 _regionalranking_listviewInfo = new RepoItemInfo(this, "RegionalRanking_ListView", "form/container//list", 30000, null, "836a7009-b7b9-4f69-998c-473fd4e62375");
                 _scorepanelInfo = new RepoItemInfo(this, "ScorePanel", "form[@title~'^ProjectWiseScoreListScree']/container[@rid='content']//list[@rid='list']/container/container", 30000, null, "853871a0-46c2-4113-b9e0-5cd6f1388f18");
                 _nextclickbarInfo = new RepoItemInfo(this, "NextClickBar", "form[@title='SalesShopScreen']//container[@rid='score_panel']/container[@rid='next_click_bar']", 30000, null, "a4819f27-df69-4e0c-b080-199680e94925");
-                _validate_okbuttonInfo = new RepoItemInfo(this, "Validate_OkButton", "form[@title='Info']/container[@rid='content']//button[@resourceid='R.string.yes']", 30000, null, "00b381f8-7fce-43e7-a860-506b260916e8");
+                _okbuttonInfo = new RepoItemInfo(this, "OkButton", "form[@title='Info']/container[@rid='content']//button[@resourceid='R.string.yes']", 30000, null, "00b381f8-7fce-43e7-a860-506b260916e8");
                 _takeshopfasciaInfo = new RepoItemInfo(this, "TakeShopFascia", "form[@title='SalesShopScreen']/container[@rid='content']//button[@rid='onTakePicture']", 30000, null, "7e05a199-1eca-4f8f-acee-fe87053aec3d");
                 _takephotobuttonInfo = new RepoItemInfo(this, "TakePhotoButton", "form[@title='CameraActivity']//container[@rid='take_photo_layout']/button[@rid='take_photo_button']", 30000, null, "8bae76fe-8618-445b-9011-0c8df2a0143f");
                 _donephotobuttonInfo = new RepoItemInfo(this, "DonePhotoButton", "form[@title='CameraActivity']//container[@rid='button_layout']/button[@rid='done_photo_button']", 30000, null, "d006aac9-3165-45db-ab90-4afe85f71a1b");
@@ -227,21 +226,14 @@ namespace ASMTraining
                 _selectshop_backbuttonInfo = new RepoItemInfo(this, "SelectShop_BackButton", "form[@title~'^ProjectWiseScoreListScree']/container[@rid='content']/androidelement/container[@containertype='Linear']/container[@containertype='Linear']/picture", 30000, null, "910deda9-d6c2-4ebc-848f-e0032f4b8c28");
                 _selectdsf_backbuttonInfo = new RepoItemInfo(this, "SelectDSF_BackButton", "form[@title='SalesDsfListScreen']/container[@rid='content']//picture[@rid='backArrow']", 30000, null, "94469ce5-0813-43ff-92c5-ac429c36944a");
                 _competencydetailscreen_backbuttonInfo = new RepoItemInfo(this, "CompetencyDetailScreen_BackButton", "form[@title='SalesCategoryListScreen']/container[@rid='content']/androidelement/container[@containertype='Linear']/container[@containertype='Linear']/picture", 30000, null, "85aeaba6-7daa-4c10-b448-c7078bd0b665");
-                _marketvisit_topheaderlogoInfo = new MarketVisit_TopHeaderLogoInfoClass(this);
                 _marketvisit_backbuttonInfo = new RepoItemInfo(this, "MarketVisit_BackButton", "form[@title='SalesAsmDetailListScreen']/container[@rid='content']//picture[@rid='backArrow']", 30000, null, "fd281e92-1c99-4988-8339-ca219f2862bf");
-                _trainingupdates_headerlogoInfo = new TrainingUpdates_HeaderLogoInfoClass(this);
-                _merchandiserebook_headerlogoInfo = new MerchandiserEBook_HeaderLogoInfoClass(this);
                 _dsftraining_backbuttonInfo = new RepoItemInfo(this, "DsfTraining_BackButton", "form[@title='DsfStatsListScreen']/container[@rid='content']/androidelement/container[@containertype='Linear']/container[@containertype='Linear']/picture", 30000, null, "43bf6a81-0f97-49c8-8897-a656b7cae511");
                 _nationalchampionsInfo = new RepoItemInfo(this, "NationalChampions", "form[@title='ChampionActivity']/container[@rid='content']//button[@rid='champion_btn']", 30000, null, "70173c26-e460-4599-a652-a0fa3692a8a4");
                 _zonalchampionsInfo = new RepoItemInfo(this, "ZonalChampions", "form[@title='ChampionActivity']/container[@rid='content']//button[@rid='capability_trainer']", 30000, null, "c3b0fa88-ce75-434f-8811-ff21bade14ac");
-                _nationalchamp_headerlogoInfo = new NationalChamp_HeaderLogoInfoClass(this);
-                _zonalchamp_headerlogoInfo = new ZonalChamp_HeaderLogoInfoClass(this);
                 _asm_nationalchampbuttonInfo = new RepoItemInfo(this, "ASM_NationalChampButton", "form[@title='AsmTseSelectionActivity']/container[@rid='content']//button[@rid='champion_btn']", 30000, null, "24d5658f-6e21-4fda-875f-f1b6030e030f");
                 _asm_zonalchampbuttonInfo = new RepoItemInfo(this, "ASM_ZonalChampButton", "form[@title='AsmTseSelectionActivity']/container[@rid='content']//button[@rid='champion_btn']", 30000, null, "4b0b159a-d59e-4b29-b5b7-d2c0f24586fa");
                 _tse_nationalchampbuttonInfo = new RepoItemInfo(this, "TSE_NationalChampButton", "form[@title='AsmTseSelectionActivity']/container[@rid='content']//button[@rid='capability_trainer']", 30000, null, "41dfbd59-01b3-420a-9907-d4bb59755776");
                 _tse_zonalchampbuttonInfo = new RepoItemInfo(this, "TSE_ZonalChampButton", "form[@title='AsmTseSelectionActivity']/container[@rid='content']//button[@rid='capability_trainer']", 30000, null, "c9cd19e6-385f-4f91-bdbf-1ccf6c0caa21");
-                _dsf_topheaderlogoInfo = new Dsf_TopHeaderLogoInfoClass(this);
-                _capabilitycham_topheaderlogoInfo = new CapabilityCham_TopHeaderLogoInfoClass(this);
                 _asmnationalchamp_backbuttonInfo = new RepoItemInfo(this, "AsmNationalChamp_BackButton", "form[@title='ChampionListActivity']/container[@rid='content']/androidelement/container[@containertype='Linear']/container[@containertype='Linear']/picture", 30000, null, "5aaaf44c-22fc-47f7-8f10-df23ba5b1209");
                 _asmzonalchamp_backbuttonInfo = new RepoItemInfo(this, "AsmZonalChamp_BackButton", "form[@title='ChampionListActivity']/container[@rid='content']/androidelement/container[@containertype='Linear']/container[@containertype='Linear']/picture", 30000, null, "528f2ebc-c899-4df7-98b8-52222a4cc0dc");
                 _tsenationalchamp_backbuttonInfo = new RepoItemInfo(this, "TseNationalChamp_BackButton", "form[@title='ChampionListActivity']/container[@rid='content']/androidelement/container[@containertype='Linear']/container[@containertype='Linear']/picture", 30000, null, "e6e8b89a-930a-41d7-8a46-d1265473c609");
@@ -264,10 +256,7 @@ namespace ASMTraining
                 _retailprice_backbuttonInfo = new RepoItemInfo(this, "RetailPrice_BackButton", "form[@title='PriceListScreen']/container[@rid='content']/androidelement/container[@containertype='Linear']/container[@containertype='Linear']/picture", 30000, null, "c8bf580b-32c2-4dea-b242-b60ad8d7d23d");
                 _cycleactivitieslistInfo = new RepoItemInfo(this, "CycleActivitiesList", "form[@title='CycleAcitvites']/container[@rid='content']//container[@containertype='Linear']/container[3]", 30000, null, "7df06c3a-00c4-427b-a2c9-ddd7e418a73a");
                 _cycleactivities_backbuttonInfo = new RepoItemInfo(this, "CycleActivities_BackButton", "form[@title='CycleAcitvites']/container[@rid='content']//container[@containertype='Linear']/container[2]/picture", 30000, null, "525d7dcf-3019-40fc-aa4d-bab3baf80407");
-                _tvc_topheaderlogoInfo = new TVC_TopHeaderLogoInfoClass(this);
                 _tvc_backbuttonInfo = new RepoItemInfo(this, "TVC_BackButton", "form[@title='TvcListScreen']/container[@rid='content']/androidelement/container[@containertype='Linear']/container[@containertype='Linear']/picture", 30000, null, "112217d6-245a-4ea0-b379-7dce092f07a6");
-                _logoutInfo = new RepoItemInfo(this, "Logout", "form[@title='TvcListScreen']/container[@rid='content']/?/?/androidelement[@rid='RecyclerView']/container[9]", 30000, null, "5bb1e408-cd3b-4555-aa26-3565f6947c10");
-                _sliderInfo = new RepoItemInfo(this, "Slider", "form[@title='TvcListScreen']/container[@rid='content']//picture[@rid='slider']", 30000, null, "786accff-2bd1-4d2e-89c6-c514ef7e128f");
                 _validate_regionalrankingscreenInfo = new RepoItemInfo(this, "Validate_RegionalRankingScreen", "form[@title='RegionalScoreActivity']/container[@rid='content']//text[@rid='asm_name1']", 30000, null, "16866dfa-5853-4310-8552-581b84d6bd6b");
                 _validate_asmrankingscreenInfo = new RepoItemInfo(this, "Validate_AsmRankingScreen", "form[@title='ASMListActivity']/container[@rid='content']//text[@rid='asm_name1']", 30000, null, "97b8253a-d1a3-4e88-92b7-2592bc77d153");
                 _validate_dsfscreenInfo = new RepoItemInfo(this, "Validate_DsfScreen", "form[@title='SalesDsfListScreen']/container[@rid='content']//text[@rid='category_name']", 30000, null, "f2296ab2-c164-47c6-b925-b1aa24f33989");
@@ -292,356 +281,19 @@ namespace ASMTraining
                 _validate_retailpricescreenInfo = new RepoItemInfo(this, "Validate_RetailPriceScreen", "form[@title='PriceListScreen']/container[@rid='content']//text[@resourceid='R.string.price_list_screen']", 30000, null, "b7a41588-d3d6-47a0-aa56-616f34130321");
                 _validate_cycleactivitiesscreenInfo = new RepoItemInfo(this, "Validate_CycleActivitiesScreen", "form[@title='CycleAcitvites']/container[@rid='content']//container[@containertype='Linear']/container[2]/text[@rid='asm_name1']", 30000, null, "d018c2b2-d32e-472f-a18f-a154a625b3e2");
                 _validate_zonalrankingscreenInfo = new RepoItemInfo(this, "Validate_ZonalRankingScreen", "form[@title='ZonalScoreActivity']/container[@rid='content']//text[@rid='asm_name1']", 30000, null, "b8f052d4-429b-4aef-8671-80ac842cd3cc");
-            }
-
-            /// <summary>
-            /// The ASMTraining_LogoInfoClass folder.
-            /// </summary>
-            [RepositoryItemInfo("15ca4559-814f-476c-8e7c-0d78c3428937")]
-            public class ASMTraining_LogoInfoClass : RepoItemInfo
-            {
-                /// <summary>
-                /// ASMTraining_LogoInfoClass class constructor.
-                /// </summary>
-                public ASMTraining_LogoInfoClass(RepoGenBaseFolder parentFolder)
-                    : base(parentFolder, "ASMTraining_Logo", "form[@title='MainScreen']/container[@rid='content']//picture[@rid='imageButton']", 30000, null, "15ca4559-814f-476c-8e7c-0d78c3428937")
-                { }
-
-                /// <summary>
-                /// Gets the Screenshot1 item image.
-                /// </summary>
-                /// <returns>The Screenshot1 image.</returns>
-                [RepositoryImage("aa6fd458-406e-4270-97d2-e28965522f5c")]
-                public CompressedImage GetScreenshot1()
-                {
-                    return GetImage("aa6fd458-406e-4270-97d2-e28965522f5c");
-                }
-
-                /// <summary>
-                /// Gets the Screenshot1 item image.
-                /// </summary>
-                /// <param name="cropRect">The bounds of the sub-image to return.</param>
-                /// <returns>The cropped image.</returns>
-                [RepositoryImage("aa6fd458-406e-4270-97d2-e28965522f5c")]
-                public CompressedImage GetScreenshot1(System.Drawing.Rectangle cropRect)
-                {
-                    return GetImage("aa6fd458-406e-4270-97d2-e28965522f5c", cropRect);
-                }
-            }
-
-            /// <summary>
-            /// The CompetencyTraining_HeaderLogoInfoClass folder.
-            /// </summary>
-            [RepositoryItemInfo("501bc9fa-aa91-4065-a053-283c762981b2")]
-            public class CompetencyTraining_HeaderLogoInfoClass : RepoItemInfo
-            {
-                /// <summary>
-                /// CompetencyTraining_HeaderLogoInfoClass class constructor.
-                /// </summary>
-                public CompetencyTraining_HeaderLogoInfoClass(RepoGenBaseFolder parentFolder)
-                    : base(parentFolder, "CompetencyTraining_HeaderLogo", "form[@title='SalesCategoryListScreen']/container[@rid='content']//picture[@rid='top_header_logo']", 30000, null, "501bc9fa-aa91-4065-a053-283c762981b2")
-                { }
-
-                /// <summary>
-                /// Gets the Screenshot1 item image.
-                /// </summary>
-                /// <returns>The Screenshot1 image.</returns>
-                [RepositoryImage("3f3d6dee-0d0f-4fa8-ba11-fd58d5dfb886")]
-                public CompressedImage GetScreenshot1()
-                {
-                    return GetImage("3f3d6dee-0d0f-4fa8-ba11-fd58d5dfb886");
-                }
-
-                /// <summary>
-                /// Gets the Screenshot1 item image.
-                /// </summary>
-                /// <param name="cropRect">The bounds of the sub-image to return.</param>
-                /// <returns>The cropped image.</returns>
-                [RepositoryImage("3f3d6dee-0d0f-4fa8-ba11-fd58d5dfb886")]
-                public CompressedImage GetScreenshot1(System.Drawing.Rectangle cropRect)
-                {
-                    return GetImage("3f3d6dee-0d0f-4fa8-ba11-fd58d5dfb886", cropRect);
-                }
-            }
-
-            /// <summary>
-            /// The MarketVisit_TopHeaderLogoInfoClass folder.
-            /// </summary>
-            [RepositoryItemInfo("431d9ed4-86f5-4e19-a9ba-71febbe62ace")]
-            public class MarketVisit_TopHeaderLogoInfoClass : RepoItemInfo
-            {
-                /// <summary>
-                /// MarketVisit_TopHeaderLogoInfoClass class constructor.
-                /// </summary>
-                public MarketVisit_TopHeaderLogoInfoClass(RepoGenBaseFolder parentFolder)
-                    : base(parentFolder, "MarketVisit_TopHeaderLogo", "form[@title='SalesAsmDetailListScreen']/container[@rid='content']//picture[@rid='top_header_logo']", 30000, null, "431d9ed4-86f5-4e19-a9ba-71febbe62ace")
-                { }
-
-                /// <summary>
-                /// Gets the Screenshot1 item image.
-                /// </summary>
-                /// <returns>The Screenshot1 image.</returns>
-                [RepositoryImage("462bb26f-13e6-47c8-b311-cca34415f8a7")]
-                public CompressedImage GetScreenshot1()
-                {
-                    return GetImage("462bb26f-13e6-47c8-b311-cca34415f8a7");
-                }
-
-                /// <summary>
-                /// Gets the Screenshot1 item image.
-                /// </summary>
-                /// <param name="cropRect">The bounds of the sub-image to return.</param>
-                /// <returns>The cropped image.</returns>
-                [RepositoryImage("462bb26f-13e6-47c8-b311-cca34415f8a7")]
-                public CompressedImage GetScreenshot1(System.Drawing.Rectangle cropRect)
-                {
-                    return GetImage("462bb26f-13e6-47c8-b311-cca34415f8a7", cropRect);
-                }
-            }
-
-            /// <summary>
-            /// The TrainingUpdates_HeaderLogoInfoClass folder.
-            /// </summary>
-            [RepositoryItemInfo("751d47f1-1fcc-4bd7-859c-43865b9166ad")]
-            public class TrainingUpdates_HeaderLogoInfoClass : RepoItemInfo
-            {
-                /// <summary>
-                /// TrainingUpdates_HeaderLogoInfoClass class constructor.
-                /// </summary>
-                public TrainingUpdates_HeaderLogoInfoClass(RepoGenBaseFolder parentFolder)
-                    : base(parentFolder, "TrainingUpdates_HeaderLogo", "form[@title='TrainingUpdateActivity']/container[@rid='content']//picture[@rid='imageButton']", 30000, null, "751d47f1-1fcc-4bd7-859c-43865b9166ad")
-                { }
-
-                /// <summary>
-                /// Gets the Screenshot1 item image.
-                /// </summary>
-                /// <returns>The Screenshot1 image.</returns>
-                [RepositoryImage("ddc81d83-8bdd-43c3-85d4-be0b53e15b22")]
-                public CompressedImage GetScreenshot1()
-                {
-                    return GetImage("ddc81d83-8bdd-43c3-85d4-be0b53e15b22");
-                }
-
-                /// <summary>
-                /// Gets the Screenshot1 item image.
-                /// </summary>
-                /// <param name="cropRect">The bounds of the sub-image to return.</param>
-                /// <returns>The cropped image.</returns>
-                [RepositoryImage("ddc81d83-8bdd-43c3-85d4-be0b53e15b22")]
-                public CompressedImage GetScreenshot1(System.Drawing.Rectangle cropRect)
-                {
-                    return GetImage("ddc81d83-8bdd-43c3-85d4-be0b53e15b22", cropRect);
-                }
-            }
-
-            /// <summary>
-            /// The MerchandiserEBook_HeaderLogoInfoClass folder.
-            /// </summary>
-            [RepositoryItemInfo("e74ee83d-1df3-43f9-8214-896b2477fcdc")]
-            public class MerchandiserEBook_HeaderLogoInfoClass : RepoItemInfo
-            {
-                /// <summary>
-                /// MerchandiserEBook_HeaderLogoInfoClass class constructor.
-                /// </summary>
-                public MerchandiserEBook_HeaderLogoInfoClass(RepoGenBaseFolder parentFolder)
-                    : base(parentFolder, "MerchandiserEBook_HeaderLogo", "form[@title='EBookDashBoardActivity']/container[@rid='content']//picture[@rid='imageButton']", 30000, null, "e74ee83d-1df3-43f9-8214-896b2477fcdc")
-                { }
-
-                /// <summary>
-                /// Gets the Screenshot1 item image.
-                /// </summary>
-                /// <returns>The Screenshot1 image.</returns>
-                [RepositoryImage("432f3c65-c110-4a09-a251-5b7b586d8653")]
-                public CompressedImage GetScreenshot1()
-                {
-                    return GetImage("432f3c65-c110-4a09-a251-5b7b586d8653");
-                }
-
-                /// <summary>
-                /// Gets the Screenshot1 item image.
-                /// </summary>
-                /// <param name="cropRect">The bounds of the sub-image to return.</param>
-                /// <returns>The cropped image.</returns>
-                [RepositoryImage("432f3c65-c110-4a09-a251-5b7b586d8653")]
-                public CompressedImage GetScreenshot1(System.Drawing.Rectangle cropRect)
-                {
-                    return GetImage("432f3c65-c110-4a09-a251-5b7b586d8653", cropRect);
-                }
-            }
-
-            /// <summary>
-            /// The NationalChamp_HeaderLogoInfoClass folder.
-            /// </summary>
-            [RepositoryItemInfo("86182da1-b132-49eb-83d4-4597bd338b15")]
-            public class NationalChamp_HeaderLogoInfoClass : RepoItemInfo
-            {
-                /// <summary>
-                /// NationalChamp_HeaderLogoInfoClass class constructor.
-                /// </summary>
-                public NationalChamp_HeaderLogoInfoClass(RepoGenBaseFolder parentFolder)
-                    : base(parentFolder, "NationalChamp_HeaderLogo", "form[@title='AsmTseSelectionActivity']/container[@rid='content']//picture[@rid='imageButton']", 30000, null, "86182da1-b132-49eb-83d4-4597bd338b15")
-                { }
-
-                /// <summary>
-                /// Gets the Screenshot1 item image.
-                /// </summary>
-                /// <returns>The Screenshot1 image.</returns>
-                [RepositoryImage("00a359c5-af90-4a0a-97a4-3aeac32c1b7a")]
-                public CompressedImage GetScreenshot1()
-                {
-                    return GetImage("00a359c5-af90-4a0a-97a4-3aeac32c1b7a");
-                }
-
-                /// <summary>
-                /// Gets the Screenshot1 item image.
-                /// </summary>
-                /// <param name="cropRect">The bounds of the sub-image to return.</param>
-                /// <returns>The cropped image.</returns>
-                [RepositoryImage("00a359c5-af90-4a0a-97a4-3aeac32c1b7a")]
-                public CompressedImage GetScreenshot1(System.Drawing.Rectangle cropRect)
-                {
-                    return GetImage("00a359c5-af90-4a0a-97a4-3aeac32c1b7a", cropRect);
-                }
-            }
-
-            /// <summary>
-            /// The ZonalChamp_HeaderLogoInfoClass folder.
-            /// </summary>
-            [RepositoryItemInfo("92755b73-9639-4056-b8dd-cad8a26b358b")]
-            public class ZonalChamp_HeaderLogoInfoClass : RepoItemInfo
-            {
-                /// <summary>
-                /// ZonalChamp_HeaderLogoInfoClass class constructor.
-                /// </summary>
-                public ZonalChamp_HeaderLogoInfoClass(RepoGenBaseFolder parentFolder)
-                    : base(parentFolder, "ZonalChamp_HeaderLogo", "form[@title='AsmTseSelectionActivity']/container[@rid='content']//picture[@rid='imageButton']", 30000, null, "92755b73-9639-4056-b8dd-cad8a26b358b")
-                { }
-
-                /// <summary>
-                /// Gets the Screenshot1 item image.
-                /// </summary>
-                /// <returns>The Screenshot1 image.</returns>
-                [RepositoryImage("15a89229-38bd-4b6c-bbd7-f764bf2801f1")]
-                public CompressedImage GetScreenshot1()
-                {
-                    return GetImage("15a89229-38bd-4b6c-bbd7-f764bf2801f1");
-                }
-
-                /// <summary>
-                /// Gets the Screenshot1 item image.
-                /// </summary>
-                /// <param name="cropRect">The bounds of the sub-image to return.</param>
-                /// <returns>The cropped image.</returns>
-                [RepositoryImage("15a89229-38bd-4b6c-bbd7-f764bf2801f1")]
-                public CompressedImage GetScreenshot1(System.Drawing.Rectangle cropRect)
-                {
-                    return GetImage("15a89229-38bd-4b6c-bbd7-f764bf2801f1", cropRect);
-                }
-            }
-
-            /// <summary>
-            /// The Dsf_TopHeaderLogoInfoClass folder.
-            /// </summary>
-            [RepositoryItemInfo("1ad9790f-9545-486b-88e2-06ab7c048825")]
-            public class Dsf_TopHeaderLogoInfoClass : RepoItemInfo
-            {
-                /// <summary>
-                /// Dsf_TopHeaderLogoInfoClass class constructor.
-                /// </summary>
-                public Dsf_TopHeaderLogoInfoClass(RepoGenBaseFolder parentFolder)
-                    : base(parentFolder, "Dsf_TopHeaderLogo", "form[@title='DsfStatsListScreen']/container[@rid='content']//picture[@rid='top_header_logo']", 30000, null, "1ad9790f-9545-486b-88e2-06ab7c048825")
-                { }
-
-                /// <summary>
-                /// Gets the Screenshot1 item image.
-                /// </summary>
-                /// <returns>The Screenshot1 image.</returns>
-                [RepositoryImage("eb10c8bc-a233-4ecc-b91c-31ac190dbffd")]
-                public CompressedImage GetScreenshot1()
-                {
-                    return GetImage("eb10c8bc-a233-4ecc-b91c-31ac190dbffd");
-                }
-
-                /// <summary>
-                /// Gets the Screenshot1 item image.
-                /// </summary>
-                /// <param name="cropRect">The bounds of the sub-image to return.</param>
-                /// <returns>The cropped image.</returns>
-                [RepositoryImage("eb10c8bc-a233-4ecc-b91c-31ac190dbffd")]
-                public CompressedImage GetScreenshot1(System.Drawing.Rectangle cropRect)
-                {
-                    return GetImage("eb10c8bc-a233-4ecc-b91c-31ac190dbffd", cropRect);
-                }
-            }
-
-            /// <summary>
-            /// The CapabilityCham_TopHeaderLogoInfoClass folder.
-            /// </summary>
-            [RepositoryItemInfo("72da4006-43d5-461c-af0b-6ce1cfffea6d")]
-            public class CapabilityCham_TopHeaderLogoInfoClass : RepoItemInfo
-            {
-                /// <summary>
-                /// CapabilityCham_TopHeaderLogoInfoClass class constructor.
-                /// </summary>
-                public CapabilityCham_TopHeaderLogoInfoClass(RepoGenBaseFolder parentFolder)
-                    : base(parentFolder, "CapabilityCham_TopHeaderLogo", "form[@title='ChampionActivity']/container[@rid='content']//picture[@rid='imageButton']", 30000, null, "72da4006-43d5-461c-af0b-6ce1cfffea6d")
-                { }
-
-                /// <summary>
-                /// Gets the Screenshot1 item image.
-                /// </summary>
-                /// <returns>The Screenshot1 image.</returns>
-                [RepositoryImage("3d1526f1-af40-45ce-9338-706acc415821")]
-                public CompressedImage GetScreenshot1()
-                {
-                    return GetImage("3d1526f1-af40-45ce-9338-706acc415821");
-                }
-
-                /// <summary>
-                /// Gets the Screenshot1 item image.
-                /// </summary>
-                /// <param name="cropRect">The bounds of the sub-image to return.</param>
-                /// <returns>The cropped image.</returns>
-                [RepositoryImage("3d1526f1-af40-45ce-9338-706acc415821")]
-                public CompressedImage GetScreenshot1(System.Drawing.Rectangle cropRect)
-                {
-                    return GetImage("3d1526f1-af40-45ce-9338-706acc415821", cropRect);
-                }
-            }
-
-            /// <summary>
-            /// The TVC_TopHeaderLogoInfoClass folder.
-            /// </summary>
-            [RepositoryItemInfo("f8100345-ae98-4856-a9aa-a13f619412f0")]
-            public class TVC_TopHeaderLogoInfoClass : RepoItemInfo
-            {
-                /// <summary>
-                /// TVC_TopHeaderLogoInfoClass class constructor.
-                /// </summary>
-                public TVC_TopHeaderLogoInfoClass(RepoGenBaseFolder parentFolder)
-                    : base(parentFolder, "TVC_TopHeaderLogo", "form[@title='TvcListScreen']/container[@rid='content']//picture[@rid='top_header_logo']", 30000, null, "f8100345-ae98-4856-a9aa-a13f619412f0")
-                { }
-
-                /// <summary>
-                /// Gets the Screenshot1 item image.
-                /// </summary>
-                /// <returns>The Screenshot1 image.</returns>
-                [RepositoryImage("d2d8132b-a767-4716-9207-c69092cc4e2f")]
-                public CompressedImage GetScreenshot1()
-                {
-                    return GetImage("d2d8132b-a767-4716-9207-c69092cc4e2f");
-                }
-
-                /// <summary>
-                /// Gets the Screenshot1 item image.
-                /// </summary>
-                /// <param name="cropRect">The bounds of the sub-image to return.</param>
-                /// <returns>The cropped image.</returns>
-                [RepositoryImage("d2d8132b-a767-4716-9207-c69092cc4e2f")]
-                public CompressedImage GetScreenshot1(System.Drawing.Rectangle cropRect)
-                {
-                    return GetImage("d2d8132b-a767-4716-9207-c69092cc4e2f", cropRect);
-                }
+                _validate_asmtrainingmainscreenInfo = new RepoItemInfo(this, "Validate_AsmTrainingMainScreen", "form[@title='MainScreen']", 30000, null, "2fb1d757-ef45-4dab-bd84-3b9100e21f33");
+                _validate_competencytrainingmainscreenInfo = new RepoItemInfo(this, "Validate_CompetencyTrainingMainScreen", "form[@title='SalesCategoryListScreen']", 30000, null, "27363f61-6394-400a-bf5d-7d0061eb11df");
+                _validation_infopopupInfo = new RepoItemInfo(this, "Validation_InfoPopUp", "form[@title='Info']", 30000, null, "6d9fbca2-6cbd-4989-85ab-e50bb42c1560");
+                _validation_alertpopupInfo = new RepoItemInfo(this, "Validation_AlertPopUp", "form[@title='Alert!']", 30000, null, "0029275d-c44b-4fc7-87d2-9ee5d6d867bb");
+                _alertpopup_okbuttonInfo = new RepoItemInfo(this, "AlertPopUp_OkButton", "form[@title='Alert!']/container[@rid='content']//button[@resourceid='R.string.yes']", 30000, null, "70e7eda6-6773-49a6-a989-83b94705dbb7");
+                _validate_camerascreenInfo = new RepoItemInfo(this, "Validate_CameraScreen", "form[@title='CameraActivity']//container[@rid='take_photo_layout']", 30000, null, "8ebbd2e8-ba7b-481c-8383-b581d324bd85");
+                _validate_marketvisitscreenInfo = new RepoItemInfo(this, "Validate_MarketVisitScreen", "form[@title='SalesAsmDetailListScreen']", 30000, null, "f078aa43-61c0-423b-9b97-b081c4078972");
+                _validate_trainingupdatesscreenInfo = new RepoItemInfo(this, "Validate_TrainingUpdatesScreen", "form[@title='TrainingUpdateActivity']", 30000, null, "f8a60898-ab84-4a39-ac57-68fe8ec93b01");
+                _validate_dsftrainingstatsscreenInfo = new RepoItemInfo(this, "Validate_DSFTrainingStatsScreen", "form[@title='DsfStatsListScreen']", 30000, null, "18a1ce77-f49c-434b-9f8c-b59395a876f2");
+                _validate_capabilitychampionsscreenInfo = new RepoItemInfo(this, "Validate_CapabilityChampionsScreen", "form[@title='ChampionActivity']", 30000, null, "ee2c3f47-1bbd-4e08-a8d9-ef379f4b47f5");
+                _validate_asm_tsescreenInfo = new RepoItemInfo(this, "Validate_ASM_TSEScreen", "form[@title='AsmTseSelectionActivity']", 30000, null, "f078b013-778a-44b6-8fb2-d130abc1c66d");
+                _validate_ccsdscreenInfo = new RepoItemInfo(this, "Validate_CCSDScreen", "form[@title='EBookDashBoardActivity']", 30000, null, "294b4bf1-09b7-4343-bbef-d46d47134b56");
+                _validate_tvclistscreenInfo = new RepoItemInfo(this, "Validate_TvcListScreen", "form[@title='TvcListScreen']", 30000, null, "48af5834-50ce-43e0-82da-a092deb6dbf6");
             }
 
             /// <summary>
@@ -665,54 +317,6 @@ namespace ASMTraining
                 get
                 {
                     return _selfInfo;
-                }
-            }
-
-            /// <summary>
-            /// The ASMTraining_Logo item.
-            /// </summary>
-            [RepositoryItem("15ca4559-814f-476c-8e7c-0d78c3428937")]
-            public virtual Ranorex.Picture ASMTraining_Logo
-            {
-                get
-                {
-                    return _asmtraining_logoInfo.CreateAdapter<Ranorex.Picture>(true);
-                }
-            }
-
-            /// <summary>
-            /// The ASMTraining_Logo item info.
-            /// </summary>
-            [RepositoryItemInfo("15ca4559-814f-476c-8e7c-0d78c3428937")]
-            public virtual ASMTraining_LogoInfoClass ASMTraining_LogoInfo
-            {
-                get
-                {
-                    return _asmtraining_logoInfo;
-                }
-            }
-
-            /// <summary>
-            /// The CompetencyTraining_HeaderLogo item.
-            /// </summary>
-            [RepositoryItem("501bc9fa-aa91-4065-a053-283c762981b2")]
-            public virtual Ranorex.Picture CompetencyTraining_HeaderLogo
-            {
-                get
-                {
-                    return _competencytraining_headerlogoInfo.CreateAdapter<Ranorex.Picture>(true);
-                }
-            }
-
-            /// <summary>
-            /// The CompetencyTraining_HeaderLogo item info.
-            /// </summary>
-            [RepositoryItemInfo("501bc9fa-aa91-4065-a053-283c762981b2")]
-            public virtual CompetencyTraining_HeaderLogoInfoClass CompetencyTraining_HeaderLogoInfo
-            {
-                get
-                {
-                    return _competencytraining_headerlogoInfo;
                 }
             }
 
@@ -909,26 +513,26 @@ namespace ASMTraining
             }
 
             /// <summary>
-            /// The Validate_OkButton item.
+            /// The OkButton item.
             /// </summary>
             [RepositoryItem("00b381f8-7fce-43e7-a860-506b260916e8")]
-            public virtual Ranorex.Button Validate_OkButton
+            public virtual Ranorex.Button OkButton
             {
                 get
                 {
-                    return _validate_okbuttonInfo.CreateAdapter<Ranorex.Button>(true);
+                    return _okbuttonInfo.CreateAdapter<Ranorex.Button>(true);
                 }
             }
 
             /// <summary>
-            /// The Validate_OkButton item info.
+            /// The OkButton item info.
             /// </summary>
             [RepositoryItemInfo("00b381f8-7fce-43e7-a860-506b260916e8")]
-            public virtual RepoItemInfo Validate_OkButtonInfo
+            public virtual RepoItemInfo OkButtonInfo
             {
                 get
                 {
-                    return _validate_okbuttonInfo;
+                    return _okbuttonInfo;
                 }
             }
 
@@ -1365,30 +969,6 @@ namespace ASMTraining
             }
 
             /// <summary>
-            /// The MarketVisit_TopHeaderLogo item.
-            /// </summary>
-            [RepositoryItem("431d9ed4-86f5-4e19-a9ba-71febbe62ace")]
-            public virtual Ranorex.Picture MarketVisit_TopHeaderLogo
-            {
-                get
-                {
-                    return _marketvisit_topheaderlogoInfo.CreateAdapter<Ranorex.Picture>(true);
-                }
-            }
-
-            /// <summary>
-            /// The MarketVisit_TopHeaderLogo item info.
-            /// </summary>
-            [RepositoryItemInfo("431d9ed4-86f5-4e19-a9ba-71febbe62ace")]
-            public virtual MarketVisit_TopHeaderLogoInfoClass MarketVisit_TopHeaderLogoInfo
-            {
-                get
-                {
-                    return _marketvisit_topheaderlogoInfo;
-                }
-            }
-
-            /// <summary>
             /// The MarketVisit_BackButton item.
             /// </summary>
             [RepositoryItem("fd281e92-1c99-4988-8339-ca219f2862bf")]
@@ -1409,54 +989,6 @@ namespace ASMTraining
                 get
                 {
                     return _marketvisit_backbuttonInfo;
-                }
-            }
-
-            /// <summary>
-            /// The TrainingUpdates_HeaderLogo item.
-            /// </summary>
-            [RepositoryItem("751d47f1-1fcc-4bd7-859c-43865b9166ad")]
-            public virtual Ranorex.Picture TrainingUpdates_HeaderLogo
-            {
-                get
-                {
-                    return _trainingupdates_headerlogoInfo.CreateAdapter<Ranorex.Picture>(true);
-                }
-            }
-
-            /// <summary>
-            /// The TrainingUpdates_HeaderLogo item info.
-            /// </summary>
-            [RepositoryItemInfo("751d47f1-1fcc-4bd7-859c-43865b9166ad")]
-            public virtual TrainingUpdates_HeaderLogoInfoClass TrainingUpdates_HeaderLogoInfo
-            {
-                get
-                {
-                    return _trainingupdates_headerlogoInfo;
-                }
-            }
-
-            /// <summary>
-            /// The MerchandiserEBook_HeaderLogo item.
-            /// </summary>
-            [RepositoryItem("e74ee83d-1df3-43f9-8214-896b2477fcdc")]
-            public virtual Ranorex.Picture MerchandiserEBook_HeaderLogo
-            {
-                get
-                {
-                    return _merchandiserebook_headerlogoInfo.CreateAdapter<Ranorex.Picture>(true);
-                }
-            }
-
-            /// <summary>
-            /// The MerchandiserEBook_HeaderLogo item info.
-            /// </summary>
-            [RepositoryItemInfo("e74ee83d-1df3-43f9-8214-896b2477fcdc")]
-            public virtual MerchandiserEBook_HeaderLogoInfoClass MerchandiserEBook_HeaderLogoInfo
-            {
-                get
-                {
-                    return _merchandiserebook_headerlogoInfo;
                 }
             }
 
@@ -1529,54 +1061,6 @@ namespace ASMTraining
                 get
                 {
                     return _zonalchampionsInfo;
-                }
-            }
-
-            /// <summary>
-            /// The NationalChamp_HeaderLogo item.
-            /// </summary>
-            [RepositoryItem("86182da1-b132-49eb-83d4-4597bd338b15")]
-            public virtual Ranorex.Picture NationalChamp_HeaderLogo
-            {
-                get
-                {
-                    return _nationalchamp_headerlogoInfo.CreateAdapter<Ranorex.Picture>(true);
-                }
-            }
-
-            /// <summary>
-            /// The NationalChamp_HeaderLogo item info.
-            /// </summary>
-            [RepositoryItemInfo("86182da1-b132-49eb-83d4-4597bd338b15")]
-            public virtual NationalChamp_HeaderLogoInfoClass NationalChamp_HeaderLogoInfo
-            {
-                get
-                {
-                    return _nationalchamp_headerlogoInfo;
-                }
-            }
-
-            /// <summary>
-            /// The ZonalChamp_HeaderLogo item.
-            /// </summary>
-            [RepositoryItem("92755b73-9639-4056-b8dd-cad8a26b358b")]
-            public virtual Ranorex.Picture ZonalChamp_HeaderLogo
-            {
-                get
-                {
-                    return _zonalchamp_headerlogoInfo.CreateAdapter<Ranorex.Picture>(true);
-                }
-            }
-
-            /// <summary>
-            /// The ZonalChamp_HeaderLogo item info.
-            /// </summary>
-            [RepositoryItemInfo("92755b73-9639-4056-b8dd-cad8a26b358b")]
-            public virtual ZonalChamp_HeaderLogoInfoClass ZonalChamp_HeaderLogoInfo
-            {
-                get
-                {
-                    return _zonalchamp_headerlogoInfo;
                 }
             }
 
@@ -1673,54 +1157,6 @@ namespace ASMTraining
                 get
                 {
                     return _tse_zonalchampbuttonInfo;
-                }
-            }
-
-            /// <summary>
-            /// The Dsf_TopHeaderLogo item.
-            /// </summary>
-            [RepositoryItem("1ad9790f-9545-486b-88e2-06ab7c048825")]
-            public virtual Ranorex.Picture Dsf_TopHeaderLogo
-            {
-                get
-                {
-                    return _dsf_topheaderlogoInfo.CreateAdapter<Ranorex.Picture>(true);
-                }
-            }
-
-            /// <summary>
-            /// The Dsf_TopHeaderLogo item info.
-            /// </summary>
-            [RepositoryItemInfo("1ad9790f-9545-486b-88e2-06ab7c048825")]
-            public virtual Dsf_TopHeaderLogoInfoClass Dsf_TopHeaderLogoInfo
-            {
-                get
-                {
-                    return _dsf_topheaderlogoInfo;
-                }
-            }
-
-            /// <summary>
-            /// The CapabilityCham_TopHeaderLogo item.
-            /// </summary>
-            [RepositoryItem("72da4006-43d5-461c-af0b-6ce1cfffea6d")]
-            public virtual Ranorex.Picture CapabilityCham_TopHeaderLogo
-            {
-                get
-                {
-                    return _capabilitycham_topheaderlogoInfo.CreateAdapter<Ranorex.Picture>(true);
-                }
-            }
-
-            /// <summary>
-            /// The CapabilityCham_TopHeaderLogo item info.
-            /// </summary>
-            [RepositoryItemInfo("72da4006-43d5-461c-af0b-6ce1cfffea6d")]
-            public virtual CapabilityCham_TopHeaderLogoInfoClass CapabilityCham_TopHeaderLogoInfo
-            {
-                get
-                {
-                    return _capabilitycham_topheaderlogoInfo;
                 }
             }
 
@@ -2253,30 +1689,6 @@ namespace ASMTraining
             }
 
             /// <summary>
-            /// The TVC_TopHeaderLogo item.
-            /// </summary>
-            [RepositoryItem("f8100345-ae98-4856-a9aa-a13f619412f0")]
-            public virtual Ranorex.Picture TVC_TopHeaderLogo
-            {
-                get
-                {
-                    return _tvc_topheaderlogoInfo.CreateAdapter<Ranorex.Picture>(true);
-                }
-            }
-
-            /// <summary>
-            /// The TVC_TopHeaderLogo item info.
-            /// </summary>
-            [RepositoryItemInfo("f8100345-ae98-4856-a9aa-a13f619412f0")]
-            public virtual TVC_TopHeaderLogoInfoClass TVC_TopHeaderLogoInfo
-            {
-                get
-                {
-                    return _tvc_topheaderlogoInfo;
-                }
-            }
-
-            /// <summary>
             /// The TVC_BackButton item.
             /// </summary>
             [RepositoryItem("112217d6-245a-4ea0-b379-7dce092f07a6")]
@@ -2297,54 +1709,6 @@ namespace ASMTraining
                 get
                 {
                     return _tvc_backbuttonInfo;
-                }
-            }
-
-            /// <summary>
-            /// The Logout item.
-            /// </summary>
-            [RepositoryItem("5bb1e408-cd3b-4555-aa26-3565f6947c10")]
-            public virtual Ranorex.Container Logout
-            {
-                get
-                {
-                    return _logoutInfo.CreateAdapter<Ranorex.Container>(true);
-                }
-            }
-
-            /// <summary>
-            /// The Logout item info.
-            /// </summary>
-            [RepositoryItemInfo("5bb1e408-cd3b-4555-aa26-3565f6947c10")]
-            public virtual RepoItemInfo LogoutInfo
-            {
-                get
-                {
-                    return _logoutInfo;
-                }
-            }
-
-            /// <summary>
-            /// The Slider item.
-            /// </summary>
-            [RepositoryItem("786accff-2bd1-4d2e-89c6-c514ef7e128f")]
-            public virtual Ranorex.Picture Slider
-            {
-                get
-                {
-                    return _sliderInfo.CreateAdapter<Ranorex.Picture>(true);
-                }
-            }
-
-            /// <summary>
-            /// The Slider item info.
-            /// </summary>
-            [RepositoryItemInfo("786accff-2bd1-4d2e-89c6-c514ef7e128f")]
-            public virtual RepoItemInfo SliderInfo
-            {
-                get
-                {
-                    return _sliderInfo;
                 }
             }
 
@@ -2925,6 +2289,318 @@ namespace ASMTraining
             }
 
             /// <summary>
+            /// The Validate_AsmTrainingMainScreen item.
+            /// </summary>
+            [RepositoryItem("2fb1d757-ef45-4dab-bd84-3b9100e21f33")]
+            public virtual Ranorex.Form Validate_AsmTrainingMainScreen
+            {
+                get
+                {
+                    return _validate_asmtrainingmainscreenInfo.CreateAdapter<Ranorex.Form>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Validate_AsmTrainingMainScreen item info.
+            /// </summary>
+            [RepositoryItemInfo("2fb1d757-ef45-4dab-bd84-3b9100e21f33")]
+            public virtual RepoItemInfo Validate_AsmTrainingMainScreenInfo
+            {
+                get
+                {
+                    return _validate_asmtrainingmainscreenInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Validate_CompetencyTrainingMainScreen item.
+            /// </summary>
+            [RepositoryItem("27363f61-6394-400a-bf5d-7d0061eb11df")]
+            public virtual Ranorex.Form Validate_CompetencyTrainingMainScreen
+            {
+                get
+                {
+                    return _validate_competencytrainingmainscreenInfo.CreateAdapter<Ranorex.Form>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Validate_CompetencyTrainingMainScreen item info.
+            /// </summary>
+            [RepositoryItemInfo("27363f61-6394-400a-bf5d-7d0061eb11df")]
+            public virtual RepoItemInfo Validate_CompetencyTrainingMainScreenInfo
+            {
+                get
+                {
+                    return _validate_competencytrainingmainscreenInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Validation_InfoPopUp item.
+            /// </summary>
+            [RepositoryItem("6d9fbca2-6cbd-4989-85ab-e50bb42c1560")]
+            public virtual Ranorex.Form Validation_InfoPopUp
+            {
+                get
+                {
+                    return _validation_infopopupInfo.CreateAdapter<Ranorex.Form>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Validation_InfoPopUp item info.
+            /// </summary>
+            [RepositoryItemInfo("6d9fbca2-6cbd-4989-85ab-e50bb42c1560")]
+            public virtual RepoItemInfo Validation_InfoPopUpInfo
+            {
+                get
+                {
+                    return _validation_infopopupInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Validation_AlertPopUp item.
+            /// </summary>
+            [RepositoryItem("0029275d-c44b-4fc7-87d2-9ee5d6d867bb")]
+            public virtual Ranorex.Form Validation_AlertPopUp
+            {
+                get
+                {
+                    return _validation_alertpopupInfo.CreateAdapter<Ranorex.Form>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Validation_AlertPopUp item info.
+            /// </summary>
+            [RepositoryItemInfo("0029275d-c44b-4fc7-87d2-9ee5d6d867bb")]
+            public virtual RepoItemInfo Validation_AlertPopUpInfo
+            {
+                get
+                {
+                    return _validation_alertpopupInfo;
+                }
+            }
+
+            /// <summary>
+            /// The AlertPopUp_OkButton item.
+            /// </summary>
+            [RepositoryItem("70e7eda6-6773-49a6-a989-83b94705dbb7")]
+            public virtual Ranorex.Button AlertPopUp_OkButton
+            {
+                get
+                {
+                    return _alertpopup_okbuttonInfo.CreateAdapter<Ranorex.Button>(true);
+                }
+            }
+
+            /// <summary>
+            /// The AlertPopUp_OkButton item info.
+            /// </summary>
+            [RepositoryItemInfo("70e7eda6-6773-49a6-a989-83b94705dbb7")]
+            public virtual RepoItemInfo AlertPopUp_OkButtonInfo
+            {
+                get
+                {
+                    return _alertpopup_okbuttonInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Validate_CameraScreen item.
+            /// </summary>
+            [RepositoryItem("8ebbd2e8-ba7b-481c-8383-b581d324bd85")]
+            public virtual Ranorex.Container Validate_CameraScreen
+            {
+                get
+                {
+                    return _validate_camerascreenInfo.CreateAdapter<Ranorex.Container>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Validate_CameraScreen item info.
+            /// </summary>
+            [RepositoryItemInfo("8ebbd2e8-ba7b-481c-8383-b581d324bd85")]
+            public virtual RepoItemInfo Validate_CameraScreenInfo
+            {
+                get
+                {
+                    return _validate_camerascreenInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Validate_MarketVisitScreen item.
+            /// </summary>
+            [RepositoryItem("f078aa43-61c0-423b-9b97-b081c4078972")]
+            public virtual Ranorex.Form Validate_MarketVisitScreen
+            {
+                get
+                {
+                    return _validate_marketvisitscreenInfo.CreateAdapter<Ranorex.Form>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Validate_MarketVisitScreen item info.
+            /// </summary>
+            [RepositoryItemInfo("f078aa43-61c0-423b-9b97-b081c4078972")]
+            public virtual RepoItemInfo Validate_MarketVisitScreenInfo
+            {
+                get
+                {
+                    return _validate_marketvisitscreenInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Validate_TrainingUpdatesScreen item.
+            /// </summary>
+            [RepositoryItem("f8a60898-ab84-4a39-ac57-68fe8ec93b01")]
+            public virtual Ranorex.Form Validate_TrainingUpdatesScreen
+            {
+                get
+                {
+                    return _validate_trainingupdatesscreenInfo.CreateAdapter<Ranorex.Form>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Validate_TrainingUpdatesScreen item info.
+            /// </summary>
+            [RepositoryItemInfo("f8a60898-ab84-4a39-ac57-68fe8ec93b01")]
+            public virtual RepoItemInfo Validate_TrainingUpdatesScreenInfo
+            {
+                get
+                {
+                    return _validate_trainingupdatesscreenInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Validate_DSFTrainingStatsScreen item.
+            /// </summary>
+            [RepositoryItem("18a1ce77-f49c-434b-9f8c-b59395a876f2")]
+            public virtual Ranorex.Form Validate_DSFTrainingStatsScreen
+            {
+                get
+                {
+                    return _validate_dsftrainingstatsscreenInfo.CreateAdapter<Ranorex.Form>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Validate_DSFTrainingStatsScreen item info.
+            /// </summary>
+            [RepositoryItemInfo("18a1ce77-f49c-434b-9f8c-b59395a876f2")]
+            public virtual RepoItemInfo Validate_DSFTrainingStatsScreenInfo
+            {
+                get
+                {
+                    return _validate_dsftrainingstatsscreenInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Validate_CapabilityChampionsScreen item.
+            /// </summary>
+            [RepositoryItem("ee2c3f47-1bbd-4e08-a8d9-ef379f4b47f5")]
+            public virtual Ranorex.Form Validate_CapabilityChampionsScreen
+            {
+                get
+                {
+                    return _validate_capabilitychampionsscreenInfo.CreateAdapter<Ranorex.Form>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Validate_CapabilityChampionsScreen item info.
+            /// </summary>
+            [RepositoryItemInfo("ee2c3f47-1bbd-4e08-a8d9-ef379f4b47f5")]
+            public virtual RepoItemInfo Validate_CapabilityChampionsScreenInfo
+            {
+                get
+                {
+                    return _validate_capabilitychampionsscreenInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Validate_ASM_TSEScreen item.
+            /// </summary>
+            [RepositoryItem("f078b013-778a-44b6-8fb2-d130abc1c66d")]
+            public virtual Ranorex.Form Validate_ASM_TSEScreen
+            {
+                get
+                {
+                    return _validate_asm_tsescreenInfo.CreateAdapter<Ranorex.Form>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Validate_ASM_TSEScreen item info.
+            /// </summary>
+            [RepositoryItemInfo("f078b013-778a-44b6-8fb2-d130abc1c66d")]
+            public virtual RepoItemInfo Validate_ASM_TSEScreenInfo
+            {
+                get
+                {
+                    return _validate_asm_tsescreenInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Validate_CCSDScreen item.
+            /// </summary>
+            [RepositoryItem("294b4bf1-09b7-4343-bbef-d46d47134b56")]
+            public virtual Ranorex.Form Validate_CCSDScreen
+            {
+                get
+                {
+                    return _validate_ccsdscreenInfo.CreateAdapter<Ranorex.Form>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Validate_CCSDScreen item info.
+            /// </summary>
+            [RepositoryItemInfo("294b4bf1-09b7-4343-bbef-d46d47134b56")]
+            public virtual RepoItemInfo Validate_CCSDScreenInfo
+            {
+                get
+                {
+                    return _validate_ccsdscreenInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Validate_TvcListScreen item.
+            /// </summary>
+            [RepositoryItem("48af5834-50ce-43e0-82da-a092deb6dbf6")]
+            public virtual Ranorex.Form Validate_TvcListScreen
+            {
+                get
+                {
+                    return _validate_tvclistscreenInfo.CreateAdapter<Ranorex.Form>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Validate_TvcListScreen item info.
+            /// </summary>
+            [RepositoryItemInfo("48af5834-50ce-43e0-82da-a092deb6dbf6")]
+            public virtual RepoItemInfo Validate_TvcListScreenInfo
+            {
+                get
+                {
+                    return _validate_tvclistscreenInfo;
+                }
+            }
+
+            /// <summary>
             /// The Content folder.
             /// </summary>
             [RepositoryFolder("50668fa1-28f9-4cd3-81cb-c2c596e92fed")]
@@ -3168,10 +2844,10 @@ namespace ASMTraining
                     base("List", "form[@title~'^SalesShopsOptionListScree']//list[@rid='list']", parentFolder, 30000, null, false, "35f4333b-bc4a-4441-a80f-acfd92d2b9b0", "")
             {
                 _ratingicestepsInfo = new RepoItemInfo(this, "RatingICESteps", "text[1]", 30000, null, "9ffd9b7b-cc2a-4c0b-a76e-7829c43e9818");
-                _fieldsalescoachingInfo = new RepoItemInfo(this, "FieldSalesCoaching", "text[2]", 30000, null, "2d71d18f-3383-4943-aae3-4fdbbb8d5d63");
-                _capturingpictureofsuccessInfo = new RepoItemInfo(this, "CapturingPictureOfSuccess", "text[3]", 30000, null, "f86f2fd4-6a41-4139-9db7-9df8b9f041ab");
-                _marketintelligenceInfo = new RepoItemInfo(this, "MarketIntelligence", "text[4]", 30000, null, "7ba03a71-60e2-4123-9a2e-22b2d714f511");
-                _remarksInfo = new RepoItemInfo(this, "Remarks", "text[5]", 30000, null, "29e1bf32-d9c6-43c5-84ce-9f7af1a8f8b6");
+                _fieldsalescoachingInfo = new RepoItemInfo(this, "FieldSalesCoaching", "text[1]", 30000, null, "2d71d18f-3383-4943-aae3-4fdbbb8d5d63");
+                _capturingpictureofsuccessInfo = new RepoItemInfo(this, "CapturingPictureOfSuccess", "text[2]", 30000, null, "f86f2fd4-6a41-4139-9db7-9df8b9f041ab");
+                _marketintelligenceInfo = new RepoItemInfo(this, "MarketIntelligence", "text[3]", 30000, null, "7ba03a71-60e2-4123-9a2e-22b2d714f511");
+                _remarksInfo = new RepoItemInfo(this, "Remarks", "text[4]", 30000, null, "29e1bf32-d9c6-43c5-84ce-9f7af1a8f8b6");
             }
 
             /// <summary>
@@ -3641,9 +3317,9 @@ namespace ASMTraining
         {
             RepoItemInfo _zonalchamp_centerInfo;
             RepoItemInfo _zonalchamp_southInfo;
-            ZonalChamp_TopHeaderLogoInfoClass _zonalchamp_topheaderlogoInfo;
             RepoItemInfo _zonalchamp_northInfo;
             RepoItemInfo _zonalchamp_backbuttonInfo;
+            RepoItemInfo _validate_zonechampionsscreenInfo;
 
             /// <summary>
             /// Creates a new ZoneListScreen  folder.
@@ -3653,44 +3329,9 @@ namespace ASMTraining
             {
                 _zonalchamp_centerInfo = new RepoItemInfo(this, "ZonalChamp_Center", ".//list[@rid='list']/text[1]", 30000, null, "04dd5127-368f-40a6-9f26-9a1ebe71c2d4");
                 _zonalchamp_southInfo = new RepoItemInfo(this, "ZonalChamp_South", ".//list[@rid='list']/text[2]", 30000, null, "cb441bdd-519d-4be4-960a-d0da186cc6f8");
-                _zonalchamp_topheaderlogoInfo = new ZonalChamp_TopHeaderLogoInfoClass(this);
                 _zonalchamp_northInfo = new RepoItemInfo(this, "ZonalChamp_North", ".//list[@rid='list']/text[3]", 30000, null, "3881a5a9-bfda-40d7-81c2-bf5dbb0bd049");
                 _zonalchamp_backbuttonInfo = new RepoItemInfo(this, "ZonalChamp_BackButton", "container[@rid='content']/androidelement/container[@containertype='Linear']/container[@containertype='Linear']/picture", 30000, null, "053e258e-f4b0-4b23-9b55-100a51a6bc56");
-            }
-
-            /// <summary>
-            /// The ZonalChamp_TopHeaderLogoInfoClass folder.
-            /// </summary>
-            [RepositoryItemInfo("cda1bcc1-ebb8-46f7-9e6c-fa8aef10f2f9")]
-            public class ZonalChamp_TopHeaderLogoInfoClass : RepoItemInfo
-            {
-                /// <summary>
-                /// ZonalChamp_TopHeaderLogoInfoClass class constructor.
-                /// </summary>
-                public ZonalChamp_TopHeaderLogoInfoClass(RepoGenBaseFolder parentFolder)
-                    : base(parentFolder, "ZonalChamp_TopHeaderLogo", "container[@rid='content']//picture[@rid='top_header_logo']", 30000, null, "cda1bcc1-ebb8-46f7-9e6c-fa8aef10f2f9")
-                { }
-
-                /// <summary>
-                /// Gets the Screenshot1 item image.
-                /// </summary>
-                /// <returns>The Screenshot1 image.</returns>
-                [RepositoryImage("eb961821-9cef-446e-8784-e95c08e2ef9f")]
-                public CompressedImage GetScreenshot1()
-                {
-                    return GetImage("eb961821-9cef-446e-8784-e95c08e2ef9f");
-                }
-
-                /// <summary>
-                /// Gets the Screenshot1 item image.
-                /// </summary>
-                /// <param name="cropRect">The bounds of the sub-image to return.</param>
-                /// <returns>The cropped image.</returns>
-                [RepositoryImage("eb961821-9cef-446e-8784-e95c08e2ef9f")]
-                public CompressedImage GetScreenshot1(System.Drawing.Rectangle cropRect)
-                {
-                    return GetImage("eb961821-9cef-446e-8784-e95c08e2ef9f", cropRect);
-                }
+                _validate_zonechampionsscreenInfo = new RepoItemInfo(this, "Validate_ZoneChampionsScreen", "", 30000, null, "0bb72f98-7346-4390-811d-cc11a8f9ed9a");
             }
 
             /// <summary>
@@ -3766,30 +3407,6 @@ namespace ASMTraining
             }
 
             /// <summary>
-            /// The ZonalChamp_TopHeaderLogo item.
-            /// </summary>
-            [RepositoryItem("cda1bcc1-ebb8-46f7-9e6c-fa8aef10f2f9")]
-            public virtual Ranorex.Picture ZonalChamp_TopHeaderLogo
-            {
-                get
-                {
-                    return _zonalchamp_topheaderlogoInfo.CreateAdapter<Ranorex.Picture>(true);
-                }
-            }
-
-            /// <summary>
-            /// The ZonalChamp_TopHeaderLogo item info.
-            /// </summary>
-            [RepositoryItemInfo("cda1bcc1-ebb8-46f7-9e6c-fa8aef10f2f9")]
-            public virtual ZonalChamp_TopHeaderLogoInfoClass ZonalChamp_TopHeaderLogoInfo
-            {
-                get
-                {
-                    return _zonalchamp_topheaderlogoInfo;
-                }
-            }
-
-            /// <summary>
             /// The ZonalChamp_North item.
             /// </summary>
             [RepositoryItem("3881a5a9-bfda-40d7-81c2-bf5dbb0bd049")]
@@ -3834,6 +3451,30 @@ namespace ASMTraining
                 get
                 {
                     return _zonalchamp_backbuttonInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Validate_ZoneChampionsScreen item.
+            /// </summary>
+            [RepositoryItem("0bb72f98-7346-4390-811d-cc11a8f9ed9a")]
+            public virtual Ranorex.Form Validate_ZoneChampionsScreen
+            {
+                get
+                {
+                    return _validate_zonechampionsscreenInfo.CreateAdapter<Ranorex.Form>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Validate_ZoneChampionsScreen item info.
+            /// </summary>
+            [RepositoryItemInfo("0bb72f98-7346-4390-811d-cc11a8f9ed9a")]
+            public virtual RepoItemInfo Validate_ZoneChampionsScreenInfo
+            {
+                get
+                {
+                    return _validate_zonechampionsscreenInfo;
                 }
             }
         }
