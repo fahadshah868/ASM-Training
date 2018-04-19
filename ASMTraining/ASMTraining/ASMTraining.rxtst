@@ -212,10 +212,10 @@ rxversion="8.0">
 	</testconfigurations>
 	<references>
 		<reference>
-			C:\Program Files (x86)\Ranorex 8.0\Bin\Ranorex.Bootstrapper.dll
+			..\..\..\..\..\..\Ranorex_PDF_Lib\Ranorex.PDF.dll
 		</reference>
 		<reference>
-			Ranorex.PDF.dll
+			C:\Program Files (x86)\Ranorex 8.0\Bin\Ranorex.Bootstrapper.dll
 		</reference>
 	</references>
 </testsuitedoc>
