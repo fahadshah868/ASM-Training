@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="1b71cb4d848a052f"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Fahad Shah"
+		rxversion="8.0.0.0"
+		host="HUAWEI LUA-U22 (Unknown)
+WLAN - 192.168.3.126"
+		osversion="-"
+		runtimeversion="-"
+		procarch="-"
+		oslanguage="-"
+		dtnlanguage="-"
+		screenresolution="-"
+		timestamp="4/20/2018 5:47:57 PM"
+		timestampiso="2018-04-21T00:47:57"
+		endtime="4/20/2018 5:48:04 PM"
+		timeoutfactor="1"
+		module="OverwriteCompetencyTraining">
+		<detail>
+			OverwriteCompetencyTraining
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.944"
+			timeRelativeToTestModuleStartTime="00:03.946"
+			timeWallClock="17:48:01"
+			time="00:03.944"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'ASMTraining.List.CapturingPictureOfSuccess' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.training.asm']/form[@title~'^SalesShopsOptionListScree']//list[@rid='list']/text[3]"
+				itempath="text[3]"
+				fullname="ASMTrainingRepository.ASMTraining.List.CapturingPictureOfSuccess"
+				id="f86f2fd46a4141399db79df8b9f041ab"
+				timeout="90000"
+				codefile="d:\Git Projects\ASM-Training\ASMTraining\ASMTraining\TestCases\OverwriteCompetencyTrainingWithShopLevel\OverwriteCompetencyTraining.cs"
+				codeline="82"
+				itemindex="40"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.282"
+			timeRelativeToTestModuleStartTime="00:05.284"
+			timeWallClock="17:48:02"
+			time="00:05.282"
+			level="Warn"
+			category="Mobile">
+			<message>
+				The fetched mobile component version '2.0.1' from device 'HUAWEI LUA-U22' is higher than the latest stable version '2.0.0' compatible with this Ranorex version. It seems you are using a beta release.<br/>The following website provides more information on this technology limitation:<br/>https://www.ranorex.com/help/v8.0/mobile-testing/mobile-beta-testing<br/>(This message is only shown once per report.)
+			</message>
+			<metainfo
+				limitationName="RanorexDeviceVersionMismatchBetaWarning"
+				showInProgressDialog="False"
+				codefile="d:\Git Projects\ASM-Training\ASMTraining\ASMTraining\TestCases\OverwriteCompetencyTrainingWithShopLevel\OverwriteCompetencyTraining.cs"
+				codeline="83"
+				loglvl="Warn"
+				itemindex="40">
+			</metainfo>
+		</item>
+	</activity>
+</report>

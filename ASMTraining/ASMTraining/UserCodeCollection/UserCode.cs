@@ -152,16 +152,5 @@ namespace ASMTraining.UserCodeCollection
     			ASMTraining.TestCases.VisitTrainingUpdates.VisitZonalChampions.Start();
     		}
     	}
-    	/// <summary>
-    	/// This is a placeholder text. Please describe the purpose of the
-    	/// user code method here. The method is published to the user code library
-    	/// within a user code collection.
-    	/// </summary>
-    	[UserCodeMethod]
-    	public static void swipeCompetencyTrainingList()
-    	{
-    		repo.ASMTraining.CompetencyTraining_ListView.Swipe(Location.Center, ValueConverter.ArgumentFromString<Ranorex.Core.Recorder.Touch.GestureDirection>("SwipeDirection", "Up (270°)"), ValueConverter.ArgumentFromString<Ranorex.Core.Distance>("Distance", ".22"), ValueConverter.ArgumentFromString<Ranorex.Duration>("SwipeDuration", "500ms"), 0);
-            Delay.Milliseconds(500);
-    	}
     }
 }

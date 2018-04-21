@@ -20,9 +20,9 @@ using Ranorex.Core;
 using Ranorex.Core.Repository;
 using Ranorex.Core.Testing;
 
-namespace ASMTraining.TestCases.OverwriteCompetencyTraining
+namespace ASMTraining.TestCases.OverwriteCompetencyTrainingWithModuleLevel
 {
-    public partial class CompetencyTraining
+    public partial class VisitCompetencyTraining
     {
         /// <summary>
         /// This method gets called right after the recording has been started.

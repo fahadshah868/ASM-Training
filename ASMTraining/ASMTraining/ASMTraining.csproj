@@ -115,7 +115,7 @@
   <ItemGroup>
     <Compile Include="..\..\..\..\Ranorex_PDF_Lib\ReportToPDF_7.X.cs">
       <Link>ReportToPDF_7.X.cs</Link>
-      <id>1a689cc7-0e23-43d4-a6af-79253f7ff503</id>
+      <id>043a0090-814d-4b65-8728-ccbe0377dfb9</id>
     </Compile>
     <Compile Include="ASMTrainingRepository.cs">
       <BoundTo>ef4f8342-cf19-43b0-ad50-edad3c74be5e</BoundTo>
@@ -129,14 +129,50 @@
     <Compile Include="Program.cs">
       <id>bc5b58b0-3541-4a62-afc9-db4fb58ea731</id>
     </Compile>
-    <Compile Include="TestCases\OverwriteCompetencyTraining\CompetencyTraining.cs">
-      <DependentUpon>CompetencyTraining.rxrec</DependentUpon>
+    <Compile Include="TestCases\OverwriteCompetencyTrainingWithModuleLevel\OverwriteCompetencyTraining.cs">
+      <BoundTo>965354da-b41f-4845-8ce6-ddeb9473326d</BoundTo>
+      <DependentUpon>OverwriteCompetencyTraining.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>55182ebd-cd77-40a7-ae02-06f4e24df39e</id>
+    </Compile>
+    <Compile Include="TestCases\OverwriteCompetencyTrainingWithModuleLevel\OverwriteCompetencyTraining.UserCode.cs">
+      <BoundTo>965354da-b41f-4845-8ce6-ddeb9473326d</BoundTo>
+      <DependentUpon>OverwriteCompetencyTraining.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>c940a372-a9fc-496f-b403-e3135c92a1ef</id>
+    </Compile>
+    <Compile Include="TestCases\OverwriteCompetencyTrainingWithModuleLevel\VisitCompetencyTraining.cs">
+      <BoundTo>dd87f05a-e99a-4fa3-8707-ffac401056a2</BoundTo>
+      <DependentUpon>VisitCompetencyTraining.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>71ca7b67-1204-4199-b383-838c1aa862ed</id>
+    </Compile>
+    <Compile Include="TestCases\OverwriteCompetencyTrainingWithModuleLevel\VisitCompetencyTraining.UserCode.cs">
+      <BoundTo>dd87f05a-e99a-4fa3-8707-ffac401056a2</BoundTo>
+      <DependentUpon>VisitCompetencyTraining.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>76d9c879-4598-4260-a0d9-6a0aed6ffecb</id>
+    </Compile>
+    <Compile Include="TestCases\OverwriteCompetencyTrainingWithShopLevel\VisitCompetencyTraining.cs">
+      <DependentUpon>VisitCompetencyTraining.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>a21b9aaa-d447-4006-8e2a-469c9c6dbec5</id>
+      <BoundTo>93b38345-e09a-477a-a6fc-dad56888c407</BoundTo>
+    </Compile>
+    <Compile Include="TestCases\OverwriteCompetencyTrainingWithShopLevel\VisitCompetencyTraining.UserCode.cs">
+      <DependentUpon>VisitCompetencyTraining.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>c3023a01-b6fc-4fa3-91c4-c0166f769fcb</id>
+      <BoundTo>93b38345-e09a-477a-a6fc-dad56888c407</BoundTo>
+    </Compile>
+    <Compile Include="TestCases\OverwriteCompetencyTrainingWithShopLevel\OverwriteCompetencyTraining.cs">
+      <DependentUpon>OverwriteCompetencyTraining.rxrec</DependentUpon>
       <RecorderCode>true</RecorderCode>
       <id>37b218d2-ac0c-48fd-9c41-88c81b94ed63</id>
       <BoundTo>4d3d48cf-7b85-47ca-9950-3498409bd21d</BoundTo>
     </Compile>
-    <Compile Include="TestCases\OverwriteCompetencyTraining\CompetencyTraining.UserCode.cs">
-      <DependentUpon>CompetencyTraining.rxrec</DependentUpon>
+    <Compile Include="TestCases\OverwriteCompetencyTrainingWithShopLevel\OverwriteCompetencyTraining.UserCode.cs">
+      <DependentUpon>OverwriteCompetencyTraining.rxrec</DependentUpon>
       <UserCode>true</UserCode>
       <id>7e3d88ad-0825-4864-9fa9-aa9ed7c9f2f4</id>
       <BoundTo>4d3d48cf-7b85-47ca-9950-3498409bd21d</BoundTo>
@@ -176,18 +212,6 @@
       <UserCode>true</UserCode>
       <id>fde62701-5863-43d0-9dad-cf9ff16bff60</id>
       <BoundTo>6107bfc3-d0d7-4314-8d8d-bd5cb931f61b</BoundTo>
-    </Compile>
-    <Compile Include="TestCases\VisitCompetencyTraining\CompetencyTraining.cs">
-      <DependentUpon>CompetencyTraining.rxrec</DependentUpon>
-      <RecorderCode>true</RecorderCode>
-      <id>a21b9aaa-d447-4006-8e2a-469c9c6dbec5</id>
-      <BoundTo>93b38345-e09a-477a-a6fc-dad56888c407</BoundTo>
-    </Compile>
-    <Compile Include="TestCases\VisitCompetencyTraining\CompetencyTraining.UserCode.cs">
-      <DependentUpon>CompetencyTraining.rxrec</DependentUpon>
-      <UserCode>true</UserCode>
-      <id>c3023a01-b6fc-4fa3-91c4-c0166f769fcb</id>
-      <BoundTo>93b38345-e09a-477a-a6fc-dad56888c407</BoundTo>
     </Compile>
     <Compile Include="TestCases\LaunchingApp\LaunchingApp.cs">
       <DependentUpon>LaunchingApp.rxrec</DependentUpon>
@@ -268,7 +292,22 @@
       <repoid>b9dcecd9-fa4c-49bd-819f-b4d818ad9617</repoid>
       <reporootid>b7152f09-1137-4ea9-b37d-2d9bb2af9e93</reporootid>
     </None>
-    <None Include="TestCases\OverwriteCompetencyTraining\CompetencyTraining.rxrec">
+    <None Include="TestCases\OverwriteCompetencyTrainingWithModuleLevel\OverwriteCompetencyTraining.rxrec">
+      <BoundTo>ef4f8342-cf19-43b0-ad50-edad3c74be5e</BoundTo>
+      <id>965354da-b41f-4845-8ce6-ddeb9473326d</id>
+      <recordtableid>1349212b-3b54-4a26-ab2e-0442aae7bcac</recordtableid>
+    </None>
+    <None Include="TestCases\OverwriteCompetencyTrainingWithModuleLevel\VisitCompetencyTraining.rxrec">
+      <BoundTo>ef4f8342-cf19-43b0-ad50-edad3c74be5e</BoundTo>
+      <id>dd87f05a-e99a-4fa3-8707-ffac401056a2</id>
+      <recordtableid>937107b2-195b-4427-953b-6f35bbb134e4</recordtableid>
+    </None>
+    <None Include="TestCases\OverwriteCompetencyTrainingWithShopLevel\VisitCompetencyTraining.rxrec">
+      <id>93b38345-e09a-477a-a6fc-dad56888c407</id>
+      <recordtableid>45006ebf-6692-44f1-a6d3-d41891acb766</recordtableid>
+      <BoundTo>ef4f8342-cf19-43b0-ad50-edad3c74be5e</BoundTo>
+    </None>
+    <None Include="TestCases\OverwriteCompetencyTrainingWithShopLevel\OverwriteCompetencyTraining.rxrec">
       <BoundTo>ef4f8342-cf19-43b0-ad50-edad3c74be5e</BoundTo>
       <id>4d3d48cf-7b85-47ca-9950-3498409bd21d</id>
       <recordtableid>fb8ad756-5193-4251-8c7e-e7f3300ac19b</recordtableid>
@@ -287,11 +326,6 @@
       <BoundTo>ef4f8342-cf19-43b0-ad50-edad3c74be5e</BoundTo>
       <id>6107bfc3-d0d7-4314-8d8d-bd5cb931f61b</id>
       <recordtableid>b13cd23c-9e1a-4f3a-9dd4-c685a5f8402f</recordtableid>
-    </None>
-    <None Include="TestCases\VisitCompetencyTraining\CompetencyTraining.rxrec">
-      <BoundTo>ef4f8342-cf19-43b0-ad50-edad3c74be5e</BoundTo>
-      <id>93b38345-e09a-477a-a6fc-dad56888c407</id>
-      <recordtableid>45006ebf-6692-44f1-a6d3-d41891acb766</recordtableid>
     </None>
     <None Include="TestCases\LaunchingApp\LaunchingApp.rxrec">
       <BoundTo>ef4f8342-cf19-43b0-ad50-edad3c74be5e</BoundTo>
@@ -333,11 +367,11 @@
     <Folder Include="TestCases\LaunchingApp">
       <id>9f41b229-8e40-49fc-8ebe-bef89e331cfd</id>
     </Folder>
-    <Folder Include="TestCases\OverwriteCompetencyTraining">
-      <id>6bc56609-2ac9-44bc-a61c-46acc3762364</id>
+    <Folder Include="TestCases\OverwriteCompetencyTrainingWithModuleLevel">
+      <id>fb5480ad-55bb-4b69-b0c7-623860fe3e0c</id>
     </Folder>
-    <Folder Include="TestCases\VisitCompetencyTraining">
-      <id>68af995b-5446-4f1a-aee4-a10946a2c9d2</id>
+    <Folder Include="TestCases\OverwriteCompetencyTrainingWithShopLevel">
+      <id>6bc56609-2ac9-44bc-a61c-46acc3762364</id>
     </Folder>
     <Folder Include="TestCases\MarketVisit">
       <id>586b28ab-ff11-4b75-bf22-66b772fd65aa</id>

@@ -1,0 +1,808 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="3aff50a744e355"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Fahad Shah"
+		rxversion="8.0.0.0"
+		host="HUAWEI-Y2 (Unknown)
+WLAN - 192.168.3.11"
+		osversion="-"
+		runtimeversion="-"
+		procarch="-"
+		oslanguage="-"
+		dtnlanguage="-"
+		screenresolution="-"
+		timestamp="4/20/2018 3:11:03 PM"
+		timestampiso="2018-04-20T22:11:03"
+		endtime="4/20/2018 3:16:04 PM"
+		timeoutfactor="1"
+		module="VisitCompetencyTraining">
+		<detail>
+			VisitCompetencyTraining
+		</detail>
+		<errormessage>
+			Device communication timed out. Either no instrumented application is running on the device or the device was not able to process the request within the specified timeout of '00:00:05'. Check that an instrumented application is running on the device or try to increase the timeout.
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.050"
+			timeRelativeToTestModuleStartTime="00:04.053"
+			timeWallClock="15:11:07"
+			time="00:04.050"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'ASMTraining.Content.CompetencyTraining' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.training.asm']/form[@title='MainScreen']/container[@rid='content']//button[@rid='training']"
+				itempath=".//button[@rid='training']"
+				fullname="ASMTrainingRepository.ASMTraining.Content.CompetencyTraining"
+				id="d5ad372c905248eb9a8261cd5efc82b1"
+				timeout="90000"
+				codefile="d:\Git Projects\ASM-Training\ASMTraining\ASMTraining\TestCases\OverwriteCompetencyTrainingWithShopLevel\VisitCompetencyTraining.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.201"
+			timeRelativeToTestModuleStartTime="00:09.204"
+			timeWallClock="15:11:12"
+			time="00:09.201"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating Exists on item 'ASMTraining.Validate_CompetencyTrainingMainScreen'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.training.asm']/form[@title='SalesCategoryListScreen']"
+				itempath="form[@title='SalesCategoryListScreen']"
+				fullname="ASMTrainingRepository.ASMTraining.Validate_CompetencyTrainingMainScreen"
+				id="27363f616394400abf5d7d0061eb11df"
+				timeout="60000"
+				codefile="d:\Git Projects\ASM-Training\ASMTraining\ASMTraining\TestCases\OverwriteCompetencyTrainingWithShopLevel\VisitCompetencyTraining.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.573"
+			timeRelativeToTestModuleStartTime="00:11.576"
+			timeWallClock="15:11:14"
+			time="00:11.573"
+			level="Success"
+			category="Validation">
+			<message>
+				Element for item 'Validate_CompetencyTrainingMainScreen' does exist.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.training.asm']/form[@title='SalesCategoryListScreen']"
+				itempath="form[@title='SalesCategoryListScreen']"
+				fullname="ASMTrainingRepository.ASMTraining.Validate_CompetencyTrainingMainScreen"
+				id="27363f616394400abf5d7d0061eb11df"
+				timeout="60000"
+				codefile="d:\Git Projects\ASM-Training\ASMTraining\ASMTraining\TestCases\OverwriteCompetencyTrainingWithShopLevel\VisitCompetencyTraining.cs"
+				codeline="87"
+				loglvl="Success"
+				itemindex="1">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:16.265"
+			timeRelativeToTestModuleStartTime="00:16.268"
+			timeWallClock="15:11:19"
+			time="00:16.265"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (Text='Please select DSF') on item 'ASMTraining.Validate_DsfScreen'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.training.asm']/form[@title='SalesDsfListScreen']/container[@rid='content']//text[@rid='category_name']"
+				itempath="form[@title='SalesDsfListScreen']/container[@rid='content']//text[@rid='category_name']"
+				fullname="ASMTrainingRepository.ASMTraining.Validate_DsfScreen"
+				id="f2296ab2c16447c6b925b1aa24f33989"
+				timeout="60000"
+				codefile="d:\Git Projects\ASM-Training\ASMTraining\ASMTraining\TestCases\OverwriteCompetencyTrainingWithShopLevel\VisitCompetencyTraining.cs"
+				codeline="93"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:19.460"
+			timeRelativeToTestModuleStartTime="00:19.463"
+			timeWallClock="15:11:22"
+			time="00:19.460"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Text' of element for item 'ASMTrainingRepository.ASMTraining.Validate_DsfScreen' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.training.asm']/form[@title='SalesDsfListScreen']/container[@rid='content']//text[@rid='category_name']"
+				itempath="form[@title='SalesDsfListScreen']/container[@rid='content']//text[@rid='category_name']"
+				fullname="ASMTrainingRepository.ASMTraining.Validate_DsfScreen"
+				id="f2296ab2c16447c6b925b1aa24f33989"
+				timeout="60000"
+				codefile="d:\Git Projects\ASM-Training\ASMTraining\ASMTraining\TestCases\OverwriteCompetencyTrainingWithShopLevel\VisitCompetencyTraining.cs"
+				codeline="94"
+				loglvl="Success"
+				itemindex="3">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:22.679"
+			timeRelativeToTestModuleStartTime="00:22.682"
+			timeWallClock="15:11:25"
+			time="00:22.679"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (Text='Please select shop') on item 'ASMTraining.Validate_SelectShopScreen'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.training.asm']/form[@title~'^ProjectWiseScoreListScree']/container[@rid='content']//text[@rid='category_name']"
+				itempath="form[@title~'^ProjectWiseScoreListScree']/container[@rid='content']//text[@rid='category_name']"
+				fullname="ASMTrainingRepository.ASMTraining.Validate_SelectShopScreen"
+				id="41652438a2fb4e28abd7b4fd76f6ac22"
+				timeout="60000"
+				codefile="d:\Git Projects\ASM-Training\ASMTraining\ASMTraining\TestCases\OverwriteCompetencyTrainingWithShopLevel\VisitCompetencyTraining.cs"
+				codeline="100"
+				itemindex="5"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:24.523"
+			timeRelativeToTestModuleStartTime="00:24.526"
+			timeWallClock="15:11:27"
+			time="00:24.523"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Text' of element for item 'ASMTrainingRepository.ASMTraining.Validate_SelectShopScreen' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.training.asm']/form[@title~'^ProjectWiseScoreListScree']/container[@rid='content']//text[@rid='category_name']"
+				itempath="form[@title~'^ProjectWiseScoreListScree']/container[@rid='content']//text[@rid='category_name']"
+				fullname="ASMTrainingRepository.ASMTraining.Validate_SelectShopScreen"
+				id="41652438a2fb4e28abd7b4fd76f6ac22"
+				timeout="60000"
+				codefile="d:\Git Projects\ASM-Training\ASMTraining\ASMTraining\TestCases\OverwriteCompetencyTrainingWithShopLevel\VisitCompetencyTraining.cs"
+				codeline="101"
+				loglvl="Success"
+				itemindex="5">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:24.529"
+			timeRelativeToTestModuleStartTime="00:24.532"
+			timeWallClock="15:11:27"
+			time="00:24.529"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'ASMTraining.ScorePanel' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.training.asm']/form[@title~'^ProjectWiseScoreListScree']/container[@rid='content']//list[@rid='list']/container/container"
+				itempath="form[@title~'^ProjectWiseScoreListScree']/container[@rid='content']//list[@rid='list']/container/container"
+				fullname="ASMTrainingRepository.ASMTraining.ScorePanel"
+				id="853871a046c24113b9e05cd6f1388f18"
+				timeout="60000"
+				codefile="d:\Git Projects\ASM-Training\ASMTraining\ASMTraining\TestCases\OverwriteCompetencyTrainingWithShopLevel\VisitCompetencyTraining.cs"
+				codeline="104"
+				itemindex="6"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:28.045"
+			timeRelativeToTestModuleStartTime="00:28.048"
+			timeWallClock="15:11:31"
+			time="00:28.045"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (Text='Please select shop') on item 'ASMTraining.Validate_SelectShop_Screen'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.training.asm']/form[@title='SalesDsfDetailListScreen']/container[@rid='content']//text[@rid='category_name']"
+				itempath="form[@title='SalesDsfDetailListScreen']/container[@rid='content']//text[@rid='category_name']"
+				fullname="ASMTrainingRepository.ASMTraining.Validate_SelectShop_Screen"
+				id="a6f271fe19724318a340579f625a4256"
+				timeout="60000"
+				codefile="d:\Git Projects\ASM-Training\ASMTraining\ASMTraining\TestCases\OverwriteCompetencyTrainingWithShopLevel\VisitCompetencyTraining.cs"
+				codeline="108"
+				itemindex="7"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:30.879"
+			timeRelativeToTestModuleStartTime="00:30.882"
+			timeWallClock="15:11:34"
+			time="00:30.879"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Text' of element for item 'ASMTrainingRepository.ASMTraining.Validate_SelectShop_Screen' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.training.asm']/form[@title='SalesDsfDetailListScreen']/container[@rid='content']//text[@rid='category_name']"
+				itempath="form[@title='SalesDsfDetailListScreen']/container[@rid='content']//text[@rid='category_name']"
+				fullname="ASMTrainingRepository.ASMTraining.Validate_SelectShop_Screen"
+				id="a6f271fe19724318a340579f625a4256"
+				timeout="60000"
+				codefile="d:\Git Projects\ASM-Training\ASMTraining\ASMTraining\TestCases\OverwriteCompetencyTrainingWithShopLevel\VisitCompetencyTraining.cs"
+				codeline="109"
+				loglvl="Success"
+				itemindex="7">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:34.378"
+			timeRelativeToTestModuleStartTime="00:34.381"
+			timeWallClock="15:11:37"
+			time="00:34.378"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (Text='Start Training') on item 'ASMTraining.Validate_StartTrainingScreen'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.training.asm']/form[@title='SalesShopScreen']/container[@rid='content']//text[@rid='category_name']"
+				itempath="form[@title='SalesShopScreen']/container[@rid='content']//text[@rid='category_name']"
+				fullname="ASMTrainingRepository.ASMTraining.Validate_StartTrainingScreen"
+				id="022c8b17ef714946bb315f7619595487"
+				timeout="60000"
+				codefile="d:\Git Projects\ASM-Training\ASMTraining\ASMTraining\TestCases\OverwriteCompetencyTrainingWithShopLevel\VisitCompetencyTraining.cs"
+				codeline="115"
+				itemindex="9"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:36.775"
+			timeRelativeToTestModuleStartTime="00:36.778"
+			timeWallClock="15:11:39"
+			time="00:36.775"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Text' of element for item 'ASMTrainingRepository.ASMTraining.Validate_StartTrainingScreen' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.training.asm']/form[@title='SalesShopScreen']/container[@rid='content']//text[@rid='category_name']"
+				itempath="form[@title='SalesShopScreen']/container[@rid='content']//text[@rid='category_name']"
+				fullname="ASMTrainingRepository.ASMTraining.Validate_StartTrainingScreen"
+				id="022c8b17ef714946bb315f7619595487"
+				timeout="60000"
+				codefile="d:\Git Projects\ASM-Training\ASMTraining\ASMTraining\TestCases\OverwriteCompetencyTrainingWithShopLevel\VisitCompetencyTraining.cs"
+				codeline="116"
+				loglvl="Success"
+				itemindex="9">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:36.781"
+			timeRelativeToTestModuleStartTime="00:36.784"
+			timeWallClock="15:11:39"
+			time="00:36.781"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'ASMTraining.NextClickBar' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.training.asm']/form[@title='SalesShopScreen']//container[@rid='score_panel']/container[@rid='next_click_bar']"
+				itempath="form[@title='SalesShopScreen']//container[@rid='score_panel']/container[@rid='next_click_bar']"
+				fullname="ASMTrainingRepository.ASMTraining.NextClickBar"
+				id="a4819f27df694e0cb080199680e94925"
+				timeout="60000"
+				codefile="d:\Git Projects\ASM-Training\ASMTraining\ASMTraining\TestCases\OverwriteCompetencyTrainingWithShopLevel\VisitCompetencyTraining.cs"
+				codeline="119"
+				itemindex="10"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:41.679"
+			timeRelativeToTestModuleStartTime="00:41.682"
+			timeWallClock="15:11:44"
+			time="00:41.679"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating Exists on item 'ASMTraining.Validation_InfoPopUp'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.training.asm']/form[@title='Info']"
+				itempath="form[@title='Info']"
+				fullname="ASMTrainingRepository.ASMTraining.Validation_InfoPopUp"
+				id="6d9fbca26cbd498985abe50bb42c1560"
+				timeout="60000"
+				codefile="d:\Git Projects\ASM-Training\ASMTraining\ASMTraining\TestCases\OverwriteCompetencyTrainingWithShopLevel\VisitCompetencyTraining.cs"
+				codeline="123"
+				itemindex="11"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:52.790"
+			timeRelativeToTestModuleStartTime="00:52.793"
+			timeWallClock="15:11:55"
+			time="00:52.790"
+			level="Success"
+			category="Validation">
+			<message>
+				Element for item 'Validation_InfoPopUp' does exist.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.training.asm']/form[@title='Info']"
+				itempath="form[@title='Info']"
+				fullname="ASMTrainingRepository.ASMTraining.Validation_InfoPopUp"
+				id="6d9fbca26cbd498985abe50bb42c1560"
+				timeout="60000"
+				codefile="d:\Git Projects\ASM-Training\ASMTraining\ASMTraining\TestCases\OverwriteCompetencyTrainingWithShopLevel\VisitCompetencyTraining.cs"
+				codeline="124"
+				loglvl="Success"
+				itemindex="11">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:52.795"
+			timeRelativeToTestModuleStartTime="00:52.798"
+			timeWallClock="15:11:56"
+			time="00:52.795"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'ASMTraining.OkButton' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.training.asm']/form[@title='Info']/container[@rid='content']//button[@resourceid='R.string.yes']"
+				itempath="form[@title='Info']/container[@rid='content']//button[@resourceid='R.string.yes']"
+				fullname="ASMTrainingRepository.ASMTraining.OkButton"
+				id="00b381f87fce43e7a860506b260916e8"
+				timeout="60000"
+				codefile="d:\Git Projects\ASM-Training\ASMTraining\ASMTraining\TestCases\OverwriteCompetencyTrainingWithShopLevel\VisitCompetencyTraining.cs"
+				codeline="127"
+				itemindex="12"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:00.438"
+			timeRelativeToTestModuleStartTime="01:00.441"
+			timeWallClock="15:12:03"
+			time="01:00.438"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'ASMTraining.TakeShopFascia' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.training.asm']/form[@title='SalesShopScreen']/container[@rid='content']//button[@rid='onTakePicture']"
+				itempath="form[@title='SalesShopScreen']/container[@rid='content']//button[@rid='onTakePicture']"
+				fullname="ASMTrainingRepository.ASMTraining.TakeShopFascia"
+				id="7e05a1991eca4f8faceefe87053aec3d"
+				timeout="60000"
+				codefile="d:\Git Projects\ASM-Training\ASMTraining\ASMTraining\TestCases\OverwriteCompetencyTrainingWithShopLevel\VisitCompetencyTraining.cs"
+				codeline="131"
+				itemindex="13"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:07.067"
+			timeRelativeToTestModuleStartTime="01:07.070"
+			timeWallClock="15:12:10"
+			time="01:07.067"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating Exists on item 'ASMTraining.Validate_CameraScreen'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.training.asm']/form[@title='CameraActivity']//container[@rid='take_photo_layout']"
+				itempath="form[@title='CameraActivity']//container[@rid='take_photo_layout']"
+				fullname="ASMTrainingRepository.ASMTraining.Validate_CameraScreen"
+				id="8ebbd2e8ba7b481c8383b581d324bd85"
+				timeout="60000"
+				codefile="d:\Git Projects\ASM-Training\ASMTraining\ASMTraining\TestCases\OverwriteCompetencyTrainingWithShopLevel\VisitCompetencyTraining.cs"
+				codeline="135"
+				itemindex="14"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:08.381"
+			timeRelativeToTestModuleStartTime="01:08.384"
+			timeWallClock="15:12:11"
+			time="01:08.381"
+			level="Success"
+			category="Validation">
+			<message>
+				Element for item 'Validate_CameraScreen' does exist.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.training.asm']/form[@title='CameraActivity']//container[@rid='take_photo_layout']"
+				itempath="form[@title='CameraActivity']//container[@rid='take_photo_layout']"
+				fullname="ASMTrainingRepository.ASMTraining.Validate_CameraScreen"
+				id="8ebbd2e8ba7b481c8383b581d324bd85"
+				timeout="60000"
+				codefile="d:\Git Projects\ASM-Training\ASMTraining\ASMTraining\TestCases\OverwriteCompetencyTrainingWithShopLevel\VisitCompetencyTraining.cs"
+				codeline="136"
+				loglvl="Success"
+				itemindex="14">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:14.358"
+			timeRelativeToTestModuleStartTime="01:14.361"
+			timeWallClock="15:12:17"
+			time="01:14.358"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'ASMTraining.DonePhotoButton' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.training.asm']/form[@title='CameraActivity']//container[@rid='button_layout']/button[@rid='done_photo_button']"
+				itempath="form[@title='CameraActivity']//container[@rid='button_layout']/button[@rid='done_photo_button']"
+				fullname="ASMTrainingRepository.ASMTraining.DonePhotoButton"
+				id="d006aac9316545dbab904afe85f71a1b"
+				timeout="60000"
+				codefile="d:\Git Projects\ASM-Training\ASMTraining\ASMTraining\TestCases\OverwriteCompetencyTrainingWithShopLevel\VisitCompetencyTraining.cs"
+				codeline="142"
+				itemindex="16"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:16.074"
+			timeRelativeToTestModuleStartTime="01:16.077"
+			timeWallClock="15:12:19"
+			time="01:16.074"
+			level="Info"
+			category="Touch"
+			errimg=".\VisitCom_e88b8f3d_9fda59c6_trace.jpg"
+			errthumb=".\VisitCom_e88b8f3d_9fda59c6_trace_thumb.jpg">
+			<message>
+				Touch item 'ASMTraining.NextClickBar' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.training.asm']/form[@title='SalesShopScreen']//container[@rid='score_panel']/container[@rid='next_click_bar']"
+				itempath="form[@title='SalesShopScreen']//container[@rid='score_panel']/container[@rid='next_click_bar']"
+				fullname="ASMTrainingRepository.ASMTraining.NextClickBar"
+				id="a4819f27df694e0cb080199680e94925"
+				timeout="60000"
+				codefile="d:\Git Projects\ASM-Training\ASMTraining\ASMTraining\TestCases\OverwriteCompetencyTrainingWithShopLevel\VisitCompetencyTraining.cs"
+				codeline="146"
+				itemindex="17"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:27.755"
+			timeRelativeToTestModuleStartTime="01:27.758"
+			timeWallClock="15:12:30"
+			time="01:27.755"
+			level="Info"
+			category="Validation"
+			errimg=".\VisitCom_e88b8f3d_9fda59c6_trace.jpg"
+			errthumb=".\VisitCom_e88b8f3d_9fda59c6_trace_thumb.jpg">
+			<message>
+				Validating AttributeEqual (Text='Training Steps') on item 'ASMTraining.Validate_TrainingStepsScreen'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.training.asm']/form[@title~'^SalesShopsOptionListScree']/container[@rid='content']//text[@rid='category_name']"
+				itempath="form[@title~'^SalesShopsOptionListScree']/container[@rid='content']//text[@rid='category_name']"
+				fullname="ASMTrainingRepository.ASMTraining.Validate_TrainingStepsScreen"
+				id="f7482a5e22fa41c5849e08d99efe9dc2"
+				timeout="60000"
+				codefile="d:\Git Projects\ASM-Training\ASMTraining\ASMTraining\TestCases\OverwriteCompetencyTrainingWithShopLevel\VisitCompetencyTraining.cs"
+				codeline="150"
+				itemindex="18"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:46.505"
+			timeRelativeToTestModuleStartTime="01:46.508"
+			timeWallClock="15:12:49"
+			time="01:46.505"
+			level="Success"
+			category="Validation"
+			errimg=".\VisitCom_e88b8f3d_9fda59c6_trace.jpg"
+			errthumb=".\VisitCom_e88b8f3d_9fda59c6_trace_thumb.jpg">
+			<message>
+				Attribute 'Text' of element for item 'ASMTrainingRepository.ASMTraining.Validate_TrainingStepsScreen' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.training.asm']/form[@title~'^SalesShopsOptionListScree']/container[@rid='content']//text[@rid='category_name']"
+				itempath="form[@title~'^SalesShopsOptionListScree']/container[@rid='content']//text[@rid='category_name']"
+				fullname="ASMTrainingRepository.ASMTraining.Validate_TrainingStepsScreen"
+				id="f7482a5e22fa41c5849e08d99efe9dc2"
+				timeout="60000"
+				codefile="d:\Git Projects\ASM-Training\ASMTraining\ASMTraining\TestCases\OverwriteCompetencyTrainingWithShopLevel\VisitCompetencyTraining.cs"
+				codeline="151"
+				loglvl="Success"
+				itemindex="18">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:46.511"
+			timeRelativeToTestModuleStartTime="01:46.514"
+			timeWallClock="15:12:49"
+			time="01:46.511"
+			level="Info"
+			category="Touch"
+			errimg=".\VisitCom_e88b8f3d_9fda59c6_trace.jpg"
+			errthumb=".\VisitCom_e88b8f3d_9fda59c6_trace_thumb.jpg">
+			<message>
+				Touch item 'ASMTraining.SaveTrainingButton' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.training.asm']/form[@title~'^SalesShopsOptionListScree']/container[@rid='content']//list[@rid='list']/?/?/button[@rid='imageButton']"
+				itempath="form[@title~'^SalesShopsOptionListScree']/container[@rid='content']//list[@rid='list']/?/?/button[@rid='imageButton']"
+				fullname="ASMTrainingRepository.ASMTraining.SaveTrainingButton"
+				id="841f66d20790413289d5d1c5495f81a5"
+				timeout="60000"
+				codefile="d:\Git Projects\ASM-Training\ASMTraining\ASMTraining\TestCases\OverwriteCompetencyTrainingWithShopLevel\VisitCompetencyTraining.cs"
+				codeline="154"
+				itemindex="19"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="02:20.199"
+			timeRelativeToTestModuleStartTime="02:20.202"
+			timeWallClock="15:13:23"
+			time="02:20.199"
+			level="Info"
+			category="Validation"
+			errimg=".\VisitCom_e88b8f3d_9fda59c6_trace.jpg"
+			errthumb=".\VisitCom_e88b8f3d_9fda59c6_trace_thumb.jpg">
+			<message>
+				Validating Exists on item 'ASMTraining.Validation_InfoPopUp'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.training.asm']/form[@title='Info']"
+				itempath="form[@title='Info']"
+				fullname="ASMTrainingRepository.ASMTraining.Validation_InfoPopUp"
+				id="6d9fbca26cbd498985abe50bb42c1560"
+				timeout="60000"
+				codefile="d:\Git Projects\ASM-Training\ASMTraining\ASMTraining\TestCases\OverwriteCompetencyTrainingWithShopLevel\VisitCompetencyTraining.cs"
+				codeline="158"
+				itemindex="20"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="02:49.474"
+			timeRelativeToTestModuleStartTime="02:49.477"
+			timeWallClock="15:13:52"
+			time="02:49.474"
+			level="Success"
+			category="Validation"
+			errimg=".\VisitCom_e88b8f3d_9fda59c6_trace.jpg"
+			errthumb=".\VisitCom_e88b8f3d_9fda59c6_trace_thumb.jpg">
+			<message>
+				Element for item 'Validation_InfoPopUp' does exist.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.training.asm']/form[@title='Info']"
+				itempath="form[@title='Info']"
+				fullname="ASMTrainingRepository.ASMTraining.Validation_InfoPopUp"
+				id="6d9fbca26cbd498985abe50bb42c1560"
+				timeout="60000"
+				codefile="d:\Git Projects\ASM-Training\ASMTraining\ASMTraining\TestCases\OverwriteCompetencyTrainingWithShopLevel\VisitCompetencyTraining.cs"
+				codeline="159"
+				loglvl="Success"
+				itemindex="20">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="02:49.480"
+			timeRelativeToTestModuleStartTime="02:49.483"
+			timeWallClock="15:13:52"
+			time="02:49.480"
+			level="Info"
+			category="Touch"
+			errimg=".\VisitCom_e88b8f3d_9fda59c6_trace.jpg"
+			errthumb=".\VisitCom_e88b8f3d_9fda59c6_trace_thumb.jpg">
+			<message>
+				Touch item 'ASMTraining.OkButton' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.training.asm']/form[@title='Info']/container[@rid='content']//button[@resourceid='R.string.yes']"
+				itempath="form[@title='Info']/container[@rid='content']//button[@resourceid='R.string.yes']"
+				fullname="ASMTrainingRepository.ASMTraining.OkButton"
+				id="00b381f87fce43e7a860506b260916e8"
+				timeout="60000"
+				codefile="d:\Git Projects\ASM-Training\ASMTraining\ASMTraining\TestCases\OverwriteCompetencyTrainingWithShopLevel\VisitCompetencyTraining.cs"
+				codeline="162"
+				itemindex="21"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="03:28.745"
+			timeRelativeToTestModuleStartTime="03:28.748"
+			timeWallClock="15:14:31"
+			time="03:28.745"
+			level="Info"
+			category="Touch"
+			errimg=".\VisitCom_e88b8f3d_9fda59c6_trace.jpg"
+			errthumb=".\VisitCom_e88b8f3d_9fda59c6_trace_thumb.jpg">
+			<message>
+				Touch item 'ASMTraining.List.RatingICESteps' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.training.asm']/form[@title~'^SalesShopsOptionListScree']//list[@rid='list']/text[1]"
+				itempath="text[1]"
+				fullname="ASMTrainingRepository.ASMTraining.List.RatingICESteps"
+				id="9ffd9b7bcc2a4c0ba76e7829c43e9818"
+				timeout="90000"
+				codefile="d:\Git Projects\ASM-Training\ASMTraining\ASMTraining\TestCases\OverwriteCompetencyTrainingWithShopLevel\VisitCompetencyTraining.cs"
+				codeline="166"
+				itemindex="22"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="03:45.177"
+			timeRelativeToTestModuleStartTime="03:45.180"
+			timeWallClock="15:14:48"
+			time="03:45.177"
+			level="Info"
+			category="Validation"
+			errimg=".\VisitCom_e88b8f3d_9fda59c6_trace.jpg"
+			errthumb=".\VisitCom_e88b8f3d_9fda59c6_trace_thumb.jpg">
+			<message>
+				Validating AttributeEqual (Text='Rate DSF') on item 'ASMTraining.Validate_RatingICEScreen'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.training.asm']/form[@title~'^SalesShopOptionDetailList']/container[@rid='content']//text[@rid='category_name']"
+				itempath="form[@title~'^SalesShopOptionDetailList']/container[@rid='content']//text[@rid='category_name']"
+				fullname="ASMTrainingRepository.ASMTraining.Validate_RatingICEScreen"
+				id="29d74be4739946b4bfe1bd51db1b0baa"
+				timeout="60000"
+				codefile="d:\Git Projects\ASM-Training\ASMTraining\ASMTraining\TestCases\OverwriteCompetencyTrainingWithShopLevel\VisitCompetencyTraining.cs"
+				codeline="170"
+				itemindex="23"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="04:39.162"
+			timeRelativeToTestModuleStartTime="04:39.165"
+			timeWallClock="15:15:42"
+			time="04:39.162"
+			level="Success"
+			category="Validation"
+			errimg=".\VisitCom_e88b8f3d_9fda59c6_trace.jpg"
+			errthumb=".\VisitCom_e88b8f3d_9fda59c6_trace_thumb.jpg">
+			<message>
+				Attribute 'Text' of element for item 'ASMTrainingRepository.ASMTraining.Validate_RatingICEScreen' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.training.asm']/form[@title~'^SalesShopOptionDetailList']/container[@rid='content']//text[@rid='category_name']"
+				itempath="form[@title~'^SalesShopOptionDetailList']/container[@rid='content']//text[@rid='category_name']"
+				fullname="ASMTrainingRepository.ASMTraining.Validate_RatingICEScreen"
+				id="29d74be4739946b4bfe1bd51db1b0baa"
+				timeout="60000"
+				codefile="d:\Git Projects\ASM-Training\ASMTraining\ASMTraining\TestCases\OverwriteCompetencyTrainingWithShopLevel\VisitCompetencyTraining.cs"
+				codeline="171"
+				loglvl="Success"
+				itemindex="23">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="04:39.170"
+			timeRelativeToTestModuleStartTime="04:39.173"
+			timeWallClock="15:15:42"
+			time="04:39.170"
+			level="Info"
+			category="Keyboard"
+			errimg=".\VisitCom_e88b8f3d_9fda59c6_trace.jpg"
+			errthumb=".\VisitCom_e88b8f3d_9fda59c6_trace_thumb.jpg">
+			<message>
+				Key '{BACK}' press on 'ASMTraining'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.training.asm']"
+				itempath="/mobileapp[@title='com.training.asm']"
+				fullname="ASMTrainingRepository.ASMTraining.Self"
+				id="8a90c606bf2e4f2aa07de9da1202e098"
+				timeout="30000"
+				codefile="d:\Git Projects\ASM-Training\ASMTraining\ASMTraining\TestCases\OverwriteCompetencyTrainingWithShopLevel\VisitCompetencyTraining.cs"
+				codeline="174"
+				itemindex="24"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="04:54.275"
+			timeRelativeToTestModuleStartTime="04:54.278"
+			timeWallClock="15:15:57"
+			time="04:54.275"
+			level="Error"
+			category="Module"
+			errimg=".\VisitCom_e88b8f3d_bcbdd400_trace.jpg"
+			errthumb=".\VisitCom_e88b8f3d_bcbdd400_trace_thumb.jpg">
+			<message>
+				Device communication timed out. Either no instrumented application is running on the device or the device was not able to process the request within the specified timeout of '00:00:05'. Check that an instrumented application is running on the device or try to increase the timeout.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Plugin.Mobile.XmlRpc.XmlRpcProtocolChannel.WaitForReply(TimeSpan responseTimeout, Int32 callId)
+   at Ranorex.Plugin.Mobile.XmlRpc.XmlRpcProtocolChannel.Call(MethodCall mc, TimeSpan responseTimeout)
+   at Ranorex.Plugin.Mobile.Device.Channels.AppLogicChannel.ReplayKeySequence(IElementWithId element, String sequence)
+   at Ranorex.Plugin.Mobile.RxIntegration.Elements.MobileAppFlavorElement.PressKeys(String keySequence)
+   at Ranorex.Adapter.PressKeys(String sequence, Duration keyPressTime)
+   at Ranorex.Adapter.PressKeys(String sequence)
+   at ASMTraining.TestCases.OverwriteCompetencyTrainingWithShopLevel.VisitCompetencyTraining.Ranorex.Core.Testing.ITestModule.Run() in d:\Git Projects\ASM-Training\ASMTraining\ASMTraining\TestCases\OverwriteCompetencyTrainingWithShopLevel\VisitCompetencyTraining.cs:line 175
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="d:\Git Projects\ASM-Training\ASMTraining\ASMTraining\TestCases\OverwriteCompetencyTrainingWithShopLevel\VisitCompetencyTraining.cs"
+				codeline="175"
+				loglvl="Error"
+				itemindex="24">
+			</metainfo>
+		</item>
+	</activity>
+</report>

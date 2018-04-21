@@ -7,10 +7,6 @@ rxversion="8.0">
 			id="1e2d62b7-492a-4b9c-88ff-5c62ec6d3fa1"
 			name="TrainingUpdates">
 			</testcase>
-			<testcase
-			id="2a0c0cc4-3a77-4f6c-bec8-edb8e7561927"
-			name="CompetencyTraining">
-			</testcase>
 			<testmodule
 			id="3505f1ce-c7fd-4b96-983f-f48dd476818a"
 			name="TrainingUpdates"
@@ -19,7 +15,7 @@ rxversion="8.0">
 			</testmodule>
 			<testmodule
 			id="37212e98-7f4f-40a8-bab5-8b377bd2c224"
-			name="CompetencyTraining"
+			name="VisitCompetencyTraining"
 			ref="45006ebf-6692-44f1-a6d3-d41891acb766"
 			type="Recording">
 			</testmodule>
@@ -27,21 +23,27 @@ rxversion="8.0">
 			id="41a8cb5a-237f-41be-b69e-574ea8d94812"
 			name="LaunchingApp">
 			</testcase>
-			<testmodule
-			id="61f404ee-3923-46f0-b01e-f65c1983ac54"
-			name="ReportToPDF"
-			ref="ffa0759d-37d2-4abb-89a7-411f0fcf2dfe"
-			type="UserCode">
-			</testmodule>
 			<teardown
-			id="6c697ab4-7c81-4b1a-8551-e5f11ea5bfd5"
+			id="4fce33d4-237f-4dee-b78e-723088e9c66b"
 			name="teardown">
 			</teardown>
+			<testmodule
+			id="5a2d6d81-8ad6-4c2f-8b18-0eb95ee4ea6d"
+			name="OverwriteCompetencyTraining"
+			ref="1349212b-3b54-4a26-ab2e-0442aae7bcac"
+			type="Recording">
+			</testmodule>
 			<testcase
 			id="7867eeba-4bc0-4846-be75-ba7e8d9f4c0d"
 			name="ASMTraining"
 			reportlevel="Info;20">
 			</testcase>
+			<testmodule
+			id="80fef06a-4538-4fb3-a3c0-781968349224"
+			name="ReportToPDF"
+			ref="ffa0759d-37d2-4abb-89a7-411f0fcf2dfe"
+			type="UserCode">
+			</testmodule>
 			<testmodule
 			id="9d96f4a1-89a9-4e0d-a6e1-698354262e7b"
 			name="MarketVisit"
@@ -61,9 +63,19 @@ rxversion="8.0">
 			type="Recording">
 			</testmodule>
 			<testcase
+			id="b194cb88-58f8-4426-b896-2e6d747cc217"
+			name="OverwriteCompetencyTrainingWithModuleLevel">
+			</testcase>
+			<testcase
 			id="b66498f4-390d-4c45-bf6f-86d4bf568adc"
 			name="MarketVisit">
 			</testcase>
+			<testmodule
+			id="b7b98d9f-d1a6-4524-b4cb-70f8ee586c2c"
+			name="VisitCompetencyTraining"
+			ref="937107b2-195b-4427-953b-6f35bbb134e4"
+			type="Recording">
+			</testmodule>
 			<testmodule
 			id="b8458182-234c-4da4-8e2a-99473579cf1a"
 			name="ViewPlanogram"
@@ -76,7 +88,7 @@ rxversion="8.0">
 			</testcase>
 			<testmodule
 			id="e7d954af-c59f-41df-bd0c-8ad16756e1e8"
-			name="CompetencyTraining"
+			name="OverwriteCompetencyTraining"
 			ref="fb8ad756-5193-4251-8c7e-e7f3300ac19b"
 			type="Recording">
 			</testmodule>
@@ -95,8 +107,8 @@ rxversion="8.0">
 			showinvisiblechars="True">
 			</testsuite>
 			<testcase
-			id="eff6f07c-4533-4798-8a0b-b568d68b657a"
-			name="OverwriteCompetencyTraining">
+			id="f00f57ef-1cf6-4981-b05f-7226ccfc3534"
+			name="OverwriteCompetencyTrainingWithShopLevel">
 			</testcase>
 			<testcase
 			id="f7f378b5-41fc-4ff8-8046-d9e02131ff73"
@@ -119,19 +131,27 @@ rxversion="8.0">
 						</testmodule>
 					</testcase>
 					<testcase
-					id="2a0c0cc4-3a77-4f6c-bec8-edb8e7561927"
-					name="CompetencyTraining">
+					id="f00f57ef-1cf6-4981-b05f-7226ccfc3534"
+					name="OverwriteCompetencyTrainingWithShopLevel">
 						<testmodule
 						id="37212e98-7f4f-40a8-bab5-8b377bd2c224"
-						name="CompetencyTraining">
+						name="VisitCompetencyTraining">
+						</testmodule>
+						<testmodule
+						id="e7d954af-c59f-41df-bd0c-8ad16756e1e8"
+						name="OverwriteCompetencyTraining">
 						</testmodule>
 					</testcase>
 					<testcase
-					id="eff6f07c-4533-4798-8a0b-b568d68b657a"
-					name="OverwriteCompetencyTraining">
+					id="b194cb88-58f8-4426-b896-2e6d747cc217"
+					name="OverwriteCompetencyTrainingWithModuleLevel">
 						<testmodule
-						id="e7d954af-c59f-41df-bd0c-8ad16756e1e8"
-						name="CompetencyTraining">
+						id="b7b98d9f-d1a6-4524-b4cb-70f8ee586c2c"
+						name="VisitCompetencyTraining">
+						</testmodule>
+						<testmodule
+						id="5a2d6d81-8ad6-4c2f-8b18-0eb95ee4ea6d"
+						name="OverwriteCompetencyTraining">
 						</testmodule>
 					</testcase>
 					<testcase
@@ -167,10 +187,10 @@ rxversion="8.0">
 						</testmodule>
 					</testcase>
 					<teardown
-					id="6c697ab4-7c81-4b1a-8551-e5f11ea5bfd5"
+					id="4fce33d4-237f-4dee-b78e-723088e9c66b"
 					name="teardown">
 						<testmodule
-						id="61f404ee-3923-46f0-b01e-f65c1983ac54"
+						id="80fef06a-4538-4fb3-a3c0-781968349224"
 						name="ReportToPDF">
 						</testmodule>
 					</teardown>
@@ -188,9 +208,6 @@ rxversion="8.0">
 			id="1e2d62b7-492a-4b9c-88ff-5c62ec6d3fa1">
 			</testcontainer>
 			<testcontainer
-			id="2a0c0cc4-3a77-4f6c-bec8-edb8e7561927">
-			</testcontainer>
-			<testcontainer
 			id="41a8cb5a-237f-41be-b69e-574ea8d94812">
 			</testcontainer>
 			<testcontainer
@@ -203,7 +220,7 @@ rxversion="8.0">
 			id="e1744405-d8ec-43fa-9a7a-747d82241c86">
 			</testcontainer>
 			<testcontainer
-			id="eff6f07c-4533-4798-8a0b-b568d68b657a">
+			id="f00f57ef-1cf6-4981-b05f-7226ccfc3534">
 			</testcontainer>
 			<testcontainer
 			id="f7f378b5-41fc-4ff8-8046-d9e02131ff73">
@@ -212,10 +229,10 @@ rxversion="8.0">
 	</testconfigurations>
 	<references>
 		<reference>
-			..\..\..\..\..\..\Ranorex_PDF_Lib\Ranorex.PDF.dll
+			C:\Program Files (x86)\Ranorex 8.0\Bin\Ranorex.Bootstrapper.dll
 		</reference>
 		<reference>
-			C:\Program Files (x86)\Ranorex 8.0\Bin\Ranorex.Bootstrapper.dll
+			Ranorex.PDF.dll
 		</reference>
 	</references>
 </testsuitedoc>

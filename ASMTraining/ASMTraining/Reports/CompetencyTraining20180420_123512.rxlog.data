@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="7266621e237f4bf"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Fahad Shah"
+		rxversion="8.0.0.0"
+		host="HUAWEI LUA-U22 (Unknown)
+WLAN - 192.168.3.11"
+		osversion="-"
+		runtimeversion="-"
+		procarch="-"
+		oslanguage="-"
+		dtnlanguage="-"
+		screenresolution="-"
+		timestamp="4/20/2018 12:35:28 PM"
+		timestampiso="2018-04-20T19:35:28"
+		endtime="4/20/2018 12:35:36 PM"
+		timeoutfactor="1"
+		module="CompetencyTraining">
+		<detail>
+			CompetencyTraining
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.985"
+			timeRelativeToTestModuleStartTime="00:03.988"
+			timeWallClock="12:35:32"
+			time="00:03.985"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (Text='Start Training') on item 'ASMTraining.Validate_StartTrainingScreen'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.training.asm']/form[@title='SalesShopScreen']/container[@rid='content']//text[@rid='category_name']"
+				itempath="form[@title='SalesShopScreen']/container[@rid='content']//text[@rid='category_name']"
+				fullname="ASMTrainingRepository.ASMTraining.Validate_StartTrainingScreen"
+				id="022c8b17ef714946bb315f7619595487"
+				timeout="60000"
+				codefile="d:\Git Projects\ASM-Training\ASMTraining\ASMTraining\TestCases\VisitCompetencyTraining\CompetencyTraining.cs"
+				codeline="82"
+				itemindex="9"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.441"
+			timeRelativeToTestModuleStartTime="00:08.444"
+			timeWallClock="12:35:36"
+			time="00:08.441"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Text' of element for item 'ASMTrainingRepository.ASMTraining.Validate_StartTrainingScreen' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.training.asm']/form[@title='SalesShopScreen']/container[@rid='content']//text[@rid='category_name']"
+				itempath="form[@title='SalesShopScreen']/container[@rid='content']//text[@rid='category_name']"
+				fullname="ASMTrainingRepository.ASMTraining.Validate_StartTrainingScreen"
+				id="022c8b17ef714946bb315f7619595487"
+				timeout="60000"
+				codefile="d:\Git Projects\ASM-Training\ASMTraining\ASMTraining\TestCases\VisitCompetencyTraining\CompetencyTraining.cs"
+				codeline="83"
+				loglvl="Success"
+				itemindex="9">
+			</metainfo>
+		</item>
+	</activity>
+</report>

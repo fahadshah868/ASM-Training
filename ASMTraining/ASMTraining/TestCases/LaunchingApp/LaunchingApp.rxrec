@@ -31,7 +31,7 @@ rxversion="8.0">
 	<recorditems>
 		<runmobileapprecorditem
 		application="com.training.asm"
-		devicename="Current Endpoint (SM-J110H)"
+		devicename="Current Endpoint (HUAWEI LUA-U22)"
 		duration="3500ms"
 		enabled="True"
 		optional="False"

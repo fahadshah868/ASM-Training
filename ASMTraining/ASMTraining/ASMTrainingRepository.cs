@@ -105,12 +105,8 @@ namespace ASMTraining
             RepoItemInfo _donephotobuttonInfo;
             RepoItemInfo _savetrainingbuttonInfo;
             RepoItemInfo _routemanagementInfo;
-            RepoItemInfo _ratingice_backbuttonInfo;
             RepoItemInfo _takepictureInfo;
-            RepoItemInfo _fieldscales_backbuttonInfo;
-            RepoItemInfo _marketintelligence_backbuttonInfo;
             RepoItemInfo _capturingpicture_takepictureInfo;
-            RepoItemInfo _capturingpicture_backbuttonInfo;
             RepoItemInfo _remark_edittextInfo;
             RepoItemInfo _submitremarksInfo;
             RepoItemInfo _dsfratingsummery_backbuttonInfo;
@@ -213,12 +209,8 @@ namespace ASMTraining
                 _donephotobuttonInfo = new RepoItemInfo(this, "DonePhotoButton", "form[@title='CameraActivity']//container[@rid='button_layout']/button[@rid='done_photo_button']", 30000, null, "d006aac9-3165-45db-ab90-4afe85f71a1b");
                 _savetrainingbuttonInfo = new RepoItemInfo(this, "SaveTrainingButton", "form[@title~'^SalesShopsOptionListScree']/container[@rid='content']//list[@rid='list']/?/?/button[@rid='imageButton']", 30000, null, "841f66d2-0790-4132-89d5-d1c5495f81a5");
                 _routemanagementInfo = new RepoItemInfo(this, "RouteManagement", "form[@title~'^SalesShopOptionDetailList']//list[@rid='list']/container[1]", 30000, null, "74bdb5cd-66c5-4ab1-ade8-0067065240e7");
-                _ratingice_backbuttonInfo = new RepoItemInfo(this, "RatingICE_BackButton", "form[@title~'^SalesShopOptionDetailList']/container[@rid='content']/androidelement/container[@containertype='Linear']/container[@containertype='Linear']/picture", 30000, null, "ddb4ff10-9358-4161-bcbf-6368f0953618");
                 _takepictureInfo = new RepoItemInfo(this, "TakePicture", "form[@title~'^SalesMarketIntelligenceSc']/container[@rid='content']//button[@rid='first_take_picture']", 30000, null, "8e1e2e06-3578-4e00-a217-fb5b9e59cf11");
-                _fieldscales_backbuttonInfo = new RepoItemInfo(this, "FieldScales_BackButton", "form[@title~'^SalesMarketIntelligenceSc']/container[@rid='content']/androidelement/container[@containertype='Linear']/container[@containertype='Linear']/picture", 30000, null, "d5ad974e-7fcb-491b-a51d-119d6848df3a");
-                _marketintelligence_backbuttonInfo = new RepoItemInfo(this, "MarketIntelligence_BackButton", "form[@title~'^SalesMarketIntelligenceSc']/container[@rid='content']/androidelement/container[@containertype='Linear']/container[@containertype='Linear']/picture", 30000, null, "6794c564-3ed5-402e-8781-e55249502181");
                 _capturingpicture_takepictureInfo = new RepoItemInfo(this, "CapturingPicture_TakePicture", "form[@title='POSCategoryGridActivity']/container[@rid='content']//container[@rid='grid']", 30000, null, "64813d49-eb7b-4a97-a30a-f609b07a7be9");
-                _capturingpicture_backbuttonInfo = new RepoItemInfo(this, "CapturingPicture_BackButton", "form[@title='POSCategoryGridActivity']/container[@rid='content']/androidelement/container[@containertype='Linear']/container[@containertype='Linear']/picture", 30000, null, "ca8de90b-c227-4d5f-8871-5951e7172cc7");
                 _remark_edittextInfo = new RepoItemInfo(this, "Remark_EditText", "form[@title='RemarksScreen']/container[@rid='content']//text[@rid='remark']", 30000, null, "b05be796-6641-4003-9b8f-dea1b6cbc39e");
                 _submitremarksInfo = new RepoItemInfo(this, "SubmitRemarks", "form[@title='RemarksScreen']/container[@rid='content']//button[@resourceid='R.string.crop_image_activity_title']", 30000, null, "592d84d4-a881-4352-a477-b010558ba399");
                 _dsfratingsummery_backbuttonInfo = new RepoItemInfo(this, "DSFRatingSummery_BackButton", "form[@title='DSFRatingActivity']/container[@rid='content']/container/container[@containertype='Linear']/container[2]/picture", 30000, null, "21f83503-201f-49c7-b06d-3d328fce0a99");
@@ -657,30 +649,6 @@ namespace ASMTraining
             }
 
             /// <summary>
-            /// The RatingICE_BackButton item.
-            /// </summary>
-            [RepositoryItem("ddb4ff10-9358-4161-bcbf-6368f0953618")]
-            public virtual Ranorex.Picture RatingICE_BackButton
-            {
-                get
-                {
-                    return _ratingice_backbuttonInfo.CreateAdapter<Ranorex.Picture>(true);
-                }
-            }
-
-            /// <summary>
-            /// The RatingICE_BackButton item info.
-            /// </summary>
-            [RepositoryItemInfo("ddb4ff10-9358-4161-bcbf-6368f0953618")]
-            public virtual RepoItemInfo RatingICE_BackButtonInfo
-            {
-                get
-                {
-                    return _ratingice_backbuttonInfo;
-                }
-            }
-
-            /// <summary>
             /// The TakePicture item.
             /// </summary>
             [RepositoryItem("8e1e2e06-3578-4e00-a217-fb5b9e59cf11")]
@@ -705,54 +673,6 @@ namespace ASMTraining
             }
 
             /// <summary>
-            /// The FieldScales_BackButton item.
-            /// </summary>
-            [RepositoryItem("d5ad974e-7fcb-491b-a51d-119d6848df3a")]
-            public virtual Ranorex.Picture FieldScales_BackButton
-            {
-                get
-                {
-                    return _fieldscales_backbuttonInfo.CreateAdapter<Ranorex.Picture>(true);
-                }
-            }
-
-            /// <summary>
-            /// The FieldScales_BackButton item info.
-            /// </summary>
-            [RepositoryItemInfo("d5ad974e-7fcb-491b-a51d-119d6848df3a")]
-            public virtual RepoItemInfo FieldScales_BackButtonInfo
-            {
-                get
-                {
-                    return _fieldscales_backbuttonInfo;
-                }
-            }
-
-            /// <summary>
-            /// The MarketIntelligence_BackButton item.
-            /// </summary>
-            [RepositoryItem("6794c564-3ed5-402e-8781-e55249502181")]
-            public virtual Ranorex.Picture MarketIntelligence_BackButton
-            {
-                get
-                {
-                    return _marketintelligence_backbuttonInfo.CreateAdapter<Ranorex.Picture>(true);
-                }
-            }
-
-            /// <summary>
-            /// The MarketIntelligence_BackButton item info.
-            /// </summary>
-            [RepositoryItemInfo("6794c564-3ed5-402e-8781-e55249502181")]
-            public virtual RepoItemInfo MarketIntelligence_BackButtonInfo
-            {
-                get
-                {
-                    return _marketintelligence_backbuttonInfo;
-                }
-            }
-
-            /// <summary>
             /// The CapturingPicture_TakePicture item.
             /// </summary>
             [RepositoryItem("64813d49-eb7b-4a97-a30a-f609b07a7be9")]
@@ -773,30 +693,6 @@ namespace ASMTraining
                 get
                 {
                     return _capturingpicture_takepictureInfo;
-                }
-            }
-
-            /// <summary>
-            /// The CapturingPicture_BackButton item.
-            /// </summary>
-            [RepositoryItem("ca8de90b-c227-4d5f-8871-5951e7172cc7")]
-            public virtual Ranorex.Picture CapturingPicture_BackButton
-            {
-                get
-                {
-                    return _capturingpicture_backbuttonInfo.CreateAdapter<Ranorex.Picture>(true);
-                }
-            }
-
-            /// <summary>
-            /// The CapturingPicture_BackButton item info.
-            /// </summary>
-            [RepositoryItemInfo("ca8de90b-c227-4d5f-8871-5951e7172cc7")]
-            public virtual RepoItemInfo CapturingPicture_BackButtonInfo
-            {
-                get
-                {
-                    return _capturingpicture_backbuttonInfo;
                 }
             }
 
@@ -2844,10 +2740,10 @@ namespace ASMTraining
                     base("List", "form[@title~'^SalesShopsOptionListScree']//list[@rid='list']", parentFolder, 30000, null, false, "35f4333b-bc4a-4441-a80f-acfd92d2b9b0", "")
             {
                 _ratingicestepsInfo = new RepoItemInfo(this, "RatingICESteps", "text[1]", 30000, null, "9ffd9b7b-cc2a-4c0b-a76e-7829c43e9818");
-                _fieldsalescoachingInfo = new RepoItemInfo(this, "FieldSalesCoaching", "text[1]", 30000, null, "2d71d18f-3383-4943-aae3-4fdbbb8d5d63");
-                _capturingpictureofsuccessInfo = new RepoItemInfo(this, "CapturingPictureOfSuccess", "text[2]", 30000, null, "f86f2fd4-6a41-4139-9db7-9df8b9f041ab");
-                _marketintelligenceInfo = new RepoItemInfo(this, "MarketIntelligence", "text[3]", 30000, null, "7ba03a71-60e2-4123-9a2e-22b2d714f511");
-                _remarksInfo = new RepoItemInfo(this, "Remarks", "text[4]", 30000, null, "29e1bf32-d9c6-43c5-84ce-9f7af1a8f8b6");
+                _fieldsalescoachingInfo = new RepoItemInfo(this, "FieldSalesCoaching", "text[2]", 30000, null, "2d71d18f-3383-4943-aae3-4fdbbb8d5d63");
+                _capturingpictureofsuccessInfo = new RepoItemInfo(this, "CapturingPictureOfSuccess", "text[3]", 30000, null, "f86f2fd4-6a41-4139-9db7-9df8b9f041ab");
+                _marketintelligenceInfo = new RepoItemInfo(this, "MarketIntelligence", "text[4]", 30000, null, "7ba03a71-60e2-4123-9a2e-22b2d714f511");
+                _remarksInfo = new RepoItemInfo(this, "Remarks", "text[5]", 30000, null, "29e1bf32-d9c6-43c5-84ce-9f7af1a8f8b6");
             }
 
             /// <summary>

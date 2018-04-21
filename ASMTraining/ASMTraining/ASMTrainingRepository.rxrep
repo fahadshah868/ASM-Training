@@ -242,7 +242,7 @@ rxversion="8.0">
 				name="FieldSalesCoaching"
 				refimgid="908b8003-a7de-4e53-a442-bddf16c7aebc"
 				searchtimeout="30000ms">
-					/mobileapp[@title='com.training.asm']/form[@title~'^SalesShopsOptionListScree']//list[@rid='list']/text[1]
+					/mobileapp[@title='com.training.asm']/form[@title~'^SalesShopsOptionListScree']//list[@rid='list']/text[2]
 				</item>
 				<item
 				addcaps="text,androidelement,mobileuielement"
@@ -251,7 +251,7 @@ rxversion="8.0">
 				name="CapturingPictureOfSuccess"
 				refimgid="6cc6f0f4-88e2-44c8-9cc3-ab5d3483df83"
 				searchtimeout="30000ms">
-					/mobileapp[@title='com.training.asm']/form[@title~'^SalesShopsOptionListScree']//list[@rid='list']/text[2]
+					/mobileapp[@title='com.training.asm']/form[@title~'^SalesShopsOptionListScree']//list[@rid='list']/text[3]
 				</item>
 				<item
 				addcaps="text,androidelement,mobileuielement"
@@ -260,7 +260,7 @@ rxversion="8.0">
 				name="MarketIntelligence"
 				refimgid="9c17eafa-f0a8-4dfc-9cc5-aeda78a46845"
 				searchtimeout="30000ms">
-					/mobileapp[@title='com.training.asm']/form[@title~'^SalesShopsOptionListScree']//list[@rid='list']/text[3]
+					/mobileapp[@title='com.training.asm']/form[@title~'^SalesShopsOptionListScree']//list[@rid='list']/text[4]
 				</item>
 				<item
 				addcaps="text,androidelement,mobileuielement"
@@ -269,7 +269,7 @@ rxversion="8.0">
 				name="Remarks"
 				refimgid="2db5fcea-38a4-4b56-81bd-ef7d6981a2dd"
 				searchtimeout="30000ms">
-					/mobileapp[@title='com.training.asm']/form[@title~'^SalesShopsOptionListScree']//list[@rid='list']/text[4]
+					/mobileapp[@title='com.training.asm']/form[@title~'^SalesShopsOptionListScree']//list[@rid='list']/text[5]
 				</item>
 				<basepath>
 					/mobileapp[@title='com.training.asm']/form[@title~'^SalesShopsOptionListScree']//list[@rid='list']
@@ -359,16 +359,6 @@ rxversion="8.0">
 				</basepath>
 			</folder>
 			<item
-			addcaps="picture,androidelement,mobileuielement"
-			capname="picture"
-			id="ddb4ff10-9358-4161-bcbf-6368f0953618"
-			name="RatingICE_BackButton"
-			refimgid="9cbc99d5-8e73-429b-8dd0-50236f7d232a"
-			refpath="/mobileapp[@title='com.training.asm']/form[@title='SalesShopOptionDetailListScreen']/container[@rid='content']/androidelement[@rid='DrawerLayout']/container[@containertype='Linear']/container[@containertype='Linear']/picture"
-			searchtimeout="30000ms">
-				/mobileapp[@title='com.training.asm']/form[@title~'^SalesShopOptionDetailList']/container[@rid='content']/androidelement/container[@containertype='Linear']/container[@containertype='Linear']/picture
-			</item>
-			<item
 			addcaps="button,androidelement,mobileuielement"
 			capname="button"
 			id="8e1e2e06-3578-4e00-a217-fb5b9e59cf11"
@@ -379,26 +369,6 @@ rxversion="8.0">
 				/mobileapp[@title='com.training.asm']/form[@title~'^SalesMarketIntelligenceSc']/container[@rid='content']//button[@rid='first_take_picture']
 			</item>
 			<item
-			addcaps="picture,androidelement,mobileuielement"
-			capname="picture"
-			id="d5ad974e-7fcb-491b-a51d-119d6848df3a"
-			name="FieldScales_BackButton"
-			refimgid="647e5e6d-f087-4cf0-bf04-b48e9379e81c"
-			refpath="/mobileapp[@title='com.training.asm']/form[@title='SalesMarketIntelligenceScreen']/container[@rid='content']/androidelement[@rid='DrawerLayout']/container[@containertype='Linear']/container[@containertype='Linear']/picture"
-			searchtimeout="30000ms">
-				/mobileapp[@title='com.training.asm']/form[@title~'^SalesMarketIntelligenceSc']/container[@rid='content']/androidelement/container[@containertype='Linear']/container[@containertype='Linear']/picture
-			</item>
-			<item
-			addcaps="picture,androidelement,mobileuielement"
-			capname="picture"
-			id="6794c564-3ed5-402e-8781-e55249502181"
-			name="MarketIntelligence_BackButton"
-			refimgid="7d0579ca-8b30-40b4-965e-1b2f4466c1c3"
-			refpath="/mobileapp[@title='com.training.asm']/form[@title='SalesMarketIntelligenceScreen']/container[@rid='content']/androidelement[@rid='DrawerLayout']/container[@containertype='Linear']/container[@containertype='Linear']/picture"
-			searchtimeout="30000ms">
-				/mobileapp[@title='com.training.asm']/form[@title~'^SalesMarketIntelligenceSc']/container[@rid='content']/androidelement/container[@containertype='Linear']/container[@containertype='Linear']/picture
-			</item>
-			<item
 			addcaps="container,androidelement,mobileuielement"
 			capname="container"
 			id="64813d49-eb7b-4a97-a30a-f609b07a7be9"
@@ -407,16 +377,6 @@ rxversion="8.0">
 			refpath="/mobileapp[@title='com.training.asm']/form[@title='POSCategoryGridActivity']/container[@rid='content']/androidelement[@rid='DrawerLayout']/container[@containertype='Linear']/container[@rid='grid']"
 			searchtimeout="30000ms">
 				/mobileapp[@title='com.training.asm']/form[@title='POSCategoryGridActivity']/container[@rid='content']//container[@rid='grid']
-			</item>
-			<item
-			addcaps="picture,androidelement,mobileuielement"
-			capname="picture"
-			id="ca8de90b-c227-4d5f-8871-5951e7172cc7"
-			name="CapturingPicture_BackButton"
-			refimgid="2467e3e6-b3ed-4257-bcdc-bb0ea09d192d"
-			refpath="/mobileapp[@title='com.training.asm']/form[@title='POSCategoryGridActivity']/container[@rid='content']/androidelement[@rid='DrawerLayout']/container[@containertype='Linear']/container[@containertype='Linear']/picture"
-			searchtimeout="30000ms">
-				/mobileapp[@title='com.training.asm']/form[@title='POSCategoryGridActivity']/container[@rid='content']/androidelement/container[@containertype='Linear']/container[@containertype='Linear']/picture
 			</item>
 			<item
 			addcaps="text,androidelement,mobileuielement"

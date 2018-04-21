@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <recordtable
 embeddedrepository="False"
-id="fb8ad756-5193-4251-8c7e-e7f3300ac19b"
+id="1349212b-3b54-4a26-ab2e-0442aae7bcac"
 mode="Global"
 rxversion="8.0">
 	<name>
-		CompetencyTraining
+		OverwriteCompetencyTraining
 	</name>
 	<repeatcount>
 		1
@@ -23,232 +23,12 @@ rxversion="8.0">
 		True
 	</useDefaultItemLogging>
 	<codegen
-	classname="CompetencyTraining"
-	namespace="ASMTraining.TestCases.OverwriteCompetencyTraining">
+	classname="OverwriteCompetencyTraining"
+	namespace="ASMTraining.TestCases.OverwriteCompetencyTrainingWithModuleLevel">
 	</codegen>
 	<variables>
 	</variables>
 	<recorditems>
-		<validationitem
-		action="AttributeEqual"
-		codegenpropertyname="ShopList_TopHeaderLogo_Screenshot1"
-		enabled="True"
-		imagerect="0,0,389,74"
-		optional="False"
-		screenshotguid="34892b99-b1e2-4744-8dda-b0718c3c4486"
-		screenshotname="Screenshot1"
-		searchpropertyid="168fb058-3188-46a6-833f-13a2e187f2c9">
-			<comment>
-			</comment>
-			<bindings>
-			</bindings>
-			<info
-			id="a6f271fe-1972-4318-a340-579f625a4256"
-			sourcename="ItemRecorderEditor">
-				<path>
-					/mobileapp[@title='com.training.asm']/form[@title='SalesDsfDetailListScreen']/container[@rid='content']//text[@rid='category_name']
-				</path>
-			</info>
-			<matchname>
-				Text
-			</matchname>
-			<matchvalue>
-				Please select shop
-			</matchvalue>
-		</validationitem>
-		<userrecorditem
-		classname="UserCode"
-		enabled="True"
-		isexternaltestmethod="True"
-		methodname="visitCompetencyTrainingItem"
-		namespace="ASMTraining.UserCodeCollection"
-		optional="False"
-		varname="">
-			<comment>
-			</comment>
-			<bindings>
-			</bindings>
-			<arguments
-			id="44b01d2d-f370-437b-bac1-1d0ae0e370cb">
-			</arguments>
-		</userrecorditem>
-		<validationitem
-		action="AttributeEqual"
-		codegenpropertyname="Shop_TopHeaderLogo_Screenshot1"
-		enabled="True"
-		imagerect="0,0,389,74"
-		optional="False"
-		screenshotguid="dbe35b7e-4e3b-4c40-b840-8afcb24a5363"
-		screenshotname="Screenshot1"
-		searchpropertyid="bbe714bb-a117-41b1-a0a4-42174940cf13">
-			<comment>
-			</comment>
-			<bindings>
-			</bindings>
-			<info
-			id="022c8b17-ef71-4946-bb31-5f7619595487"
-			sourcename="ItemRecorderEditor">
-				<path>
-					/mobileapp[@title='com.training.asm']/form[@title='SalesShopScreen']/container[@rid='content']//text[@rid='category_name']
-				</path>
-			</info>
-			<matchname>
-				Text
-			</matchname>
-			<matchvalue>
-				Start Training
-			</matchvalue>
-		</validationitem>
-		<touchrecorditem
-		duration="500ms"
-		elementlocation="Center"
-		enabled="True"
-		fingerid="0"
-		isremote="False"
-		longtouchduration="1000ms"
-		moveduration="100ms"
-		optional="False"
-		screenshotname=""
-		searchpropertyid="e517fbff-c84d-4fcf-8af4-87118ee231f0"
-		sx="0"
-		sy="0"
-		touchduration="100ms"
-		touchtype="Touch"
-		warnoutofbounds="False">
-			<comment>
-			</comment>
-			<bindings>
-			</bindings>
-			<info
-			id="7e05a199-1eca-4f8f-acee-fe87053aec3d"
-			sourcename="ItemRecorderEditor">
-				<path>
-					/mobileapp[@title='com.training.asm']/form[@title='SalesShopScreen']/container[@rid='content']//button[@rid='onTakePicture']
-				</path>
-			</info>
-		</touchrecorditem>
-		<validationitem
-		action="Exists"
-		enabled="True"
-		optional="False"
-		searchpropertyid="4e4e04e8-d2b6-460e-ab0b-9eac4af502a6">
-			<comment>
-			</comment>
-			<bindings>
-			</bindings>
-			<info
-			id="8ebbd2e8-ba7b-481c-8383-b581d324bd85"
-			sourcename="ItemRecorderEditor">
-				<path>
-					/mobileapp[@title='com.training.asm']/form[@title='CameraActivity']//container[@rid='take_photo_layout']
-				</path>
-			</info>
-			<matchname>
-				Text
-			</matchname>
-			<matchvalue>
-				yourtext
-			</matchvalue>
-		</validationitem>
-		<userrecorditem
-		classname="UserCode"
-		enabled="True"
-		isexternaltestmethod="True"
-		methodname="takePhotoButton"
-		namespace="ASMTraining.UserCodeCollection"
-		optional="False"
-		varname="">
-			<comment>
-			</comment>
-			<bindings>
-			</bindings>
-			<arguments
-			id="8908583a-ce4f-4cd5-ac0e-7ae3064faaee">
-			</arguments>
-		</userrecorditem>
-		<touchrecorditem
-		duration="500ms"
-		elementlocation="Center"
-		enabled="True"
-		fingerid="0"
-		isremote="False"
-		longtouchduration="1000ms"
-		moveduration="100ms"
-		optional="False"
-		screenshotname=""
-		searchpropertyid="29daf7f5-8cf5-40f4-9fd4-a30b73d8824d"
-		sx="0"
-		sy="0"
-		touchduration="100ms"
-		touchtype="Touch"
-		warnoutofbounds="False">
-			<comment>
-			</comment>
-			<bindings>
-			</bindings>
-			<info
-			id="d006aac9-3165-45db-ab90-4afe85f71a1b"
-			sourcename="ItemRecorderEditor">
-				<path>
-					/mobileapp[@title='com.training.asm']/form[@title='CameraActivity']//container[@rid='button_layout']/button[@rid='done_photo_button']
-				</path>
-			</info>
-		</touchrecorditem>
-		<touchrecorditem
-		duration="500ms"
-		elementlocation="Center"
-		enabled="True"
-		fingerid="0"
-		isremote="False"
-		longtouchduration="1000ms"
-		moveduration="100ms"
-		optional="False"
-		screenshotname=""
-		searchpropertyid="ba0181b3-e0ab-4790-b6b9-c9630a79eafa"
-		sx="0"
-		sy="0"
-		touchduration="100ms"
-		touchtype="Touch"
-		warnoutofbounds="False">
-			<comment>
-			</comment>
-			<bindings>
-			</bindings>
-			<info
-			id="a4819f27-df69-4e0c-b080-199680e94925"
-			sourcename="ItemRecorderEditor">
-				<path>
-					/mobileapp[@title='com.training.asm']/form[@title='SalesShopScreen']//container[@rid='score_panel']/container[@rid='next_click_bar']
-				</path>
-			</info>
-		</touchrecorditem>
-		<validationitem
-		action="AttributeEqual"
-		codegenpropertyname="ShopAndItemCategory_TopHeaderLogo_Screenshot1"
-		enabled="True"
-		imagerect="0,0,389,74"
-		optional="False"
-		screenshotguid="3a5272b7-8826-4237-a613-401cb5a43760"
-		screenshotname="Screenshot1"
-		searchpropertyid="67dc2ded-4e13-4857-b7bd-95c3a7a6f370">
-			<comment>
-			</comment>
-			<bindings>
-			</bindings>
-			<info
-			id="f7482a5e-22fa-41c5-849e-08d99efe9dc2"
-			sourcename="ItemRecorderEditor">
-				<path>
-					/mobileapp[@title='com.training.asm']/form[@title~'^SalesShopsOptionListScree']/container[@rid='content']//text[@rid='category_name']
-				</path>
-			</info>
-			<matchname>
-				Text
-			</matchname>
-			<matchvalue>
-				Training Steps
-			</matchvalue>
-		</validationitem>
 		<touchrecorditem
 		duration="500ms"
 		elementlocation="Center"
@@ -612,34 +392,25 @@ rxversion="8.0">
 				</path>
 			</info>
 		</touchrecorditem>
-		<touchrecorditem
-		duration="500ms"
-		elementlocation="Center"
+		<remotekeyboardrecorditem
+		duration="1000ms"
 		enabled="True"
-		fingerid="0"
-		isremote="False"
-		longtouchduration="1000ms"
-		moveduration="100ms"
+		key="{BACK}"
 		optional="False"
 		screenshotname=""
-		searchpropertyid="2c1b5e59-ec21-4747-967a-77eb3d1dddc8"
-		sx="0"
-		sy="0"
-		touchduration="100ms"
-		touchtype="Touch"
-		warnoutofbounds="False">
+		searchpropertyid="2853c325-6ced-4ca9-843c-3c58dc58eb09">
 			<comment>
 			</comment>
 			<bindings>
 			</bindings>
 			<info
-			id="ddb4ff10-9358-4161-bcbf-6368f0953618"
+			id="8a90c606-bf2e-4f2a-a07d-e9da1202e098"
 			sourcename="ItemRecorderEditor">
 				<path>
-					/mobileapp[@title='com.training.asm']/form[@title~'^SalesShopOptionDetailList']/container[@rid='content']/androidelement/container[@containertype='Linear']/container[@containertype='Linear']/picture
+					/mobileapp[@title='com.training.asm']
 				</path>
 			</info>
-		</touchrecorditem>
+		</remotekeyboardrecorditem>
 		<validationitem
 		action="AttributeEqual"
 		enabled="True"
@@ -663,22 +434,6 @@ rxversion="8.0">
 				Training Steps
 			</matchvalue>
 		</validationitem>
-		<userrecorditem
-		classname="UserCode"
-		enabled="True"
-		isexternaltestmethod="True"
-		methodname="swipeCompetencyTrainingList"
-		namespace="ASMTraining.UserCodeCollection"
-		optional="False"
-		varname="">
-			<comment>
-			</comment>
-			<bindings>
-			</bindings>
-			<arguments
-			id="ca09ce7b-89cb-4696-84e5-a3dadb7222ef">
-			</arguments>
-		</userrecorditem>
 		<touchrecorditem
 		duration="500ms"
 		elementlocation="Center"
@@ -829,34 +584,52 @@ rxversion="8.0">
 				</path>
 			</info>
 		</touchrecorditem>
-		<touchrecorditem
-		duration="500ms"
-		elementlocation="Center"
+		<validationitem
+		action="AttributeEqual"
+		codegenpropertyname="HeaderLogo_Screenshot1"
 		enabled="True"
-		fingerid="0"
-		isremote="False"
-		longtouchduration="1000ms"
-		moveduration="100ms"
+		imagerect="0,0,389,74"
 		optional="False"
-		screenshotname=""
-		searchpropertyid="dc469fb3-4842-4c69-891d-b3bd8a4ec86d"
-		sx="0"
-		sy="0"
-		touchduration="100ms"
-		touchtype="Touch"
-		warnoutofbounds="False">
+		screenshotguid="affa661e-2635-4ee3-aa3d-9cf47ba7d706"
+		screenshotname="Screenshot1"
+		searchpropertyid="afa71b1b-53c8-4c2b-9acd-7f73ca7630be">
 			<comment>
 			</comment>
 			<bindings>
 			</bindings>
 			<info
-			id="d5ad974e-7fcb-491b-a51d-119d6848df3a"
+			id="f5df10c1-399f-4c54-afd5-b3bbf0989aa1"
 			sourcename="ItemRecorderEditor">
 				<path>
-					/mobileapp[@title='com.training.asm']/form[@title~'^SalesMarketIntelligenceSc']/container[@rid='content']/androidelement/container[@containertype='Linear']/container[@containertype='Linear']/picture
+					/mobileapp[@title='com.training.asm']/form[@title~'^SalesMarketIntelligenceSc']/container[@rid='content']//text[@rid='heading']
 				</path>
 			</info>
-		</touchrecorditem>
+			<matchname>
+				Text
+			</matchname>
+			<matchvalue>
+				Field Sales Coaching
+			</matchvalue>
+		</validationitem>
+		<remotekeyboardrecorditem
+		duration="1000ms"
+		enabled="True"
+		key="{BACK}"
+		optional="False"
+		screenshotname=""
+		searchpropertyid="9630e054-3662-410c-a35b-78350729bbe8">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="8a90c606-bf2e-4f2a-a07d-e9da1202e098"
+			sourcename="ItemRecorderEditor">
+				<path>
+					/mobileapp[@title='com.training.asm']
+				</path>
+			</info>
+		</remotekeyboardrecorditem>
 		<validationitem
 		action="AttributeEqual"
 		enabled="True"
@@ -1028,7 +801,7 @@ rxversion="8.0">
 		moveduration="100ms"
 		optional="False"
 		screenshotname=""
-		searchpropertyid="d71dcbba-b456-479d-a52c-14745ec070e3"
+		searchpropertyid="9aa0f8ca-fc9d-4bce-8875-58cda63fca68"
 		sx="0"
 		sy="0"
 		touchduration="100ms"
@@ -1039,13 +812,32 @@ rxversion="8.0">
 			<bindings>
 			</bindings>
 			<info
-			id="ca8de90b-c227-4d5f-8871-5951e7172cc7"
+			id="f86f2fd4-6a41-4139-9db7-9df8b9f041ab"
 			sourcename="ItemRecorderEditor">
 				<path>
-					/mobileapp[@title='com.training.asm']/form[@title='POSCategoryGridActivity']/container[@rid='content']/androidelement/container[@containertype='Linear']/container[@containertype='Linear']/picture
+					/mobileapp[@title='com.training.asm']/form[@title~'^SalesShopsOptionListScree']//list[@rid='list']/text[3]
 				</path>
 			</info>
 		</touchrecorditem>
+		<remotekeyboardrecorditem
+		duration="1000ms"
+		enabled="True"
+		key="{BACK}"
+		optional="False"
+		screenshotname=""
+		searchpropertyid="9630e054-3662-410c-a35b-78350729bbe8">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="8a90c606-bf2e-4f2a-a07d-e9da1202e098"
+			sourcename="ItemRecorderEditor">
+				<path>
+					/mobileapp[@title='com.training.asm']
+				</path>
+			</info>
+		</remotekeyboardrecorditem>
 		<validationitem
 		action="AttributeEqual"
 		enabled="True"
@@ -1219,34 +1011,52 @@ rxversion="8.0">
 				</path>
 			</info>
 		</touchrecorditem>
-		<touchrecorditem
-		duration="500ms"
-		elementlocation="Center"
+		<validationitem
+		action="AttributeEqual"
+		codegenpropertyname="HeaderLogo_Screenshot1_2"
 		enabled="True"
-		fingerid="0"
-		isremote="False"
-		longtouchduration="1000ms"
-		moveduration="100ms"
+		imagerect="0,0,389,74"
 		optional="False"
-		screenshotname=""
-		searchpropertyid="1911e8a4-3a0d-4b47-a213-f05e912fcad9"
-		sx="0"
-		sy="0"
-		touchduration="100ms"
-		touchtype="Touch"
-		warnoutofbounds="False">
+		screenshotguid="affa661e-2635-4ee3-aa3d-9cf47ba7d706"
+		screenshotname="Screenshot1"
+		searchpropertyid="462e163f-2b7e-43af-94a8-693df6736749">
 			<comment>
 			</comment>
 			<bindings>
 			</bindings>
 			<info
-			id="6794c564-3ed5-402e-8781-e55249502181"
+			id="d248bf75-7e6f-4d83-bed5-59df8f007a1d"
 			sourcename="ItemRecorderEditor">
 				<path>
-					/mobileapp[@title='com.training.asm']/form[@title~'^SalesMarketIntelligenceSc']/container[@rid='content']/androidelement/container[@containertype='Linear']/container[@containertype='Linear']/picture
+					/mobileapp[@title='com.training.asm']/form[@title~'^SalesMarketIntelligenceSc']/container[@rid='content']//text[@rid='heading']
 				</path>
 			</info>
-		</touchrecorditem>
+			<matchname>
+				Text
+			</matchname>
+			<matchvalue>
+				Market Intelligence (Optional)
+			</matchvalue>
+		</validationitem>
+		<remotekeyboardrecorditem
+		duration="1000ms"
+		enabled="True"
+		key="{BACK}"
+		optional="False"
+		screenshotname=""
+		searchpropertyid="9630e054-3662-410c-a35b-78350729bbe8">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="8a90c606-bf2e-4f2a-a07d-e9da1202e098"
+			sourcename="ItemRecorderEditor">
+				<path>
+					/mobileapp[@title='com.training.asm']
+				</path>
+			</info>
+		</remotekeyboardrecorditem>
 		<validationitem
 		action="AttributeEqual"
 		enabled="True"
@@ -1373,6 +1183,29 @@ rxversion="8.0">
 				</path>
 			</info>
 		</touchrecorditem>
+		<validationitem
+		action="Exists"
+		enabled="True"
+		optional="False"
+		searchpropertyid="98019de2-a5b6-448a-b023-8a405156ed90">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="6d9fbca2-6cbd-4989-85ab-e50bb42c1560"
+			sourcename="ItemRecorderEditor">
+				<path>
+					/mobileapp[@title='com.training.asm']/form[@title='Info']
+				</path>
+			</info>
+			<matchname>
+				Text
+			</matchname>
+			<matchvalue>
+				yourtext
+			</matchvalue>
+		</validationitem>
 		<touchrecorditem
 		duration="500ms"
 		elementlocation="Center"
@@ -1763,7 +1596,7 @@ rxversion="8.0">
 	</repository>
 	<usercodefile
 	lang="CSharp">
-		CompetencyTraining.UserCode.cs
+		OverwriteCompetencyTraining.UserCode.cs
 	</usercodefile>
 	<references>
 	</references>
