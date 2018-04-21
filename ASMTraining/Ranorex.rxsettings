@@ -380,7 +380,7 @@ rxversion="8.0">
 		&lt;![CDATA[{
   &quot;mobile.android.remote&quot;: [
     {
-      &quot;Id&quot;: &quot;2fcd1dd6-7b38-4eed-ba89-e27f5a9d8883&quot;,
+      &quot;Id&quot;: &quot;75abdf40-9ac4-4b7b-b7b0-25796e6a265b&quot;,
       &quot;ControlFlags&quot;: 0,
       &quot;CoreData&quot;: {},
       &quot;PluginData&quot;: {
@@ -389,8 +389,8 @@ rxversion="8.0">
       },
       &quot;MetaData&quot;: {},
       &quot;Description&quot;: &quot;&quot;,
-      &quot;DisplayName&quot;: &quot;HUAWEI LUA-U22&quot;,
-      &quot;Url&quot;: &quot;192.168.3.126&quot;,
+      &quot;DisplayName&quot;: &quot;SM-J110H&quot;,
+      &quot;Url&quot;: &quot;192.168.3.169&quot;,
       &quot;Tags&quot;: []
     }
   ]

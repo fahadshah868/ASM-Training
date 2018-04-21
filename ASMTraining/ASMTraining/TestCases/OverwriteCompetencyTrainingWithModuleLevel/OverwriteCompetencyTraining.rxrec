@@ -791,34 +791,33 @@ rxversion="8.0">
 				</path>
 			</info>
 		</touchrecorditem>
-		<touchrecorditem
-		duration="500ms"
-		elementlocation="Center"
+		<validationitem
+		action="AttributeEqual"
+		codegenpropertyname="CapturingPicture_HeaderLogo_Screenshot1"
 		enabled="True"
-		fingerid="0"
-		isremote="False"
-		longtouchduration="1000ms"
-		moveduration="100ms"
+		imagerect="0,0,389,74"
 		optional="False"
-		screenshotname=""
-		searchpropertyid="9aa0f8ca-fc9d-4bce-8875-58cda63fca68"
-		sx="0"
-		sy="0"
-		touchduration="100ms"
-		touchtype="Touch"
-		warnoutofbounds="False">
+		screenshotguid="2b54b2e4-26a7-486f-a5a1-143d25f34614"
+		screenshotname="Screenshot1"
+		searchpropertyid="c76a9a33-e04c-40fc-94fc-1f9a45b3308c">
 			<comment>
 			</comment>
 			<bindings>
 			</bindings>
 			<info
-			id="f86f2fd4-6a41-4139-9db7-9df8b9f041ab"
+			id="03fc18f4-0ca9-402c-8ede-1f3e54b6f899"
 			sourcename="ItemRecorderEditor">
 				<path>
-					/mobileapp[@title='com.training.asm']/form[@title~'^SalesShopsOptionListScree']//list[@rid='list']/text[3]
+					/mobileapp[@title='com.training.asm']/form[@title='POSCategoryGridActivity']/container[@rid='content']//text[@rid='asm_name1']
 				</path>
 			</info>
-		</touchrecorditem>
+			<matchname>
+				Text
+			</matchname>
+			<matchvalue>
+				Capturing Picture of Success
+			</matchvalue>
+		</validationitem>
 		<remotekeyboardrecorditem
 		duration="1000ms"
 		enabled="True"

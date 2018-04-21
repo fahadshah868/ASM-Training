@@ -43,9 +43,6 @@
     <Reference Include="Ranorex.Core.Resolver">
       <Private>True</Private>
     </Reference>
-    <Reference Include="Ranorex.PDF">
-      <HintPath>..\..\..\..\Ranorex_PDF_Lib\Ranorex.PDF.dll</HintPath>
-    </Reference>
     <Reference Include="Ranorex.Plugin.Cef">
       <Private>False</Private>
     </Reference>
@@ -113,10 +110,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="..\..\..\..\Ranorex_PDF_Lib\ReportToPDF_7.X.cs">
-      <Link>ReportToPDF_7.X.cs</Link>
-      <id>043a0090-814d-4b65-8728-ccbe0377dfb9</id>
-    </Compile>
     <Compile Include="ASMTrainingRepository.cs">
       <BoundTo>ef4f8342-cf19-43b0-ad50-edad3c74be5e</BoundTo>
       <DependentUpon>ASMTrainingRepository.rxrep</DependentUpon>

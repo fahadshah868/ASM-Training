@@ -6,11 +6,6 @@
       <string>{C1CEC0B4-D231-4B92-A7B7-6C14928DA8BD}</string>
       <string>6e12a760-6636-488c-b3e9-7d256aa61ae5</string>
       <string>60513a05-eab7-41e7-8c10-e51c735edc2e</string>
-      <string>..</string>
-      <string>..\..</string>
-      <string>..\..\..</string>
-      <string>..\..\..\..</string>
-      <string>..\..\..\..\Ranorex_PDF_Lib</string>
       <string>dd6e703e-1829-4981-ba7b-66977de9b147</string>
       <string>9f41b229-8e40-49fc-8ebe-bef89e331cfd</string>
       <string>586b28ab-ff11-4b75-bf22-66b772fd65aa</string>
@@ -21,6 +16,6 @@
       <string>2a75125f-73d5-48b3-817c-22276f2eb78e</string>
     </ArrayOfString>
   </SerializedValue>
-  <ProjectBrowserState value="[Solution ASMTraining[ASMTraining[UserCodeCollection[]]]]&#xD;&#xA;Solution ASMTraining\ASMTraining\ASMTraining.rxtst&#xD;&#xA;Solution ASMTraining" />
+  <ProjectBrowserState value="[Solution ASMTraining[ASMTraining[]]]&#xD;&#xA;Solution ASMTraining\ASMTraining\ASMTraining.rxtst&#xD;&#xA;Solution ASMTraining" />
   <StartupProject value="{C1CEC0B4-D231-4B92-A7B7-6C14928DA8BD}" />
 </Properties>

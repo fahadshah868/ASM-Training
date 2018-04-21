@@ -196,9 +196,9 @@ namespace ASMTraining.TestCases.OverwriteCompetencyTrainingWithModuleLevel
             repo.ASMTraining.DonePhotoButton.Touch();
             Delay.Milliseconds(500);
             
-            Report.Log(ReportLevel.Info, "Touch", "Touch item 'ASMTraining.List.CapturingPictureOfSuccess' at Center", repo.ASMTraining.List.CapturingPictureOfSuccessInfo, new RecordItemIndex(30));
-            repo.ASMTraining.List.CapturingPictureOfSuccess.Touch();
-            Delay.Milliseconds(500);
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Text='Capturing Picture of Success') on item 'ASMTraining.Validate_CapturingPictureScreen'.", repo.ASMTraining.Validate_CapturingPictureScreenInfo, new RecordItemIndex(30));
+            Validate.AttributeEqual(repo.ASMTraining.Validate_CapturingPictureScreenInfo, "Text", "Capturing Picture of Success");
+            Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Keyboard", "Key '{BACK}' press on 'ASMTraining'.", repo.ASMTraining.SelfInfo, new RecordItemIndex(31));
             repo.ASMTraining.Self.PressKeys("{BACK}");

@@ -23,10 +23,6 @@ rxversion="8.0">
 			id="41a8cb5a-237f-41be-b69e-574ea8d94812"
 			name="LaunchingApp">
 			</testcase>
-			<teardown
-			id="4fce33d4-237f-4dee-b78e-723088e9c66b"
-			name="teardown">
-			</teardown>
 			<testmodule
 			id="5a2d6d81-8ad6-4c2f-8b18-0eb95ee4ea6d"
 			name="OverwriteCompetencyTraining"
@@ -38,12 +34,6 @@ rxversion="8.0">
 			name="ASMTraining"
 			reportlevel="Info;20">
 			</testcase>
-			<testmodule
-			id="80fef06a-4538-4fb3-a3c0-781968349224"
-			name="ReportToPDF"
-			ref="ffa0759d-37d2-4abb-89a7-411f0fcf2dfe"
-			type="UserCode">
-			</testmodule>
 			<testmodule
 			id="9d96f4a1-89a9-4e0d-a6e1-698354262e7b"
 			name="MarketVisit"
@@ -186,14 +176,6 @@ rxversion="8.0">
 						name="CCSD_EBook">
 						</testmodule>
 					</testcase>
-					<teardown
-					id="4fce33d4-237f-4dee-b78e-723088e9c66b"
-					name="teardown">
-						<testmodule
-						id="80fef06a-4538-4fb3-a3c0-781968349224"
-						name="ReportToPDF">
-						</testmodule>
-					</teardown>
 				</testcase>
 			</testsuite>
 		</childhierarchy>
@@ -205,34 +187,19 @@ rxversion="8.0">
 		<testconfiguration
 		name="TestRun">
 			<testcontainer
-			id="1e2d62b7-492a-4b9c-88ff-5c62ec6d3fa1">
-			</testcontainer>
-			<testcontainer
 			id="41a8cb5a-237f-41be-b69e-574ea8d94812">
 			</testcontainer>
 			<testcontainer
 			id="7867eeba-4bc0-4846-be75-ba7e8d9f4c0d">
 			</testcontainer>
 			<testcontainer
-			id="b66498f4-390d-4c45-bf6f-86d4bf568adc">
-			</testcontainer>
-			<testcontainer
-			id="e1744405-d8ec-43fa-9a7a-747d82241c86">
-			</testcontainer>
-			<testcontainer
-			id="f00f57ef-1cf6-4981-b05f-7226ccfc3534">
-			</testcontainer>
-			<testcontainer
-			id="f7f378b5-41fc-4ff8-8046-d9e02131ff73">
+			id="b194cb88-58f8-4426-b896-2e6d747cc217">
 			</testcontainer>
 		</testconfiguration>
 	</testconfigurations>
 	<references>
 		<reference>
 			C:\Program Files (x86)\Ranorex 8.0\Bin\Ranorex.Bootstrapper.dll
-		</reference>
-		<reference>
-			Ranorex.PDF.dll
 		</reference>
 	</references>
 </testsuitedoc>

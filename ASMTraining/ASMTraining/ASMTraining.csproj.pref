@@ -1,4 +1,7 @@
 ﻿<Properties>
+  <Array name="active">
+    <Element value="ASMTraining.rxtst" />
+  </Array>
   <Array name="bookmarks" />
   <Array name="files">
     <Element value="ASMTraining.rxtst" />
@@ -8,12 +11,12 @@
       <runOnBuild value="False" />
     </Properties>
     <Array name="recentusercodeselections">
+      <Element value="ASMTraining.Recording1.sample()" />
       <Element value="ASMTraining.UserCodeCollection.UserCode.swipeCompetencyTrainingList()" />
       <Element value="ASMTraining.UserCodeCollection.UserCode.visit_ZonalRanking()" />
       <Element value="ASMTraining.UserCodeCollection.UserCode.takePhotoButton()" />
       <Element value="ASMTraining.UserCodeCollection.UserCode.visitRegion()" />
       <Element value="ASMTraining.UserCodeCollection.UserCode.visitZonalRanking()" />
-      <Element value="ASMTraining.UserCodeCollection.UserCode.sample()" />
     </Array>
   </Properties>
 </Properties>
