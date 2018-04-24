@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="177fda2545e6302b"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Fahad Shah"
+		rxversion="8.0.0.0"
+		host="SM-J110H (Unknown)
+WLAN - 192.168.3.169"
+		osversion="-"
+		runtimeversion="-"
+		procarch="-"
+		oslanguage="-"
+		dtnlanguage="-"
+		screenresolution="-"
+		timestamp="4/23/2018 3:29:57 PM"
+		timestampiso="2018-04-23T22:29:57"
+		endtime="4/23/2018 3:30:09 PM"
+		timeoutfactor="1"
+		module="LaunchingApp">
+		<detail>
+			LaunchingApp
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.672"
+			timeRelativeToTestModuleStartTime="00:03.672"
+			timeWallClock="15:30:01"
+			time="00:03.672"
+			level="Info"
+			category="Application">
+			<message>
+				Run mobile app 'com.training.asm' on device SM-J110H.
+			</message>
+			<metainfo
+				itemindex="1"
+				codefile="d:\Git Projects\ASM-Training\ASMTraining\ASMTraining\TestCases\LaunchingApp\LaunchingApp.cs"
+				codeline="82"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

@@ -59,9 +59,9 @@ namespace ASMTraining.UserCodeCollection
     	[UserCodeMethod]
     	public static void capturingPictureList()
     	{
-    		var takepicturelist = repo.ASMTraining.CapturingPicture_TakePicture.Children.ToList();
+    		var takepicturelist = repo.ASMTraining.CapturingPicture_TakePictureList.Children.ToList();
     		takepicturelist[0].Touch();
-    		Delay.Milliseconds(1000);
+    		Delay.Seconds(1);
     	}
     	/// <summary>
     	/// This is a placeholder text. Please describe the purpose of the

@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="11.23s"
+		durationms="11234"
+		type="root"
+		rid="230b47b9880d552"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Fahad Shah"
+		rxversion="8.0.0.0"
+		host="SM-J110H (Unknown)
+WLAN - 192.168.3.169"
+		osversion="-"
+		runtimeversion="-"
+		procarch="-"
+		oslanguage="-"
+		dtnlanguage="-"
+		screenresolution="-"
+		timestamp="4/23/2018 3:28:56 PM"
+		timestampiso="2018-04-23T22:28:56"
+		endtime="4/23/2018 3:29:08 PM"
+		timeoutfactor="1"
+		module="LaunchingApp">
+		<detail>
+			LaunchingApp
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.718"
+			timeRelativeToTestModuleStartTime="00:03.734"
+			timeWallClock="15:29:00"
+			time="00:03.718"
+			level="Info"
+			category="Application">
+			<message>
+				Run mobile app 'com.training.asm' on device SM-J110H.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="d:\Git Projects\ASM-Training\ASMTraining\ASMTraining\TestCases\LaunchingApp\LaunchingApp.cs"
+				codeline="82"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.234"
+			timeRelativeToTestModuleStartTime="00:11.250"
+			timeWallClock="15:29:08"
+			time="00:11.234"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

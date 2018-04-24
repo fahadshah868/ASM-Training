@@ -1,0 +1,241 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="16.49s"
+		durationms="16485"
+		type="root"
+		rid="204728994bde5ec"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="1"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="1"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="1"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Fahad Shah"
+		rxversion="8.0.0.0"
+		host="SM-J110H (Unknown)
+WLAN - 192.168.3.169"
+		osversion="-"
+		runtimeversion="-"
+		procarch="-"
+		oslanguage="-"
+		dtnlanguage="-"
+		screenresolution="-"
+		timestamp="4/23/2018 4:38:38 PM"
+		timestampiso="2018-04-23T23:38:38"
+		endtime="4/23/2018 4:38:54 PM"
+		timeoutfactor="1">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+			result="Failed"
+			duration="11.23s"
+			durationms="11234"
+			type="test-suite"
+			rid="e8812287d40e5a0"
+			totalerrorcount="1"
+			totalwarningcount="0"
+			totalsuccesstestcasecount="0"
+			totalfailedtestcasecount="1"
+			totalblockedtestcasecount="0"
+			childsuccesscount="1"
+			childfailedcount="1"
+			childblockedcount="0"
+			totalsuccesscount="0"
+			totalfailedcount="1"
+			totalblockedcount="0"
+			totalmaintenancemodecount="0"
+			testsuitename="ASMTraining"
+			headertext="ASMTraining"
+			runconfigname="TestRun"
+			runlabel="">
+			<params>
+			</params>
+			<activity
+				result="Failed"
+				duration="11.11s"
+				durationms="11109"
+				type="test-case"
+				rid="c6aefacf9ef4920"
+				totalerrorcount="1"
+				totalwarningcount="0"
+				totalsuccesstestcasecount="0"
+				totalfailedtestcasecount="1"
+				totalblockedtestcasecount="0"
+				childsuccesscount="0"
+				childfailedcount="1"
+				childblockedcount="0"
+				totalsuccesscount="0"
+				totalfailedcount="1"
+				totalblockedcount="0"
+				totalmaintenancemodecount="0"
+				testcontainername="LaunchingApp"
+				testcontainerid="41a8cb5a-237f-41be-b69e-574ea8d94812"
+				headertext="LaunchingApp"
+				displayName="LaunchingApp"
+				iteration="1"
+				activity-exectype="execute"
+				conditionstate="none">
+				<activity
+					result="Failed"
+					duration="10.94s"
+					durationms="10938"
+					type="test-module"
+					rid="87a75a7d85ad1c7"
+					totalerrorcount="1"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="0"
+					childsuccesscount="0"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					totalmaintenancemodecount="0"
+					modulename="LaunchingApp"
+					displayName="LaunchingApp"
+					moduleid="419d98b5-45cc-4500-ae5d-dc4cf63718af"
+					moduletype="Recording"
+					iteration="1"
+					activity-exectype="execute"
+					testentry-activity-type="testmodule">
+					<errormessage>
+						Device  WaitFor(DeviceConnected) timed out. ConnectTimeout: 00:00:10
+					</errormessage>
+					<varbindings>
+					</varbindings>
+					<item
+						timeRelativeToTestSuiteStartTime="00:01.156"
+						timeRelativeToTestModuleStartTime="00:00.031"
+						timeWallClock="16:38:39"
+						time="00:01.156"
+						level="Info"
+						category="Application">
+						<message>
+							Run mobile app 'com.training.asm' on device SM-J110H.
+						</message>
+						<metainfo
+							itemindex="0"
+							codefile="d:\Git Projects\ASM-Training\ASMTraining\ASMTraining\TestCases\LaunchingApp\LaunchingApp.cs"
+							codeline="82"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:12.047"
+						timeRelativeToTestModuleStartTime="00:10.922"
+						timeWallClock="16:38:50"
+						time="00:12.047"
+						level="Error"
+						category="Module">
+						<message>
+							Device  WaitFor(DeviceConnected) timed out. ConnectTimeout: 00:00:10
+						</message>
+						<metainfo
+							stacktrace="   at Ranorex.Plugin.Mobile.Device.MobileDevice.WaitFor(ChannelState state)
+   at Ranorex.Plugin.Mobile.Device.MobileDevice.ShouldRestartApp(AppInformation app, Boolean resetInitialState)
+   at Ranorex.Plugin.Mobile.Device.MobileDevice.StartApplication(AppInformation app, Boolean resetInitialState)
+   at Ranorex.Host.RunMobileApp(String deviceDisplayName, String appName, Boolean resetInitialState)
+   at ASMTraining.TestCases.LaunchingApp.LaunchingApp.Ranorex.Core.Testing.ITestModule.Run() in d:\Git Projects\ASM-Training\ASMTraining\ASMTraining\TestCases\LaunchingApp\LaunchingApp.cs:line 83
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+							codefile="d:\Git Projects\ASM-Training\ASMTraining\ASMTraining\TestCases\LaunchingApp\LaunchingApp.cs"
+							codeline="83"
+							loglvl="Error"
+							itemindex="0">
+						</metainfo>
+					</item>
+				</activity>
+			</activity>
+			<activity
+				result="Success"
+				duration="15ms"
+				durationms="15"
+				type="teardown-container"
+				rid="3bdfec7132911fd"
+				totalerrorcount="0"
+				totalwarningcount="0"
+				totalsuccesstestcasecount="0"
+				totalfailedtestcasecount="0"
+				totalblockedtestcasecount="0"
+				childsuccesscount="1"
+				childfailedcount="0"
+				childblockedcount="0"
+				totalsuccesscount="0"
+				totalfailedcount="0"
+				totalblockedcount="0"
+				totalmaintenancemodecount="0">
+				<activity
+					result="Success"
+					duration="0ms"
+					durationms="0"
+					type="test-module"
+					rid="c3b8a95f0712496"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="0"
+					childsuccesscount="0"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					totalmaintenancemodecount="0"
+					modulename="ReportToPDF"
+					displayName="ReportToPDF"
+					moduleid="ffa0759d-37d2-4abb-89a7-411f0fcf2dfe"
+					moduletype="UserCode"
+					iteration="1"
+					activity-exectype="execute"
+					testentry-activity-type="testmodule">
+					<varbindings>
+					</varbindings>
+				</activity>
+			</activity>
+		</activity>
+		<item
+			timeRelativeToTestSuiteStartTime="00:16.438"
+			timeRelativeToTestModuleStartTime="00:16.453"
+			timeWallClock="16:38:54"
+			time="00:16.438"
+			level="Success"
+			category="PDFReport">
+			<message>
+				Successfully created PDF: <a href='D:\Git Projects\ASM-Training\ASMTraining\ASMTraining\bin\Debug\ASMTraining_20180423_163838.pdf' target='_blank'>Open PDF</a>
+			</message>
+			<metainfo
+				codefile="d:\Git Projects\ASM-Training\ASMTraining\ASMTraining\ReportToPDF_7.X.cs"
+				codeline="61"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:16.469"
+			timeRelativeToTestModuleStartTime="00:16.485"
+			timeWallClock="16:38:54"
+			time="00:16.469"
+			level="Failure"
+			category="User">
+			<message>
+				Rethrow Exception within PDF Module (Necessary for correct error value)
+			</message>
+			<metainfo
+				codefile="d:\Git Projects\ASM-Training\ASMTraining\ASMTraining\ReportToPDF_7.X.cs"
+				codeline="163"
+				loglvl="Failure">
+			</metainfo>
+		</item>
+	</activity>
+</report>

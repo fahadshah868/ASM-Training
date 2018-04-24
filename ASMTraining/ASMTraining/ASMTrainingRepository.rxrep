@@ -372,7 +372,7 @@ rxversion="8.0">
 			addcaps="container,androidelement,mobileuielement"
 			capname="container"
 			id="64813d49-eb7b-4a97-a30a-f609b07a7be9"
-			name="CapturingPicture_TakePicture"
+			name="CapturingPicture_TakePictureList"
 			refimgid="dc8180db-a9c3-48ca-a61e-25adcc91516f"
 			refpath="/mobileapp[@title='com.training.asm']/form[@title='POSCategoryGridActivity']/container[@rid='content']/androidelement[@rid='DrawerLayout']/container[@containertype='Linear']/container[@rid='grid']"
 			searchtimeout="30000ms">
@@ -1040,16 +1040,6 @@ rxversion="8.0">
 			<item
 			addcaps="text,androidelement,mobileuielement"
 			capname="text"
-			id="fd96c5a7-6f4f-4a78-a0cb-e929dafafe3d"
-			name="Validate_DSFRatingSummaryScreen"
-			refimgid="42d00632-efac-448f-ae29-a56d1a0d536d"
-			refpath="/mobileapp[@title='com.training.asm']/form[@title='DSFRatingActivity']/container[@rid='content']/container[@containertype='ScrollView']/container[@containertype='Linear']/container[3]/text[@rid='category_name']"
-			searchtimeout="30000ms">
-				/mobileapp[@title='com.training.asm']/form[@title='DSFRatingActivity']/container[@rid='content']//text[@rid='category_name']
-			</item>
-			<item
-			addcaps="text,androidelement,mobileuielement"
-			capname="text"
 			id="c8271563-cb44-4de4-9366-2b54bd86dc80"
 			name="Validate_ASMNationalChampsScreen"
 			refimgid="cb7a9882-8196-4870-9faa-92fdae1a735c"
@@ -1286,6 +1276,16 @@ rxversion="8.0">
 			refpath="/mobileapp[@title='com.training.asm']/form[@title='TvcListScreen']"
 			searchtimeout="30000ms">
 				/mobileapp[@title='com.training.asm']/form[@title='TvcListScreen']
+			</item>
+			<item
+			addcaps="form,mobileform,mobileuielement"
+			capname="form"
+			id="a1b59444-30fe-4314-84dc-28a97870cab9"
+			name="Validate_DSFRatingActivityScreen"
+			refimgid="d1628e8a-0816-44d3-b578-e79aceab2723"
+			refpath="/mobileapp[@title='com.training.asm']/form[@title='DSFRatingActivity']"
+			searchtimeout="30000ms">
+				/mobileapp[@title='com.training.asm']/form[@title='DSFRatingActivity']
 			</item>
 			<basepath>
 				/mobileapp[@title='com.training.asm']

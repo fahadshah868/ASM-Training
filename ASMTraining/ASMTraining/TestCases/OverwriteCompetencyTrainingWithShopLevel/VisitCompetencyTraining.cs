@@ -471,8 +471,8 @@ namespace ASMTraining.TestCases.OverwriteCompetencyTrainingWithShopLevel
             repo.ASMTraining.SaveTrainingButton.Touch();
             Delay.Milliseconds(500);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Text='DSF Rating Summery') on item 'ASMTraining.Validate_DSFRatingSummaryScreen'.", repo.ASMTraining.Validate_DSFRatingSummaryScreenInfo, new RecordItemIndex(100));
-            Validate.AttributeEqual(repo.ASMTraining.Validate_DSFRatingSummaryScreenInfo, "Text", "DSF Rating Summery");
+            Report.Log(ReportLevel.Info, "Validation", "Validating Exists on item 'ASMTraining.Validate_DSFRatingActivityScreen'.", repo.ASMTraining.Validate_DSFRatingActivityScreenInfo, new RecordItemIndex(100));
+            Validate.Exists(repo.ASMTraining.Validate_DSFRatingActivityScreenInfo);
             Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Touch", "Touch item 'ASMTraining.DSFRatingSummery_BackButton' at Center", repo.ASMTraining.DSFRatingSummery_BackButtonInfo, new RecordItemIndex(101));

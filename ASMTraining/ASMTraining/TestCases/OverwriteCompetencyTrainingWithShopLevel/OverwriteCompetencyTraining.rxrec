@@ -1532,7 +1532,7 @@ rxversion="8.0">
 			</info>
 		</touchrecorditem>
 		<validationitem
-		action="AttributeEqual"
+		action="Exists"
 		codegenpropertyname="AfterSavingTraining_HeaderLogo_Screenshot1"
 		enabled="True"
 		imagerect="0,0,389,74"
@@ -1545,10 +1545,10 @@ rxversion="8.0">
 			<bindings>
 			</bindings>
 			<info
-			id="fd96c5a7-6f4f-4a78-a0cb-e929dafafe3d"
+			id="a1b59444-30fe-4314-84dc-28a97870cab9"
 			sourcename="ItemRecorderEditor">
 				<path>
-					/mobileapp[@title='com.training.asm']/form[@title='DSFRatingActivity']/container[@rid='content']//text[@rid='category_name']
+					/mobileapp[@title='com.training.asm']/form[@title='DSFRatingActivity']
 				</path>
 			</info>
 			<matchname>

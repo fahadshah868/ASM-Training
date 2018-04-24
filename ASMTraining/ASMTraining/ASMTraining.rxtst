@@ -100,6 +100,10 @@ rxversion="8.0">
 			id="f00f57ef-1cf6-4981-b05f-7226ccfc3534"
 			name="OverwriteCompetencyTrainingWithShopLevel">
 			</testcase>
+			<teardown
+			id="f639c705-c319-403a-b161-b30834ded935"
+			name="teardown">
+			</teardown>
 			<testcase
 			id="f7f378b5-41fc-4ff8-8046-d9e02131ff73"
 			name="ViewPlanogram">
@@ -176,6 +180,10 @@ rxversion="8.0">
 						name="CCSD_EBook">
 						</testmodule>
 					</testcase>
+					<teardown
+					id="f639c705-c319-403a-b161-b30834ded935"
+					name="teardown">
+					</teardown>
 				</testcase>
 			</testsuite>
 		</childhierarchy>
@@ -187,13 +195,25 @@ rxversion="8.0">
 		<testconfiguration
 		name="TestRun">
 			<testcontainer
+			id="1e2d62b7-492a-4b9c-88ff-5c62ec6d3fa1">
+			</testcontainer>
+			<testcontainer
 			id="41a8cb5a-237f-41be-b69e-574ea8d94812">
 			</testcontainer>
 			<testcontainer
 			id="7867eeba-4bc0-4846-be75-ba7e8d9f4c0d">
 			</testcontainer>
 			<testcontainer
-			id="b194cb88-58f8-4426-b896-2e6d747cc217">
+			id="b66498f4-390d-4c45-bf6f-86d4bf568adc">
+			</testcontainer>
+			<testcontainer
+			id="e1744405-d8ec-43fa-9a7a-747d82241c86">
+			</testcontainer>
+			<testcontainer
+			id="f00f57ef-1cf6-4981-b05f-7226ccfc3534">
+			</testcontainer>
+			<testcontainer
+			id="f7f378b5-41fc-4ff8-8046-d9e02131ff73">
 			</testcontainer>
 		</testconfiguration>
 	</testconfigurations>

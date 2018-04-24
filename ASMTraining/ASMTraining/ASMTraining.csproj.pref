@@ -5,6 +5,9 @@
   <Array name="bookmarks" />
   <Array name="files">
     <Element value="ASMTraining.rxtst" />
+    <Element value="TestCases\OverwriteCompetencyTrainingWithModuleLevel\VisitCompetencyTraining.rxrec" />
+    <Element value="TestCases\LaunchingApp\LaunchingApp.rxrec" />
+    <Element value="UserCodeCollection\UserCode.cs" />
   </Array>
   <Properties name="projectSavedData">
     <Properties name="customTool">
